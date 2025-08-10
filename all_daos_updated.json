@@ -548,7 +548,7 @@
       "category": "Community Funding Protocols",
       "type": "platform",
       "description": "An Ethereum-powered platform that transforms how open-source projects are created and funded, enabling developers to contribute, earn rewards, and fund beneficial projects through quadratic funding.",
-      "link": "https://github.com/gitcoinco",
+      "link": "gitcoin.co",
       "partners": [
         "partner.github.com"
       ]

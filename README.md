@@ -15,7 +15,7 @@ Prompt: "given the list of nodes in the json file, classify them based on the de
 7. Run main.py to find the partners of each DAO. 
 This uses tavily to crawl the website of each node and find the partners. Note that this is not perfect and some partners might be missed.
 This does a recursive search, looking for partners, and then partners of partners, and for now it was stopped manually after it started getting too far.
-This imples that the graph includes organization pretty far from the original ImpactDAO subset, and some of them are not even ReFi related, notably Chevron and other big corporations.
+This imples that the graph includes organization pretty far from the original ImpactDAO subset, and some of them are not even ReFi related, notably Chevron..
 
 8. Run update_nodes.py : For all the newly added partners, grab the website content and use Qwen to write a description and classify them. Classification is done according to the same categories as in step 6, with the addition of Venture Capital and Other, to avoid gross misclassifications. 
 Note that for the LLM, difference between carbon credits and regenerative economic isn't obvious, so some cleanup will be needed.

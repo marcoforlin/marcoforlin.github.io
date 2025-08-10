@@ -54,7 +54,10 @@
 </head>
 <body>
     <div id="graph-container">
-        <svg id="network"></svg>
+        <!-- <div id="network-container"> -->
+            <svg id="network"></svg>
+            <div id="tooltip" style="position: absolute; opacity: 0; background-color: #f9f9f9; border: 1px solid #d3d3d3; padding: 10px; border-radius: 8px; pointer-events: none; font-family: sans-serif; font-size: 12px; max-width: 300px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"></div>
+        <!-- </div> -->
     </div>
     <div id="controls">
         <h4>Categories</h4>
@@ -63,11 +66,24 @@
     </div>
 
     <script>
-                const svg = d3.select("#network");
+        const svg = d3.select("#network");
         const width = +svg.node().getBoundingClientRect().width;
         const height = +svg.node().getBoundingClientRect().height;
 
         const container = svg.append("g");
+
+        const tooltip = d3.select("#tooltip");
+
+        function handleMouseOver(event, d) {
+            tooltip.transition().duration(200).style("opacity", .9);
+            tooltip.html(`<strong>${d.name}</strong><br/>${d.description}`)
+                .style("left", (event.pageX + 15) + "px")
+                .style("top", (event.pageY - 28) + "px");
+        }
+
+        function handleMouseOut(d) {
+            tooltip.transition().duration(500).style("opacity", 0);
+        }
 
         svg.call(d3.zoom().on("zoom", (event) => {
             container.attr("transform", event.transform);
@@ -78,6 +94,8 @@
             const categories = [...new Set(graph.nodes.map(d => d.category))];
             // const categories = [...new Set(graph.nodes.map(d => d.category))];
             tmp = (graph.nodes);
+
+            // const nodesPartners = 
 
             curCategories = [];
             const color = d3.scaleOrdinal(d3.schemeCategory10).domain(categories);
@@ -157,7 +175,9 @@
                 .call(d3.drag()
                     .on("start", dragstarted)
                     .on("drag", dragged)
-                    .on("end", dragended));
+                    .on("end", dragended))
+                .on("mouseover", handleMouseOver)
+                .on("mouseout", handleMouseOut);
 
             let labels = container.append("g")
                 .attr("class", "labels")
@@ -228,8 +248,9 @@
                         }
                         else{
                             const inSearch = searchNodes.some(node => node.name.toLowerCase().includes(d.name.toLowerCase()));
-                            const inPartners = (d.partners.length > 0 && searchNodes.some(node => d.partners.some(p => p.toLowerCase().includes(node.link.replace("https://", "")))))
-                            const inPartners2 = (searchNodes.some(node => node.partners.some(p => p.toLowerCase().includes(d.link.replace("https://", "")))));
+                            const inPartners = (d.partners.length > 0 && searchNodes.some(node => 
+                                d.partners.some(p => p.toLowerCase().includes(node.id))))
+                            const inPartners2 = (searchNodes.some(node => node.partners.some(p => p.toLowerCase().includes(d.id))));
 
                             return inCategory && (inSearch || inPartners || inPartners2);
                         }
@@ -238,9 +259,11 @@
                         return false;
                     }
                 });
+                
 
                 const filteredNodeIds = new Set(filteredNodes.map(d => d.id));
                 const filteredLinks = graph.links.filter(d => filteredNodeIds.has(d.source.id || d.source) && filteredNodeIds.has(d.target.id || d.target));
+
 
                 // Update nodes
                 node = container.select(".nodes").selectAll("circle").data(filteredNodes, d => d.id);
@@ -248,15 +271,20 @@
                 node = node.enter().append("circle")
                     .attr("class", "node")
                     .attr("fill", d => color(d.category))
-                    .attr("r", d => radiusScale(d.partners.length))
+                    .attr("r", d => radiusScale(d.partners.length + 
+                    graph.nodes.reduce((count, node) => {
+                        if (node.partners.some(p => p.toLowerCase().includes(d.id))) {
+                            return count + 1;
+                        }
+                        return count;
+                    }, 0)
+                    ))
                     .call(d3.drag()
                         .on("start", dragstarted)
                         .on("drag", dragged)
                         .on("end", dragended))
-                        // .on('click', function(d) {
-                        //     console.log(d);
-                        //     // alert("You clicked on node " + d.name);
-                        // })
+                    .on("mouseover", handleMouseOver)
+                    .on("mouseout", handleMouseOut)
                     .merge(node);
 
                 // Update links
