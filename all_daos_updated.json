@@ -3706,7 +3706,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "The Wix website builder offers a complete solution for creating and growing an online presence, including enterprise-grade infrastructure, business features, advanced SEO, and marketing tools, enabling anyone to build a professional website without coding knowledge.",
-      "link": "www.wix.com"
+      "link": "www.wix.com",
+      "partners": []
     },
     {
       "id": "world.org",
@@ -3714,7 +3715,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "World is being built so every human benefits from the age of AI. Distinguish between humans and AI online. Access universally inclusive finance. And connect with other real humans. It's free to join and designed to be owned by everyone.",
-      "link": "world.org"
+      "link": "world.org",
+      "partners": []
     },
     {
       "id": "www.researchhub.com",
@@ -3722,7 +3724,8 @@
       "category": "Decentralized Science (DeSci)",
       "type": "Unknown",
       "description": "We're building a new model for scientific research where publishing and peer review lead to funding.",
-      "link": "www.researchhub.com"
+      "link": "www.researchhub.com",
+      "partners": []
     },
     {
       "id": "nanoporetech.com",
@@ -3730,7 +3733,8 @@
       "category": "Applied Research",
       "type": "Unknown",
       "description": "The platform is used by scientific researchers to solve real-world challenges through answering questions about the biology of people, plants, animals, pathogens, and environments. It is also increasingly being used in \u2018applied\u2019 settings such as healthcare and food safety.",
-      "link": "nanoporetech.com"
+      "link": "nanoporetech.com",
+      "partners": []
     },
     {
       "id": "lifesciences.tecan.com",
@@ -3738,7 +3742,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "We are a leading global supplier of laboratory automation products for life sciences and applied markets, delivering customized, reliable, and productive end-to-end solutions to enhance lab processes, boosting efficiency and safety significantly.",
-      "link": "lifesciences.tecan.com"
+      "link": "lifesciences.tecan.com",
+      "partners": []
     },
     {
       "id": "www.trustsuperset.com",
@@ -3746,7 +3751,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Superset's AI-powered tools handle repetitive work like privacy inbox management, state registrations, simplifying compliance questionnaires.",
-      "link": "www.trustsuperset.com"
+      "link": "www.trustsuperset.com",
+      "partners": []
     },
     {
       "id": "forecastos.com",
@@ -3754,7 +3760,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "ForecastOS provides a suite of software, data, and AI tools designed to help institutional investors build and run investment strategies with alpha, including portfolio engineering, factor libraries, investment strategy analytics, AI-powered exposures and trends, and portfolio monitoring.",
-      "link": "forecastos.com"
+      "link": "forecastos.com",
+      "partners": []
     },
     {
       "id": "blockchainforenergy.net",
@@ -3762,7 +3769,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Blockchain For Energy is transforming the energy industry through collaborative innovation and blockchain technology. We drive efficiencies, reduce costs, accelerate timelines, and enable industry-wide transformation. Our programs demonstrate the value of blockchain integration, positioning us as leaders in scalable solutions.",
-      "link": "blockchainforenergy.net"
+      "link": "blockchainforenergy.net",
+      "partners": []
     },
     {
       "id": "www.hbarfoundation.org",
@@ -3770,7 +3778,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.hbarfoundation.org"
+      "link": "www.hbarfoundation.org",
+      "partners": []
     },
     {
       "id": "www.quansight.com",
@@ -3778,7 +3787,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Quansight is a data, science, and engineering firm that specializes in solving complex, data-related problems by leveraging the open source software at the foundation of innovation in AI and ML.",
-      "link": "www.quansight.com"
+      "link": "www.quansight.com",
+      "partners": []
     },
     {
       "id": "graphops.xyz",
@@ -3786,7 +3796,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "We are web3 builders and operators united by a single mission: To build an uncensorable, equitable and self-sovereign web. We develop and manage next-generation data solutions that power the decentralized web, equipping end-users and operators with the tools, expertise, and best practices they need to make data-driven decisions and scale effectively.",
-      "link": "graphops.xyz"
+      "link": "graphops.xyz",
+      "partners": []
     },
     {
       "id": "www.semiotic.ai",
@@ -3794,7 +3805,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Semiotic Labs is an innovation and incubation hub that advances core technologies shaping decentralized finance and autonomous Web3 systems. They develop intelligent agents, crypto-economic protocols, and cutting-edge projects to enhance blockchain ecosystems.",
-      "link": "www.semiotic.ai"
+      "link": "www.semiotic.ai",
+      "partners": []
     },
     {
       "id": "streamingfast.io",
@@ -3802,7 +3814,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "StreamingFast provides high-performance, composable, and programmable data indexing and streaming solutions for blockchain data, enabling data consumers, data analysts, and core blockchain developers to access and utilize chain data at extreme speeds and with awesome composability.",
-      "link": "streamingfast.io"
+      "link": "streamingfast.io",
+      "partners": []
     },
     {
       "id": "www.softnoise.xyz",
@@ -3810,7 +3823,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.softnoise.xyz"
+      "link": "www.softnoise.xyz",
+      "partners": []
     },
     {
       "id": "blog.fairmint.com",
@@ -3818,7 +3832,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "No description found in the provided HTML code",
-      "link": "blog.fairmint.com"
+      "link": "blog.fairmint.com",
+      "partners": []
     },
     {
       "id": "support.google.com",
@@ -3826,7 +3841,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "This HTML code does not contain a description of a DAO.",
-      "link": "support.google.com"
+      "link": "support.google.com",
+      "partners": []
     },
     {
       "id": "tezos.com",
@@ -3834,7 +3850,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "tezos.com"
+      "link": "tezos.com",
+      "partners": []
     },
     {
       "id": "www.telos.net",
@@ -3842,7 +3859,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Provides cutting-edge solutions to address the drawbacks developers and users face with other Layer 1 blockchains, such as lagging performance (high latency times & network congestion), limited scalability, and energy consumption.",
-      "link": "www.telos.net"
+      "link": "www.telos.net",
+      "partners": []
     },
     {
       "id": "ledgerloops.com",
@@ -3850,7 +3868,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "LedgerLoops is a decentralized peer-to-peer obligation clearing network that clears invoices and receipts between ledgers, designed to resolve payment gridlocks and strengthen liquidity for businesses that frequently trade with each other.",
-      "link": "ledgerloops.com"
+      "link": "ledgerloops.com",
+      "partners": []
     },
     {
       "id": "namada.net",
@@ -3858,7 +3877,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Building the composable privacy layer for Web3, enabling users to protect their personal data when using their favorite assets, decentralized applications, and blockchains.",
-      "link": "namada.net"
+      "link": "namada.net",
+      "partners": []
     },
     {
       "id": "poeticte.ch",
@@ -3866,7 +3886,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "poeticte.ch"
+      "link": "poeticte.ch",
+      "partners": []
     },
     {
       "id": "cerulean.vc",
@@ -3874,7 +3895,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Cerulean is a pre-seed venture capital firm backing founders applying AI to build exponential solutions for nature. We identify systemic leverage points where unique, proprietary data, compute and AI scaling, and finance and fintech solutions can rapidly scale into new, large, transformative niches in the economy that have been resistant to digital transformation. We invest in founders using AI to deliver complex, exponential solutions to complex problems which have the potential to radically upend current markets\u2014not just incremental changes or niche products, but software that will drive demand for renewable energy and environmental assets, and create radically new markets valuing nature and protecting it.",
-      "link": "cerulean.vc"
+      "link": "cerulean.vc",
+      "partners": []
     },
     {
       "id": "informal.systems",
@@ -3882,7 +3904,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "informal.systems"
+      "link": "informal.systems",
+      "partners": []
     },
     {
       "id": "oneproject.org",
@@ -3890,7 +3913,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "One Project collaborates with people to build tools, systems, and support for a future beyond capitalism. They work to co-create social and digital infrastructure and offer material support to nurture a growing ecosystem of collective action, aiming for a regenerative democratic economy.",
-      "link": "oneproject.org"
+      "link": "oneproject.org",
+      "partners": []
     },
     {
       "id": "thegivingblock.com",
@@ -3898,7 +3922,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "The Giving Block is a platform that helps charitable organizations, including nonprofits, faith-based organizations, and educational institutions, to modernize their fundraising efforts by accepting cryptocurrency, stock, and donor-advised fund (DAF) donations. The platform aims to diversify revenue streams and reach new donors through modern digital workflows.",
-      "link": "thegivingblock.com"
+      "link": "thegivingblock.com",
+      "partners": []
     },
     {
       "id": "brightid.org",
@@ -3906,7 +3931,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "BrightID is a non-invasive, private, and accessible identity verification system that ensures each user is unique without compromising their privacy. It is open-source and can be integrated into various apps and communities to enable fair access and prevent sybil attacks.",
-      "link": "brightid.org"
+      "link": "brightid.org",
+      "partners": []
     },
     {
       "id": "metacartel.org",
@@ -3914,7 +3940,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "A supportive ecosystem of creators and builders at the forefront of web3 and DAOs",
-      "link": "metacartel.org"
+      "link": "metacartel.org",
+      "partners": []
     },
     {
       "id": "shapeshift.com",
@@ -3922,7 +3949,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Your gateway to trading, tracking, earning, and exploring crypto effortlessly. A community-owned, private, non-custodial, multichain platform putting you in full control of your digital assets.",
-      "link": "shapeshift.com"
+      "link": "shapeshift.com",
+      "partners": []
     },
     {
       "id": "dappnode.io",
@@ -3930,7 +3958,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Dappnode is a platform that simplifies the process of running decentralized networks like Ethereum and Bitcoin, allowing anyone to participate and earn rewards. It offers a plug-and-play device (Dappnode Home) and a free open-source software (Dappnode Core) to set up and manage nodes.",
-      "link": "dappnode.io"
+      "link": "dappnode.io",
+      "partners": []
     },
     {
       "id": "gateway.fm",
@@ -3938,7 +3967,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Comprehensive blockchain infrastructure platform with rapid deployment, enterprise compliance, and best in class technical support",
-      "link": "gateway.fm"
+      "link": "gateway.fm",
+      "partners": []
     },
     {
       "id": "arangon.org",
@@ -3946,7 +3976,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "arangon.org"
+      "link": "arangon.org",
+      "partners": []
     },
     {
       "id": "panvala.com",
@@ -3954,7 +3985,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "panvala.com"
+      "link": "panvala.com",
+      "partners": []
     },
     {
       "id": "makerdao.com",
@@ -3962,7 +3994,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "makerdao.com"
+      "link": "makerdao.com",
+      "partners": []
     },
     {
       "id": "datafund.io",
@@ -3970,7 +4003,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "datafund.io"
+      "link": "datafund.io",
+      "partners": []
     },
     {
       "id": "www.generalmagic.io",
@@ -3978,7 +4012,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Empowering web3 startups to create a better future",
-      "link": "www.generalmagic.io"
+      "link": "www.generalmagic.io",
+      "partners": []
     },
     {
       "id": "xdaichain.com",
@@ -3986,7 +4021,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "xdaichain.com"
+      "link": "xdaichain.com",
+      "partners": []
     },
     {
       "id": "myclique.io",
@@ -3994,7 +4030,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "myclique.io"
+      "link": "myclique.io",
+      "partners": []
     },
     {
       "id": "musedao.io",
@@ -4002,7 +4039,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "musedao.io"
+      "link": "musedao.io",
+      "partners": []
     },
     {
       "id": "colony.io",
@@ -4010,7 +4048,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Colony is a decentralized finance platform designed for teams, providing an all-in-one payment suite for managing money, including flexible payments, batch payments, streaming salaries, smart splits, staged payments, and crypto-to-fiat conversions. It also supports teams and budgets, decision methods, and multichain interoperability.",
-      "link": "colony.io"
+      "link": "colony.io",
+      "partners": []
     },
     {
       "id": "mirror.xyz",
@@ -4018,7 +4057,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "mirror.xyz"
+      "link": "mirror.xyz",
+      "partners": []
     },
     {
       "id": "snapshot.org",
@@ -4026,7 +4066,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "snapshot.org"
+      "link": "snapshot.org",
+      "partners": []
     },
     {
       "id": "www.openlaw.io",
@@ -4034,7 +4075,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "OpenLaw makes it easy to create legal agreements that work with Ethereum",
-      "link": "www.openlaw.io"
+      "link": "www.openlaw.io",
+      "partners": []
     },
     {
       "id": "www.hatsprotocol.xyz",
@@ -4042,7 +4084,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Organizations work better with Hats. Save time, automate onboarding, and manage permissions across the internet with programmable onchain roles.",
-      "link": "www.hatsprotocol.xyz"
+      "link": "www.hatsprotocol.xyz",
+      "partners": []
     },
     {
       "id": "www.dexe.io",
@@ -4050,7 +4093,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Advanced DAO Studio is a platform for creating and managing DAOs, offering features such as governance token management, voting systems, reward distribution, and treasury management. It facilitates the creation of DAOs on any blockchain and supports hierarchical structures for efficient and secure governance.",
-      "link": "www.dexe.io"
+      "link": "www.dexe.io",
+      "partners": []
     },
     {
       "id": "www.daolens.com",
@@ -4058,7 +4102,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.daolens.com"
+      "link": "www.daolens.com",
+      "partners": []
     },
     {
       "id": "www.subdao.network",
@@ -4066,7 +4111,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.subdao.network"
+      "link": "www.subdao.network",
+      "partners": []
     },
     {
       "id": "www.xdao.app",
@@ -4074,7 +4120,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.xdao.app"
+      "link": "www.xdao.app",
+      "partners": []
     },
     {
       "id": "www.wonderverse.xyz",
@@ -4082,7 +4129,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.wonderverse.xyz"
+      "link": "www.wonderverse.xyz",
+      "partners": []
     },
     {
       "id": "www.linkedin.com",
@@ -4090,7 +4138,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "www.linkedin.com"
+      "link": "www.linkedin.com",
+      "partners": []
     },
     {
       "id": "www.transnationalgiving.eu",
@@ -4098,7 +4147,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Enabling philanthropy across Europe by providing a secure and tax-effective cross-border giving framework for donors to financially support non-profit organizations in other Member States, while benefiting directly from the tax advantages provided for in the legislation of their country of residence.",
-      "link": "www.transnationalgiving.eu"
+      "link": "www.transnationalgiving.eu",
+      "partners": []
     },
     {
       "id": "pharosnetwork.xyz",
@@ -4106,7 +4156,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Pharos Network is the fastest EVM-compatible Layer 1 designed to unify Web2 and Web3 assets and liquidity. Bridging over $50 trillion in RWA, TradFi, and cross-chain capital into a modular, on-chain economy at internet scale. It powers real-time, real-world applications through deep-parallel layer architecture.",
-      "link": "pharosnetwork.xyz"
+      "link": "pharosnetwork.xyz",
+      "partners": []
     },
     {
       "id": "worldmobile.io",
@@ -4114,7 +4165,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Your phone. Your data. Your rewards. Join the first private, user-owned mobile network that pays you back.",
-      "link": "worldmobile.io"
+      "link": "worldmobile.io",
+      "partners": []
     },
     {
       "id": "bsc.news",
@@ -4122,7 +4174,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "bsc.news"
+      "link": "bsc.news",
+      "partners": []
     },
     {
       "id": "www.sei.io",
@@ -4130,7 +4183,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Pushing the boundaries of blockchain technology through open source development, Sei stands to unlock a brand new design space for consumer facing applications.",
-      "link": "www.sei.io"
+      "link": "www.sei.io",
+      "partners": []
     },
     {
       "id": "x.com",
@@ -4138,7 +4192,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "This HTML code does not contain a description of a DAO.",
-      "link": "x.com"
+      "link": "x.com",
+      "partners": []
     },
     {
       "id": "ice.io",
@@ -4146,7 +4201,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Ice Open Network is a fast and scalable Layer-1 blockchain built to bring the Internet on-chain, ensuring that every app empowers users with control over their data, identity, and digital interactions.",
-      "link": "ice.io"
+      "link": "ice.io",
+      "partners": []
     },
     {
       "id": "yieldyak.com",
@@ -4154,7 +4210,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "yieldyak.com"
+      "link": "yieldyak.com",
+      "partners": []
     },
     {
       "id": "docs.unergy.io",
@@ -4162,7 +4219,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "docs.unergy.io"
+      "link": "docs.unergy.io",
+      "partners": []
     },
     {
       "id": "warpcast.com",
@@ -4170,7 +4228,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "warpcast.com"
+      "link": "warpcast.com",
+      "partners": []
     },
     {
       "id": "www.altlayer.io",
@@ -4178,7 +4237,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "AltLayer is a decentralized protocol that facilitates the launch of native and restaked rollups with both optimistic and zk rollup stacks. We boost and customize rollups with versatile rollup stacks, DA solutions, and toolings.",
-      "link": "www.altlayer.io"
+      "link": "www.altlayer.io",
+      "partners": []
     },
     {
       "id": "www.decent.build",
@@ -4186,7 +4246,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Decentralization begins with Decent.",
-      "link": "www.decent.build"
+      "link": "www.decent.build",
+      "partners": []
     },
     {
       "id": "olas.network",
@@ -4194,7 +4255,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "An Entire World of AI Agents \u2014 One Token. Access your autonomous AI agents for diverse use cases with OLAS.",
-      "link": "olas.network"
+      "link": "olas.network",
+      "partners": []
     },
     {
       "id": "www.espressosys.com",
@@ -4202,7 +4264,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Espresso is a purpose-built infrastructure for rollups, providing speed, security, composability, customizability, and compatibility across different tech stacks and settlement layers, enabling seamless interoperability and shared liquidity.",
-      "link": "www.espressosys.com"
+      "link": "www.espressosys.com",
+      "partners": []
     },
     {
       "id": "www.conduit.xyz",
@@ -4210,7 +4273,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Conduit is a platform that provides infrastructure for teams building high-performance applications onchain, supporting use cases across DeFi, TradFi, DEXs, RWAs, stablecoins, gaming, consumer apps, AI, and beyond.",
-      "link": "www.conduit.xyz"
+      "link": "www.conduit.xyz",
+      "partners": []
     },
     {
       "id": "www.galxe.com",
@@ -4218,7 +4282,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Galxe is an industry-leading web3 growth platform powered by analytics, automation, and engagement solutions. It helps web3 teams launch faster, grow smarter, and build stronger connections across the ecosystem.",
-      "link": "www.galxe.com"
+      "link": "www.galxe.com",
+      "partners": []
     },
     {
       "id": "www.gelato.network",
@@ -4226,7 +4291,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Build scalable, custom enterprise-grade Rollups with Gelato's Web3 Services natively integrated",
-      "link": "www.gelato.network"
+      "link": "www.gelato.network",
+      "partners": []
     },
     {
       "id": "www.caldera.xyz",
@@ -4234,7 +4300,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Caldera is a network of interconnected, purpose-built blockchains, settling on Ethereum.",
-      "link": "www.caldera.xyz"
+      "link": "www.caldera.xyz",
+      "partners": []
     },
     {
       "id": "sushi.com",
@@ -4242,7 +4309,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "sushi.com"
+      "link": "sushi.com",
+      "partners": []
     },
     {
       "id": "gnosis-safe.io",
@@ -4250,7 +4318,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "gnosis-safe.io"
+      "link": "gnosis-safe.io",
+      "partners": []
     },
     {
       "id": "uniswap.io",
@@ -4258,7 +4327,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "uniswap.io"
+      "link": "uniswap.io",
+      "partners": []
     },
     {
       "id": "unslashed.finance",
@@ -4266,7 +4336,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "unslashed.finance"
+      "link": "unslashed.finance",
+      "partners": []
     },
     {
       "id": "www.ledger.com",
@@ -4274,7 +4345,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "www.ledger.com"
+      "link": "www.ledger.com",
+      "partners": []
     },
     {
       "id": "www.polkamarkets.com",
@@ -4282,7 +4354,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Polkamarkets is a platform that provides prediction markets for various use cases, from business forecasting to community engagement. It offers an open-source toolkit that can be deployed on any EVM-compatible blockchain, allowing users to create their own social predictions platforms. The platform is designed to produce reliable forecasts and can be integrated into organizations or products.",
-      "link": "www.polkamarkets.com"
+      "link": "www.polkamarkets.com",
+      "partners": []
     },
     {
       "id": "www.zeeve.io",
@@ -4290,7 +4363,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.zeeve.io"
+      "link": "www.zeeve.io",
+      "partners": []
     },
     {
       "id": "zerion.io",
@@ -4298,7 +4372,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Non-custodial wallet for crypto that gives users access to a broad range of opportunities across DeFi and NFTs, including portfolio tracking, trading, lending, and liquidity provision.",
-      "link": "zerion.io"
+      "link": "zerion.io",
+      "partners": []
     },
     {
       "id": "www.google.com",
@@ -4306,7 +4381,8 @@
       "category": "Decentralized Science (DeSci)",
       "type": "Unknown",
       "description": "Applying AI towards science and the environment",
-      "link": "www.google.com"
+      "link": "www.google.com",
+      "partners": []
     },
     {
       "id": "www.diadata.org",
@@ -4314,7 +4390,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "DIA oracles power on-chain use cases with verifiable data feeds for any digital or real-world asset.",
-      "link": "www.diadata.org"
+      "link": "www.diadata.org",
+      "partners": []
     },
     {
       "id": "silverdoor.ai",
@@ -4322,7 +4399,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Silver Door is a network of world-class software engineers and designers actively developing cutting-edge tech solutions.",
-      "link": "silverdoor.ai"
+      "link": "silverdoor.ai",
+      "partners": []
     },
     {
       "id": "ethix.ethichub.com",
@@ -4330,7 +4408,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "ethix.ethichub.com"
+      "link": "ethix.ethichub.com",
+      "partners": []
     },
     {
       "id": "stellar.org",
@@ -4338,7 +4417,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Stellar empowers builders to unlock human and economic potential. It combines a powerful, decentralized blockchain network with a global ecosystem of innovators to create opportunities as borderless as ideas. It offers the tools to make a difference in the real world through new digital asset products and services that enhance access to the global financial system.",
-      "link": "stellar.org"
+      "link": "stellar.org",
+      "partners": []
     },
     {
       "id": "www.kado.money",
@@ -4346,7 +4426,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Onboard to Web3 in 5 minutes. A new chapter begins at Swapped.com. Skip the Centralized Exchange (CEX). Self-custody assets in as little as 60 seconds. Seamlessly move between fiat and crypto. Inexpensive and hassle-free. Available and fully compliant in 100+ countries.",
-      "link": "www.kado.money"
+      "link": "www.kado.money",
+      "partners": []
     },
     {
       "id": "www.benzinga.com",
@@ -4354,7 +4435,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "www.benzinga.com"
+      "link": "www.benzinga.com",
+      "partners": []
     },
     {
       "id": "www.theblock.co",
@@ -4362,7 +4444,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "The Block is a leading source for real-time news, data, and research on the global crypto and blockchain industry, providing insights and analysis on market trends, regulatory developments, and key players in the space.",
-      "link": "www.theblock.co"
+      "link": "www.theblock.co",
+      "partners": []
     },
     {
       "id": "wormhole.com",
@@ -4370,7 +4453,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Wormhole is the leading interoperability platform connecting traditional finance and the internet economy. It powers multichain apps and bridges, enabling seamless cross-chain transactions, messaging, and data queries.",
-      "link": "wormhole.com"
+      "link": "wormhole.com",
+      "partners": []
     },
     {
       "id": "wormhole.foundation",
@@ -4378,7 +4462,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "wormhole.foundation"
+      "link": "wormhole.foundation",
+      "partners": []
     },
     {
       "id": "www.kanop.io",
@@ -4386,7 +4471,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Smarter natural capital investment and management, providing solutions for investment due diligence, project design, monitoring and reporting, nature and climate-related disclosures, tailored insights, and compliance with global standards.",
-      "link": "www.kanop.io"
+      "link": "www.kanop.io",
+      "partners": []
     },
     {
       "id": "www.unepfi.org",
@@ -4394,7 +4480,8 @@
       "category": "Impact Measurement",
       "type": "Unknown",
       "description": "The UN-convened network of banks, insurers and investors accelerating sustainable development, catalysing action across the financial system to support the transition to more sustainable and inclusive economies worldwide",
-      "link": "www.unepfi.org"
+      "link": "www.unepfi.org",
+      "partners": []
     },
     {
       "id": "bitly.com",
@@ -4402,7 +4489,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Build stronger digital connections using URL shortener, QR Codes, and landing pages to engage your audience and connect them to the right information.",
-      "link": "bitly.com"
+      "link": "bitly.com",
+      "partners": []
     },
     {
       "id": "dxdao.eth.link",
@@ -4410,7 +4498,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "dxdao.eth.link"
+      "link": "dxdao.eth.link",
+      "partners": []
     },
     {
       "id": "balancer.fi",
@@ -4418,7 +4507,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "balancer.fi"
+      "link": "balancer.fi",
+      "partners": []
     },
     {
       "id": "boardroom.io",
@@ -4426,7 +4516,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "boardroom.io"
+      "link": "boardroom.io",
+      "partners": []
     },
     {
       "id": "gnosisguild.org",
@@ -4434,7 +4525,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "gnosisguild.org"
+      "link": "gnosisguild.org",
+      "partners": []
     },
     {
       "id": "opolis.co",
@@ -4442,7 +4534,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Opolis is a cooperative platform empowering independent workers to focus on building their business by providing them with the safety and security of a traditional W2 job. It offers services such as setting up business entities, payroll processing, and access to premium benefits like health insurance and 401K plans.",
-      "link": "opolis.co"
+      "link": "opolis.co",
+      "partners": []
     },
     {
       "id": "daodrops.io",
@@ -4450,7 +4543,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "daodrops.io"
+      "link": "daodrops.io",
+      "partners": []
     },
     {
       "id": "daostack.io",
@@ -4458,7 +4552,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "daostack.io"
+      "link": "daostack.io",
+      "partners": []
     },
     {
       "id": "safe.global",
@@ -4466,7 +4561,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "safe.global"
+      "link": "safe.global",
+      "partners": []
     },
     {
       "id": "staked.us",
@@ -4474,7 +4570,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Non-custodial staking infrastructure designed to deliver optimal rewards reliably and securely",
-      "link": "staked.us"
+      "link": "staked.us",
+      "partners": []
     },
     {
       "id": "rhino.fi",
@@ -4482,7 +4579,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Rhino.fi provides a lightning-fast stablecoin interoperability layer, enabling seamless cross-chain liquidity with a single integration. It allows users to onboard, move value at high speed, and expand globally without the complexity. The platform supports over 35 chains and major stablecoins, offering tools for payments, app-chains, and DeFi applications.",
-      "link": "rhino.fi"
+      "link": "rhino.fi",
+      "partners": []
     },
     {
       "id": "starkware.co",
@@ -4490,7 +4588,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "StarkWare is a company that focuses on bringing scalability, security, and privacy to blockchains through the use of STARK-based validity proofs. They provide solutions such as Starknet, a permissionless decentralized validity-rollup, and StarkEx, a standalone validity-rollup SaaS, which support a range of use cases including NFT minting, derivative trading, AMM, spot trading, payments, and DeFi Pooling.",
-      "link": "starkware.co"
+      "link": "starkware.co",
+      "partners": []
     },
     {
       "id": "rarible.com",
@@ -4498,7 +4597,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "rarible.com"
+      "link": "rarible.com",
+      "partners": []
     },
     {
       "id": "sovryn.app",
@@ -4506,7 +4606,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "sovryn.app"
+      "link": "sovryn.app",
+      "partners": []
     },
     {
       "id": "www.bankofamerica.com",
@@ -4514,7 +4615,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "This HTML code does not contain any description of a DAO. It is a Bank of America webpage promoting their banking services, mobile app, credit cards, home loans, and auto loans.",
-      "link": "www.bankofamerica.com"
+      "link": "www.bankofamerica.com",
+      "partners": []
     },
     {
       "id": "www.fidelitycharitable.org",
@@ -4522,7 +4624,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Fidelity Charitable is a 501(c)(3) public charity that helps donors maximize their generosity through a donor-advised fund called the Giving Account. Established in 1991, it is the nation\u2019s top grantmaker, distributing $14.9 billion to charities in 2024.",
-      "link": "www.fidelitycharitable.org"
+      "link": "www.fidelitycharitable.org",
+      "partners": []
     },
     {
       "id": "www.renaissancecharitable.org",
@@ -4530,7 +4633,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Smart, effective, and flexible giving. Renaissance Charitable Foundation (RCF) connects donors and their financial advisors to smart charitable giving solutions by serving as a sponsoring charity for donor-advised funds, also known as DAFs. As a 501(c)(3) public charity that supports more than $4 billion in donor-advised fund assets, RCF delivers access to charitable impact, tax advantages, and philanthropic flexibility along with the expertise, technology, and administrative support that allow financial advisors to focus on what they do best.",
-      "link": "www.renaissancecharitable.org"
+      "link": "www.renaissancecharitable.org",
+      "partners": []
     },
     {
       "id": "www.vanguardcharitable.org",
@@ -4538,7 +4642,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "A tax-smart, low-fee donor-advised fund is the ideal way to support your favorite nonprofits.",
-      "link": "www.vanguardcharitable.org"
+      "link": "www.vanguardcharitable.org",
+      "partners": []
     },
     {
       "id": "kindlycoin.com",
@@ -4546,7 +4651,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "kindlycoin.com"
+      "link": "kindlycoin.com",
+      "partners": []
     },
     {
       "id": "firebase.google.com",
@@ -4554,7 +4660,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Prototype, build, and deploy full-stack, AI apps with our agentic development environment. Now with AI-optimized templates, seamless integration with Firebase services, and ability to fork workspaces, all designed to make AI-assisted development more powerful.",
-      "link": "firebase.google.com"
+      "link": "firebase.google.com",
+      "partners": []
     },
     {
       "id": "councils.forbes.com",
@@ -4562,7 +4669,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Forbes Councils is a platform for senior-level professionals across diverse industries to connect, share expertise, and enhance their professional standing through expert panels, bylined articles, and other member benefits.",
-      "link": "councils.forbes.com"
+      "link": "councils.forbes.com",
+      "partners": []
     },
     {
       "id": "bestorganizations.com",
@@ -4570,7 +4678,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "bestorganizations.com"
+      "link": "bestorganizations.com",
+      "partners": []
     },
     {
       "id": "mercle.xyz",
@@ -4578,7 +4687,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "AI content is everywhere, making it hard to spot real humans online. Mercle uses your facial features to create a unique credential that proves you're human. Authenticate your posts, chats, and content with it, so everyone knows it's genuinely YOU.",
-      "link": "mercle.xyz"
+      "link": "mercle.xyz",
+      "partners": []
     },
     {
       "id": "www.metrika.co",
@@ -4586,7 +4696,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.metrika.co"
+      "link": "www.metrika.co",
+      "partners": []
     },
     {
       "id": "cts.businesswire.com",
@@ -4594,7 +4705,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "cts.businesswire.com"
+      "link": "cts.businesswire.com",
+      "partners": []
     },
     {
       "id": "tally.so",
@@ -4602,7 +4714,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "tally.so"
+      "link": "tally.so",
+      "partners": []
     },
     {
       "id": "0x.org",
@@ -4610,7 +4723,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "0x provides APIs and infrastructure for decentralized finance (DeFi) applications, enabling developers to build trading platforms, wallets, and other onchain tools with deep liquidity and gasless transactions.",
-      "link": "0x.org"
+      "link": "0x.org",
+      "partners": []
     },
     {
       "id": "dev.visualwebsiteoptimizer.com",
@@ -4618,7 +4732,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "dev.visualwebsiteoptimizer.com"
+      "link": "dev.visualwebsiteoptimizer.com",
+      "partners": []
     },
     {
       "id": "www.weforum.org",
@@ -4626,7 +4741,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.weforum.org"
+      "link": "www.weforum.org",
+      "partners": []
     },
     {
       "id": "www.bluemarinefoundation.com",
@@ -4634,7 +4750,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Blue Marine aims to restore the ocean to health by addressing overfishing, one of the world\u2019s biggest environmental problems. Our mission is to see at least 30 per cent of the ocean protected by 2030 and the whole ocean sustainably managed. We support low-impact fishing and equitable use of the ocean.",
-      "link": "www.bluemarinefoundation.com"
+      "link": "www.bluemarinefoundation.com",
+      "partners": []
     },
     {
       "id": "www.dltearth.com",
@@ -4642,7 +4759,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Make climate finance auditable, Digitise & open source methodologies, Scale validation & verification, Discover a global carbon price, Make sustainability reporting credible, Guardian Analytics",
-      "link": "www.dltearth.com"
+      "link": "www.dltearth.com",
+      "partners": []
     },
     {
       "id": "www.oceans2050.com",
@@ -4650,7 +4768,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Oceans 2050 is dedicated to enabling a future where our oceans thrive. We believe in the power of collaboration to achieve this goal. By uniting scientists, policymakers, businesses, and communities in a common vision of an abundant future, we can address the complex challenges facing our marine ecosystems. Led by renowned ocean experts Alexandra Cousteau and Carlos Duarte, one of the world\u2019s leading marine ecologists, Oceans 2050 is at the forefront of ocean restoration. Our work aligns the efforts of scientists, NGOs, businesses, and impact investors by leveraging actionable science, emerging technology, and community action to rapidly scale ocean restoration. As a foundation, we are agile, results-oriented, and measure our success by the health of our oceans.",
-      "link": "www.oceans2050.com"
+      "link": "www.oceans2050.com",
+      "partners": []
     },
     {
       "id": "hedera.foundation",
@@ -4658,7 +4777,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Hedera Foundation provides the community, capital, and commerce you need to shape the future digital economy.",
-      "link": "hedera.foundation"
+      "link": "hedera.foundation",
+      "partners": []
     },
     {
       "id": "www.ccsplus.org",
@@ -4666,7 +4786,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "The CCS+ Initiative is a global, multi-stakeholder alliance focused on reducing emissions from hard-to-abate sectors and supporting the circular economy through CCS+ technologies, which can also generate permanent carbon removals when combined with CO2 from biomass or direct air capture.",
-      "link": "www.ccsplus.org"
+      "link": "www.ccsplus.org",
+      "partners": []
     },
     {
       "id": "www.landscale.org",
@@ -4674,7 +4795,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "LandScale is a platform that provides a framework for measuring and validating the sustainability impact of landscape initiatives at a landscape scale. It helps landscape leaders and initiatives to assess, validate, and report on their sustainability efforts, and connects them with companies, donors, and investors for support and investment.",
-      "link": "www.landscale.org"
+      "link": "www.landscale.org",
+      "partners": []
     },
     {
       "id": "www.howdengroup.com",
@@ -4682,7 +4804,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.howdengroup.com"
+      "link": "www.howdengroup.com",
+      "partners": []
     },
     {
       "id": "www.rabobank.com",
@@ -4690,7 +4813,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.rabobank.com"
+      "link": "www.rabobank.com",
+      "partners": []
     },
     {
       "id": "www.silvestrum.com",
@@ -4698,7 +4822,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Silvestrum has become a key player in designing climate mechanisms, measuring climate impact, notably on soil carbon, and Nature-based Solutions (NBS).",
-      "link": "www.silvestrum.com"
+      "link": "www.silvestrum.com",
+      "partners": []
     },
     {
       "id": "www.thebluecarboninitiative.org",
@@ -4706,7 +4831,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "The International Blue Carbon Initiative is a coordinated, global program focused on conserving and restoring coastal ecosystems for the climate, biodiversity, and human wellbeing. These ecosystems sequester and store large quantities of blue carbon, making them essential for mitigating climate change.",
-      "link": "www.thebluecarboninitiative.org"
+      "link": "www.thebluecarboninitiative.org",
+      "partners": []
     },
     {
       "id": "globalgoals.goldstandard.org",
@@ -4714,7 +4840,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Gold Standard for the Global Goals is our next-generation standard, designed to accelerate progress toward climate security and sustainable development. The standard enables initiatives to quantify, certify and maximize their impacts toward climate security and the Sustainable Development Goals, while enhanced safeguards, holistic project design, management of trade-offs and local stakeholder engagement ensure Gold Standard continues to deliver the highest levels of environmental and social integrity.",
-      "link": "globalgoals.goldstandard.org"
+      "link": "globalgoals.goldstandard.org",
+      "partners": []
     },
     {
       "id": "3phasesrenewables.com",
@@ -4722,7 +4849,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "3 Phases Renewables is a leading supplier of comprehensive renewable energy solutions, offering expertise and resources for Direct Access to green energy, renewable energy certificates (RECs), distributed energy solutions, and wholesale market products and services.",
-      "link": "3phasesrenewables.com"
+      "link": "3phasesrenewables.com",
+      "partners": []
     },
     {
       "id": "verdeclimatesolutions.com",
@@ -4730,7 +4858,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "We help you take climate action to meet your corporate sustainability goals through carbon inventory management leveraging high quality carbon credits.",
-      "link": "verdeclimatesolutions.com"
+      "link": "verdeclimatesolutions.com",
+      "partners": []
     },
     {
       "id": "radiclebalance.com",
@@ -4738,7 +4867,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "We cover the whole balance sheet, from foreign exchange, trade finance and treasury management to corporate lending, securitization, public and private debt and equity underwriting. Our team of experts can also provide a full range of advisory services, along with industry-leading research, sales and trading.",
-      "link": "radiclebalance.com"
+      "link": "radiclebalance.com",
+      "partners": []
     },
     {
       "id": "chiefccsservices.com",
@@ -4746,7 +4876,8 @@
       "category": "Regenerative Finance (ReFi)",
       "type": "Unknown",
       "description": "CHIEF CCS Services partners with landowners using regenerative agricultural practices to generate and sell high-quality, independently verified carbon credits, ensuring more profit goes back to the farmer and providing straightforward, transparent contracts.",
-      "link": "chiefccsservices.com"
+      "link": "chiefccsservices.com",
+      "partners": []
     },
     {
       "id": "anewclimate.com",
@@ -4754,7 +4885,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Science-based solutions for climate targets\u00e2\u0080\u0094we make decarbonization easier.",
-      "link": "anewclimate.com"
+      "link": "anewclimate.com",
+      "partners": []
     },
     {
       "id": "undesert.com",
@@ -4762,7 +4894,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Transforming Contaminated Wastewater into Purified, Usable Water. We separate water up to 8x the concentration of seawater from any chemical or mineral, grow trees in desertified land, and sustainably harvest them for materials.",
-      "link": "undesert.com"
+      "link": "undesert.com",
+      "partners": []
     },
     {
       "id": "www.alpinelis.com",
@@ -4770,7 +4903,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Alpine Land Information Services provides forest planning and information management services to the California Forestry Industry, focusing on comprehensive \"large-landscape\" forest management plans that account for all constraints and resources, including stand inventory, threatened resources, cultural concerns, and visual considerations. They aim to balance sustainability and profitability through detailed, long-term planning and advanced information management.",
-      "link": "www.alpinelis.com"
+      "link": "www.alpinelis.com",
+      "partners": []
     },
     {
       "id": "vespene.energy",
@@ -4778,7 +4912,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Vespene builds distributed electricity generation resources fueled by biogenic methane.",
-      "link": "vespene.energy"
+      "link": "vespene.energy",
+      "partners": []
     },
     {
       "id": "www.3degreesinc.com",
@@ -4786,7 +4921,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "3Degrees is a global partner for transformative climate solutions, providing market access to environmental commodities such as energy attribute certificates (EACs), carbon credits, and supporting power purchase agreements (PPAs) to help customers achieve their emissions reduction goals.",
-      "link": "www.3degreesinc.com"
+      "link": "www.3degreesinc.com",
+      "partners": []
     },
     {
       "id": "www.actcommodities.com",
@@ -4794,7 +4930,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Decarbonization solutions that help you act on it. Meet your emissions compliance obligations locally and globally, buy renewable energy worldwide, efficiently reduce your supply chain emissions, and develop an original high-impact environmental project.",
-      "link": "www.actcommodities.com"
+      "link": "www.actcommodities.com",
+      "partners": []
     },
     {
       "id": "greenenergygpo.com",
@@ -4802,7 +4939,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "GreenEnergy GPO (GEGPO) is the largest and most trusted Group Purchasing Organization for businesses aspiring to have meaningful and significant climate impact while also enhancing their financial performance. It\u2019s all about synergy. We provide Green-e \u00ae certified Renewable Energy Certificates (RECs) and Carbon Offset transaction support, but we also have the experience, expertise, industry access, and communication support you need.",
-      "link": "greenenergygpo.com"
+      "link": "greenenergygpo.com",
+      "partners": []
     },
     {
       "id": "cefetra.nl",
@@ -4810,7 +4948,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "We are one of Europe\u2019s largest suppliers of agricultural ingredients in the animal nutrition industry providing the compound and aqua feed, pet food and energy markets. With detailed product knowledge, logistical expertise and a strong focus on quality and sustainability, we are equipped to meet specific customer needs and offering an efficient supply chain. We aim to transform the supply chains we are part of, making them more sustainable in both environmental and social aspects.",
-      "link": "cefetra.nl"
+      "link": "cefetra.nl",
+      "partners": []
     },
     {
       "id": "montezumaeglobal.mx",
@@ -4818,7 +4957,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Montezumae Global is a group of interdisciplinary research and work with over 20 years of experience in sustainable forest management, community governance, and the development of integrated environmental service projects. They promote rural territorial development with a commitment to forest and community conservation, and develop nature-based solutions to address global climate, biodiversity loss, and water crises.",
-      "link": "montezumaeglobal.mx"
+      "link": "montezumaeglobal.mx",
+      "partners": []
     },
     {
       "id": "nacionverde.org",
@@ -4826,7 +4966,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "nacionverde.org"
+      "link": "nacionverde.org",
+      "partners": []
     },
     {
       "id": "agricapture.com",
@@ -4834,7 +4975,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Building regenerative supply chains and carbon markets by connecting farmers and ranchers to sustainable revenue streams through regenerative rice farming and grassland management practices.",
-      "link": "agricapture.com"
+      "link": "agricapture.com",
+      "partners": []
     },
     {
       "id": "eastwoodforests.com",
@@ -4842,7 +4984,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Eastwood Forests is a company dedicated to forestland investments that generate competitive financial returns and positive ecological impacts. Eastwood is a partnership between Sumitomo Forestry of Japan, and a US team with decades of experience and expertise in forestry and forestland investments. Eastwood Forests specializes in sourcing and managing forestland investments that meet high environmental and social standards. Guided by cutting-edge science, we work in complex forest systems to enhance the full range of benefits that forests provide for the environment, economy, communities, and future generations. Through existing and evolving environmental market opportunities, we manage forestland investments as nature-based solutions for long-term climate benefits which result in resilient forests.",
-      "link": "eastwoodforests.com"
+      "link": "eastwoodforests.com",
+      "partners": []
     },
     {
       "id": "www.arborday.org",
@@ -4850,7 +4993,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "We are a global nonprofit inspiring people to plant, nurture, and celebrate trees. Along with our network, we\u2019ve planted more than half a billion trees \u2014 with a focus on areas where they can have the greatest impact on climate, communities, and biodiversity.",
-      "link": "www.arborday.org"
+      "link": "www.arborday.org",
+      "partners": []
     },
     {
       "id": "www.chevron.com",
@@ -4858,7 +5002,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Chevron is a major energy company that focuses on delivering affordable, reliable, and ever-cleaner energy solutions, including carbon capture and storage technologies, to support human progress and well-being.",
-      "link": "www.chevron.com"
+      "link": "www.chevron.com",
+      "partners": []
     },
     {
       "id": "www.avondaleprivatecapital.com",
@@ -4866,7 +5011,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Avondale Private Capital is a credit focused private markets advisory and risk participation firm.",
-      "link": "www.avondaleprivatecapital.com"
+      "link": "www.avondaleprivatecapital.com",
+      "partners": []
     },
     {
       "id": "www.bgcebs.com",
@@ -4874,7 +5020,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "We have some great news to share with you! BGC-EBS's North American environmental brokerage business has been acquired by BGC Capital Markets, L.P. The business will now operate as BGC Environmental Brokerage Services. As we transition to BGC Environmental Brokerage Services, we look forward to continuing to service your needs as in the past. Our website is currently undergoing changes and will be updated soon to reflect our new branding.",
-      "link": "www.bgcebs.com"
+      "link": "www.bgcebs.com",
+      "partners": []
     },
     {
       "id": "www.go2-markets.com",
@@ -4882,7 +5029,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "We are in the business of combating climate change by offering market insight and comprehensive renewable energy solutions.",
-      "link": "www.go2-markets.com"
+      "link": "www.go2-markets.com",
+      "partners": []
     },
     {
       "id": "www.greenmountain.com",
@@ -4890,7 +5038,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Sustainable electricity for a cleaner and brighter future. See how greener actions can create hope for a cleaner future.",
-      "link": "www.greenmountain.com"
+      "link": "www.greenmountain.com",
+      "partners": []
     },
     {
       "id": "www.firstclimate.com",
@@ -4898,7 +5047,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "First Climate is a leading provider of climate protection and sustainability solutions for companies worldwide, with 25 years of experience. They develop and finance verified emissions reduction and CO2 sink projects globally, and offer consulting services for sustainability, ESG strategy, and reporting. Their projects include clean water initiatives in Nigeria and Kenya, and sustainable agriculture in Western Kenya.",
-      "link": "www.firstclimate.com"
+      "link": "www.firstclimate.com",
+      "partners": []
     },
     {
       "id": "www.offsetalliance.co",
@@ -4906,7 +5056,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "We help service based companies measure, report and offset their carbon emissions. Delivering transparent, relevant and convenient carbon accounting and offset services to 1,000\u2019s of businesses in North America since 2019.",
-      "link": "www.offsetalliance.co"
+      "link": "www.offsetalliance.co",
+      "partners": []
     },
     {
       "id": "www.eosclimate.com",
@@ -4914,7 +5065,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "OPERA5000 is an online slot game platform that offers a wide variety of slot games with high RTP, 24/7 customer service, and various bonuses and promotions.",
-      "link": "www.eosclimate.com"
+      "link": "www.eosclimate.com",
+      "partners": []
     },
     {
       "id": "www.nativeenergy.com",
@@ -4922,7 +5074,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Native works with organizations to activate climate solutions that impact the communities and ecosystems important to their business, supporting carbon offsets and sustainability goals.",
-      "link": "www.nativeenergy.com"
+      "link": "www.nativeenergy.com",
+      "partners": []
     },
     {
       "id": "www.cblmarkets.com",
@@ -4930,7 +5083,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Xpansiv provides access to the world\u2019s energy and environmental markets, focusing on bringing efficiency, transparency, and liquidity to environmental markets by connecting buyers and sellers globally.",
-      "link": "www.cblmarkets.com"
+      "link": "www.cblmarkets.com",
+      "partners": []
     },
     {
       "id": "www.forestcarbonpartners.com",
@@ -4938,7 +5092,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "New Forests is a global investment manager of nature-based real assets and natural capital strategies, aiming to generate shared prosperity for clients and communities and accelerate the transition to a sustainable future.",
-      "link": "www.forestcarbonpartners.com"
+      "link": "www.forestcarbonpartners.com",
+      "partners": []
     },
     {
       "id": "www.carbonof.com",
@@ -4946,7 +5101,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "En Carbonof, capturamos el valor de la conservaci\u00f3n y restauraci\u00f3n de bosques y manglares realizados por comunidades locales, promovemos pr\u00e1cticas sostenibles en tecnolog\u00eda, agricultura y ganader\u00eda y mejoramos la transparencia en los mercados de carbono. Utilizamos certificados de reducci\u00f3n de emisiones (bonos de carbono) para financiar de manera sostenible nuestros proyectos basados en naturaleza y tecnolog\u00eda de captura de carbono.",
-      "link": "www.carbonof.com"
+      "link": "www.carbonof.com",
+      "partners": []
     },
     {
       "id": "www.icico.org.mx",
@@ -4954,7 +5110,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.icico.org.mx"
+      "link": "www.icico.org.mx",
+      "partners": []
     },
     {
       "id": "www.climatetrust.org",
@@ -4962,7 +5119,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "We use the power of carbon markets and work alongside landowners to implement climate solutions that improve and conserve America's forests and grasslands.",
-      "link": "www.climatetrust.org"
+      "link": "www.climatetrust.org",
+      "partners": []
     },
     {
       "id": "www.numerco.com",
@@ -4970,7 +5128,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Wholesale supply and logistics specialist for low carbon energy, renewable fuels and industrial products.",
-      "link": "www.numerco.com"
+      "link": "www.numerco.com",
+      "partners": []
     },
     {
       "id": "www.blackstoneenergy.com",
@@ -4978,7 +5137,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Blackstone helps you save, sustain and thrive with real-world energy management solutions that lower both costs and carbon.",
-      "link": "www.blackstoneenergy.com"
+      "link": "www.blackstoneenergy.com",
+      "partners": []
     },
     {
       "id": "www.ce2capital.com",
@@ -4986,7 +5146,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.ce2capital.com"
+      "link": "www.ce2capital.com",
+      "partners": []
     },
     {
       "id": "www.targray.com",
@@ -4994,7 +5155,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Creating Value at the Source. Targray is a global leader in the sourcing, transportation, storage, trading, and distribution of commodities and advanced materials for sustainable industries. Since 1987, we\u2019ve worked with partners in over fifty countries to create value across the supply chain. Our sustainable commodities and supply solutions help reduce the world\u2019s carbon footprint while enabling our customers to develop safer, more reliable products for consumers.",
-      "link": "www.targray.com"
+      "link": "www.targray.com",
+      "partners": []
     },
     {
       "id": "www.terrapass.com",
@@ -5002,7 +5164,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.terrapass.com"
+      "link": "www.terrapass.com",
+      "partners": []
     },
     {
       "id": "www.pronatura.org.mx",
@@ -5010,7 +5173,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.pronatura.org.mx"
+      "link": "www.pronatura.org.mx",
+      "partners": []
     },
     {
       "id": "www.southpole.com",
@@ -5018,7 +5182,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.southpole.com"
+      "link": "www.southpole.com",
+      "partners": []
     },
     {
       "id": "www.www.landfillgroup.com",
@@ -5026,7 +5191,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.www.landfillgroup.com"
+      "link": "www.www.landfillgroup.com",
+      "partners": []
     },
     {
       "id": "www.roesleinae.com",
@@ -5034,7 +5200,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.roesleinae.com"
+      "link": "www.roesleinae.com",
+      "partners": []
     },
     {
       "id": "www.thecarbonoffsetcompany.org",
@@ -5042,7 +5209,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.thecarbonoffsetcompany.org"
+      "link": "www.thecarbonoffsetcompany.org",
+      "partners": []
     },
     {
       "id": "www.usforestcapital.com",
@@ -5050,7 +5218,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.usforestcapital.com"
+      "link": "www.usforestcapital.com",
+      "partners": []
     },
     {
       "id": "www.tradition.com",
@@ -5058,7 +5227,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.tradition.com"
+      "link": "www.tradition.com",
+      "partners": []
     },
     {
       "id": "www.mantle.xyz",
@@ -5066,7 +5236,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Mantle Network, Ethereum's largest L2 network with ZK proofs, focuses on mass adoption of token-governed technologies and a token holder governed roadmap for products and initiatives. The Mantle EcoFund, with a $200M capital pool, drives ecosystem growth by backing transformative projects and accessing top-tier deal flow through leading VCs.",
-      "link": "www.mantle.xyz"
+      "link": "www.mantle.xyz",
+      "partners": []
     },
     {
       "id": "near-horizon.notion.site",
@@ -5074,7 +5245,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "near-horizon.notion.site"
+      "link": "near-horizon.notion.site",
+      "partners": []
     },
     {
       "id": "radworks.org",
@@ -5082,7 +5254,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "radworks.org"
+      "link": "radworks.org",
+      "partners": []
     },
     {
       "id": "minascan.io",
@@ -5090,7 +5263,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "minascan.io"
+      "link": "minascan.io",
+      "partners": []
     },
     {
       "id": "www.dsnp.org",
@@ -5098,7 +5272,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "The Decentralized Social Networking Protocol establishes a shared social layer that is no longer dependent on a specific application or a centralized platform. Like SMTP for email or HTTP for the web, DSNP is application-agnostic, allowing for an open marketplace and ecosystem of interoperable apps and services. DSNP serves as the linkage between the consensus layer (such as a public blockchain) and the application layer (social apps and websites), defining common operations and data structures. The consensus layer secures and stores important user information such as the relationships that form each user's social graph, and users control delegation and revocation of access to their data on a per-application basis. Since applications do not control user data, a user may freely choose another DSNP application without losing access to their social identity or social graph.",
-      "link": "www.dsnp.org"
+      "link": "www.dsnp.org",
+      "partners": []
     },
     {
       "id": "digitalinfrastructure.fund",
@@ -5106,7 +5281,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "digitalinfrastructure.fund"
+      "link": "digitalinfrastructure.fund",
+      "partners": []
     },
     {
       "id": "pacscenter.stanford.edu",
@@ -5114,7 +5290,8 @@
       "category": "Education",
       "type": "Unknown",
       "description": "The Stanford Center on Philanthropy and Civil Society (PACS) is a global interdisciplinary research center and publisher of the Stanford Social Innovation Review (SSIR). Stanford PACS develops and shares knowledge to improve philanthropy, strengthen civil society, and address societal challenges. By creating a shared space for scholars, students, and practitioners, Stanford PACS informs policy and social innovation, philanthropic investment, and nonprofit practice.",
-      "link": "pacscenter.stanford.edu"
+      "link": "pacscenter.stanford.edu",
+      "partners": []
     },
     {
       "id": "mava.app",
@@ -5122,7 +5299,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "The support platform for community-driven companies",
-      "link": "mava.app"
+      "link": "mava.app",
+      "partners": []
     },
     {
       "id": "www.oscafrica.org",
@@ -5130,7 +5308,8 @@
       "category": "Culture",
       "type": "Unknown",
       "description": "A community of creative minds driving the Open Source movement in Africa.",
-      "link": "www.oscafrica.org"
+      "link": "www.oscafrica.org",
+      "partners": []
     },
     {
       "id": "sustainoss.org",
@@ -5138,7 +5317,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Holding a space for conversations about sustaining Open Source",
-      "link": "sustainoss.org"
+      "link": "sustainoss.org",
+      "partners": []
     },
     {
       "id": "communityenergyscotland.org.uk",
@@ -5146,7 +5326,8 @@
       "category": "Regenerative Finance (ReFi)",
       "type": "Unknown",
       "description": "Community Energy Scotland helps our members\u2019 communities participate in and promote understanding of the equitable benefits of the energy system, by supporting project development through capacity building and technical advice. We work in partnership with community groups and others who share our values, building their understanding and capacity to create more democratic, sustainable and low carbon solutions. By enabling our members to link up and network with each other, we also create insightful opportunities within the community energy sector. And as the collective voice of community groups looking to develop and maintain low carbon solutions, we represent our members at government and regulatory levels.",
-      "link": "communityenergyscotland.org.uk"
+      "link": "communityenergyscotland.org.uk",
+      "partners": []
     },
     {
       "id": "coopfinance.coop",
@@ -5154,7 +5335,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Co-operative & Community Finance has been a supportive lender and loan management specialist for over 50 years, exclusively serving the co-operative, democratic, and community business sectors. They support hundreds of businesses, from small community-led enterprises to large award-winning organizations, with competitive rates and no personal guarantees.",
-      "link": "coopfinance.coop"
+      "link": "coopfinance.coop",
+      "partners": []
     },
     {
       "id": "community.coops.tech",
@@ -5162,7 +5344,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "CoTech is a community of cooperative technologists gathering to discuss and work on various projects, including rebranding, new funding, and appearances at Co-ops Congress. They focus on collaborative and cooperative approaches to technology.",
-      "link": "community.coops.tech"
+      "link": "community.coops.tech",
+      "partners": []
     },
     {
       "id": "communityenergyengland.org",
@@ -5170,7 +5353,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "We are a not-for-profit organisation dedicated to helping community energy organisations create and implement new projects by advocating for a policy landscape that will support community energy and providing opportunities for community energy practitioners to connect, learn, share business models and help each other overcome obstacles.",
-      "link": "communityenergyengland.org"
+      "link": "communityenergyengland.org",
+      "partners": []
     },
     {
       "id": "coops.tech",
@@ -5178,7 +5362,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Co-tech is a network of ethical tech, digital and creative co-operatives, where tech companies are fully owned and controlled by the people who do the work, ensuring better outcomes for workers and customers.",
-      "link": "coops.tech"
+      "link": "coops.tech",
+      "partners": []
     },
     {
       "id": "cooperatives-em.coop",
@@ -5186,7 +5371,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Co-operatives are built around a set of ethical values, commitments & principles such as self-help, community development, social responsibility, equality and solidarity, all principles of sustainability which have become highly relevant in today\u2019s world of work and the wider economy. They are initially formed to meet the needs of their active members, though help to serve people and businesses in other sectors. Co-operatives put people first, positively impacting on people\u2019s values, sense of purpose, autonomy, motivation, creativity, well-being and skills. Co-operatives are at the cutting edge of social, socio-economic and environmental initiatives such as green energy, recycling, biodegradeable packaging and conservation, and have led the way in Fair Trade procurement.",
-      "link": "cooperatives-em.coop"
+      "link": "cooperatives-em.coop",
+      "partners": []
     },
     {
       "id": "mc3.coop",
@@ -5194,7 +5380,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "MC3 is about connecting communities. We work primarily within the social economy: cooperatives, social enterprises, charities, voluntary sector organisations. We help them to build community, add value, and improve the effectiveness and efficiency of what they do.",
-      "link": "mc3.coop"
+      "link": "mc3.coop",
+      "partners": []
     },
     {
       "id": "businesswales.gov.wales",
@@ -5202,7 +5389,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "businesswales.gov.wales"
+      "link": "businesswales.gov.wales",
+      "partners": []
     },
     {
       "id": "loanfund.coop",
@@ -5210,7 +5398,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Co-op Loan Fund provides ethical, accessible loan finance exclusively to co-operatives, supporting a wide variety of sectors including worker-owned, community-owned, digital & platform, eco, housing, hospitality, creative, fair trade, and finance co-ops. The fund is entirely funded and run by co-ops, aiming to strengthen the co-operative sector and promote democratic ownership and control.",
-      "link": "loanfund.coop"
+      "link": "loanfund.coop",
+      "partners": []
     },
     {
       "id": "ksen.org.uk",
@@ -5218,7 +5407,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "KSEN is a network of individuals and organisations, concerned with and co-operating to develop and promote ideas for positive transition towards a relocalised economy that works in the best interests of the people and the environment in and around Kirklees. Our focus is on creating an economy that protects and regenerates the environment, that builds wealth locally through positive collaborative action by our communities and anchor institutions, that provides opportunities for co-operative enterprise, building economic democracy for people across Kirklees and the wider region.",
-      "link": "ksen.org.uk"
+      "link": "ksen.org.uk",
+      "partners": []
     },
     {
       "id": "development.coop",
@@ -5226,7 +5416,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Development dot Coop (www.development.coop) is a free resource for Co-operative Development Practitioners (CDPs) wherever they may be living or working. A free \u201cholding page\u201d is available to any CDP who registers. The holding page can simply point to your own web site, or it can be expanded to be your own dedicated web site. Our ambition is to strengthen the CD (Co-op Development) sector and bring specialist services to areas of the UK and elsewhere that may not already benefit from them.",
-      "link": "development.coop"
+      "link": "development.coop",
+      "partners": []
     },
     {
       "id": "ed.coop",
@@ -5234,7 +5425,8 @@
       "category": "Education",
       "type": "Unknown",
       "description": "The Cooperative Educators Network (CENet) is a hub for educational resources and materials for teaching and learning about cooperative enterprises. Here you will find several curated learning paths designed to help someone self-teach to increase their awareness, knowledge or skills OR for someone in an educator role to gather materials to use in the teaching of others.",
-      "link": "ed.coop"
+      "link": "ed.coop",
+      "partners": []
     },
     {
       "id": "energy4all.co.uk",
@@ -5242,7 +5434,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Energy4All are the leading facilitators of community-owned renewable energy projects in the UK. If you want to do something tangible to tackle climate change, you can invest to become a member of one of the societies we support. Community energy societies help drive the shift to clean energy while making sure ordinary citizens reap the benefits of the technology being installed around them. At Energy4All we run regular share offers, which are the periods when a scheme is open to investment to progress its green goals.",
-      "link": "energy4all.co.uk"
+      "link": "energy4all.co.uk",
+      "partners": []
     },
     {
       "id": "communityenergywales.org.uk",
@@ -5250,7 +5443,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "communityenergywales.org.uk"
+      "link": "communityenergywales.org.uk",
+      "partners": []
     },
     {
       "id": "landworkersalliance.org.uk",
@@ -5258,7 +5452,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "We work to advocate for our members\u2019 interests, and build a better food and land-use system for all.",
-      "link": "landworkersalliance.org.uk"
+      "link": "landworkersalliance.org.uk",
+      "partners": []
     },
     {
       "id": "ldn.coop",
@@ -5266,7 +5461,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Building Co-operation in the Capital",
-      "link": "ldn.coop"
+      "link": "ldn.coop",
+      "partners": []
     },
     {
       "id": "www.can.coop",
@@ -5274,7 +5470,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Delivering training, consultancy, development work and business support services to co-operatives, social enterprises, community businesses and credit unions since 1989",
-      "link": "www.can.coop"
+      "link": "www.can.coop",
+      "partners": []
     },
     {
       "id": "www.democracyatwork.info",
@@ -5282,7 +5479,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "www.democracyatwork.info"
+      "link": "www.democracyatwork.info",
+      "partners": []
     },
     {
       "id": "www.councils.coop",
@@ -5290,7 +5488,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "We believe that the unprecedented challenges facing the public sector and local communities mean that traditional models of top-down governance and economic growth are no longer fit for purpose. Our Members want to reclaim the traditions of community action, community engagement, and civic empowerment that can transform communities. This approach will help deliver radical and innovative programmes designed, led, and delivered in partnership with communities and other sector partners, maximising the social dividend they bring.",
-      "link": "www.councils.coop"
+      "link": "www.councils.coop",
+      "partners": []
     },
     {
       "id": "www.cooperatives-sw.coop",
@@ -5298,7 +5497,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Building a strong, distinctive & unified co-operative sector in the South West",
-      "link": "www.cooperatives-sw.coop"
+      "link": "www.cooperatives-sw.coop",
+      "partners": []
     },
     {
       "id": "webarchitects.coop",
@@ -5306,7 +5506,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Webarchitects is a multi-stakeholder co-operative based in Sheffield, UK, providing managed, ethical, green, open source, cloud hosting services for individuals and organisations.",
-      "link": "webarchitects.coop"
+      "link": "webarchitects.coop",
+      "partners": []
     },
     {
       "id": "plunkett.co.uk",
@@ -5314,7 +5515,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Plunkett UK is a national charity which supports people in rural areas to set up and run a wide range of businesses in community ownership. We do this to achieve our UK-wide vision for resilient, thriving and inclusive rural communities.",
-      "link": "plunkett.co.uk"
+      "link": "plunkett.co.uk",
+      "partners": []
     },
     {
       "id": "www.communityledhomes.org.uk",
@@ -5322,7 +5524,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "The Community Land Trust Network (CLTN) is a charitable organization that supports and advocates for community land trusts (CLTs) in England and Wales. CLTs are community-led organizations that aim to create affordable housing and other community assets by owning and managing land on behalf of the community. The CLTN provides resources, training, and support to help communities establish and run CLTs, and works to influence policy to create a more favorable environment for community-led housing.",
-      "link": "www.communityledhomes.org.uk"
+      "link": "www.communityledhomes.org.uk",
+      "partners": []
     },
     {
       "id": "www.cooperatives-wm.com",
@@ -5330,7 +5533,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.cooperatives-wm.com"
+      "link": "www.cooperatives-wm.com",
+      "partners": []
     },
     {
       "id": "patio.ica.coop",
@@ -5338,7 +5542,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "patio.ica.coop"
+      "link": "patio.ica.coop",
+      "partners": []
     },
     {
       "id": "opencredit.network",
@@ -5346,7 +5551,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "opencredit.network"
+      "link": "opencredit.network",
+      "partners": []
     },
     {
       "id": "www.cch.coop",
@@ -5354,7 +5560,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "CCH promotes the excellent work done by co-operative and community led housing organisations, fostering communication and serving the sector, and campaigning for quality housing co-operative solutions.",
-      "link": "www.cch.coop"
+      "link": "www.cch.coop",
+      "partners": []
     },
     {
       "id": "www.cooperatives-wales.coop",
@@ -5362,7 +5569,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Co-ops & Mutuals Wales is an organization that promotes and supports co-operative solutions in various sectors, including education, community wealth building, and social care. It organizes events, provides resources, and advocates for co-operative principles and practices.",
-      "link": "www.cooperatives-wales.coop"
+      "link": "www.cooperatives-wales.coop",
+      "partners": []
     },
     {
       "id": "www.fairshares.coop",
@@ -5370,7 +5578,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "FairShares is a brand and development model for self-governing social enterprises operating as companies, co-operatives, partnerships and associations that integrate founder, worker, user and investor interests in ventures that build social solidarity and advance sustainable development.",
-      "link": "www.fairshares.coop"
+      "link": "www.fairshares.coop",
+      "partners": []
     },
     {
       "id": "www.democraticjobs.coop",
@@ -5378,7 +5587,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.democraticjobs.coop"
+      "link": "www.democraticjobs.coop",
+      "partners": []
     },
     {
       "id": "iris.thegiin.org",
@@ -5386,7 +5596,8 @@
       "category": "Impact Measurement",
       "type": "Unknown",
       "description": "IRIS+ is a set of tools and guidance that translates impact intentions into measurable results, making it easier for investors to integrate social and environmental factors into investment decisions alongside risk and return. It provides credible, comparable impact data to inform impact investment decisions and drive greater impact results.",
-      "link": "iris.thegiin.org"
+      "link": "iris.thegiin.org",
+      "partners": []
     },
     {
       "id": "community.proof.io",
@@ -5394,7 +5605,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "community.proof.io"
+      "link": "community.proof.io",
+      "partners": []
     },
     {
       "id": "aave.com",
@@ -5402,7 +5614,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "The Aave Protocol is a decentralized non-custodial liquidity protocol where users can participate as suppliers or borrowers. Suppliers provide liquidity to the market while earning interest, and borrowers can access liquidity by providing collateral that exceeds the borrowed amount.",
-      "link": "aave.com"
+      "link": "aave.com",
+      "partners": []
     },
     {
       "id": "astar.network",
@@ -5410,7 +5623,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Astar is a collective driving web3 adoption by connecting people through blockchain technology, business innovation, decentralized applications, and seamless digital experiences.",
-      "link": "astar.network"
+      "link": "astar.network",
+      "partners": []
     },
     {
       "id": "www.mode.network",
@@ -5418,7 +5632,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Mode is building a new onchain economy that rewards contribution to network growth, with a focus on AI-powered financial applications and a secure L2 infrastructure built with Optimism.",
-      "link": "www.mode.network"
+      "link": "www.mode.network",
+      "partners": []
     },
     {
       "id": "www.kassandra.finance",
@@ -5426,7 +5641,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Kassandra DAO is a decentralized platform that simplifies the creation and management of tokenized portfolios, offering features such as audited smart contracts, low slippage investment, and automatic rebalancing. It aims to provide a user-friendly interface for both investors and portfolio managers, enabling seamless sharing and management of decentralized portfolios.",
-      "link": "www.kassandra.finance"
+      "link": "www.kassandra.finance",
+      "partners": []
     },
     {
       "id": "satoshisync.com",
@@ -5434,7 +5650,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "SatoshiSync is a Chain Agnostic Protocol powering Runes, Inscriptions and BTC L2s. It is the first fully decentralized Runes and Inscription open market creation tool, offering features like no code, zero knowledge, permissionless, and cross chain capabilities.",
-      "link": "satoshisync.com"
+      "link": "satoshisync.com",
+      "partners": []
     },
     {
       "id": "manta.network",
@@ -5442,7 +5659,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Cutting-edge performance at a fraction of the cost. Built a ZK stack on Polkadot. Built the first modular L2 on Ethereum leveraging Celestia. Programs like CeDeFi and Gas Gain delivered value to end users. Fast Finality on Manta Pacific by leveraging BTC and MANTA restaking. Build innovative products that bridge Web2 and Web3.",
-      "link": "manta.network"
+      "link": "manta.network",
+      "partners": []
     },
     {
       "id": "www.blockchainspace.asia",
@@ -5450,7 +5668,8 @@
       "category": "Culture",
       "type": "Unknown",
       "description": "The heart of popular culture, encompassing gaming, fandoms, creators, art, anime, lifestyle, film, and sports.",
-      "link": "www.blockchainspace.asia"
+      "link": "www.blockchainspace.asia",
+      "partners": []
     },
     {
       "id": "glue.net",
@@ -5458,7 +5677,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Glue is the blockchain built for everyone, designed to bring the next 100 million users on-chain. Our flagship product, the Glue Hub (powered by the Glue blockchain), offers users the simplicity and convenience of a centralized exchange but with the security and breadth of dApps provided by an onchain experience.",
-      "link": "glue.net"
+      "link": "glue.net",
+      "partners": []
     },
     {
       "id": "coredao.org",
@@ -5466,7 +5686,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Core is the Bitcoin Everything Chain that transforms idle Bitcoin into a productive, yield-generating asset. Through Self-Custodial Bitcoin Staking, Core enables you to earn rewards by timelocking your Bitcoin directly on the Bitcoin blockchain while maintaining full custody. This secure mechanism helps power Core's high-performance, EVM-compatible blockchain where you can access a growing ecosystem of Bitcoin DeFi applications.",
-      "link": "coredao.org"
+      "link": "coredao.org",
+      "partners": []
     },
     {
       "id": "www.magpiexyz.io",
@@ -5474,7 +5695,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.magpiexyz.io"
+      "link": "www.magpiexyz.io",
+      "partners": []
     },
     {
       "id": "star.co",
@@ -5482,7 +5704,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "star.co"
+      "link": "star.co",
+      "partners": []
     },
     {
       "id": "abracadabra.money",
@@ -5490,7 +5713,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "abracadabra.money"
+      "link": "abracadabra.money",
+      "partners": []
     },
     {
       "id": "paladin.vote",
@@ -5498,7 +5722,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "paladin.vote"
+      "link": "paladin.vote",
+      "partners": []
     },
     {
       "id": "confluxnetwork.org",
@@ -5506,7 +5731,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Conflux enables creators, communities, and markets to connect across borders and protocols",
-      "link": "confluxnetwork.org"
+      "link": "confluxnetwork.org",
+      "partners": []
     },
     {
       "id": "www.inspect.xyz",
@@ -5514,7 +5740,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.inspect.xyz"
+      "link": "www.inspect.xyz",
+      "partners": []
     },
     {
       "id": "decent.xyz",
@@ -5522,7 +5749,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "decent.xyz"
+      "link": "decent.xyz",
+      "partners": []
     },
     {
       "id": "www.snsy.ai",
@@ -5530,7 +5758,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Sensay is pioneering digital immortality with authorized AI autonomous personal replicas, simplifying the creation of digital intellectual capital and unlocking a wide range of applications, including companionship, memory lane, emotional support, safety and reminders, and adaptive learning.",
-      "link": "www.snsy.ai"
+      "link": "www.snsy.ai",
+      "partners": []
     },
     {
       "id": "blog.eigencloud.xyz",
@@ -5538,7 +5767,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "EigenCloud is a developer platform designed to unlock the app era in crypto by offering cloud-scale programmability and crypto-grade verifiability. It aims to go multi-chain and support various decentralized applications and services.",
-      "link": "blog.eigencloud.xyz"
+      "link": "blog.eigencloud.xyz",
+      "partners": []
     },
     {
       "id": "docs.lagrange.dev",
@@ -5546,7 +5776,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "docs.lagrange.dev"
+      "link": "docs.lagrange.dev",
+      "partners": []
     },
     {
       "id": "zksync.dappradar.com",
@@ -5554,7 +5785,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "zksync.dappradar.com"
+      "link": "zksync.dappradar.com",
+      "partners": []
     },
     {
       "id": "www.pob.studio",
@@ -5562,7 +5794,8 @@
       "category": "Culture",
       "type": "Unknown",
       "description": "Celebrating Bitcoin's history by inscribing significant transactions as unique digital artifacts, each representing a pivotal moment in Bitcoin's journey. These artifacts, known as Relics, are 1-of-1 digital collectibles that are MPC-enforced for scarcity, visually age over time, and are embedded with transaction metadata.",
-      "link": "www.pob.studio"
+      "link": "www.pob.studio",
+      "partners": []
     },
     {
       "id": "pinata.cloud",
@@ -5570,7 +5803,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Add IPFS file uploads and retrieval in minutes so you can focus on your app \u2014 because you\u2019ve got better things to code than infrastructure.",
-      "link": "pinata.cloud"
+      "link": "pinata.cloud",
+      "partners": []
     },
     {
       "id": "directory.plnetwork.io",
@@ -5578,7 +5812,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "The provided HTML code does not contain a description of a DAO. Therefore, I cannot extract a description or categorize it. Here is the required format with \"None\" as the category:\n\n[None",
-      "link": "directory.plnetwork.io"
+      "link": "directory.plnetwork.io",
+      "partners": []
     },
     {
       "id": "www.hederacouncil.org",
@@ -5586,7 +5821,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Hedera Council is a governing body made up of leading global organizations dedicated to fostering trust, security, and innovation on the Hedera network.",
-      "link": "www.hederacouncil.org"
+      "link": "www.hederacouncil.org",
+      "partners": []
     },
     {
       "id": "thegiin.org",
@@ -5594,7 +5830,8 @@
       "category": "Impact Measurement",
       "type": "Unknown",
       "description": "The **Global Impact Investing Network** (GIIN) is the global champion of impact investing, dedicated to increasing its scale and effectiveness around the world.",
-      "link": "thegiin.org"
+      "link": "thegiin.org",
+      "partners": []
     },
     {
       "id": "www.gavi.org",
@@ -5602,7 +5839,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "As part of our long-term funding and private sector engagement strategy, we use innovative finance mechanisms to incentivise investment in immunisation.",
-      "link": "www.gavi.org"
+      "link": "www.gavi.org",
+      "partners": []
     },
     {
       "id": "www.cgiar.org",
@@ -5610,7 +5848,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "CGIAR (Consultative Group on International Agricultural Research) is a global research partnership for a food-secure future. It aims to accelerate and strengthen the implementation of its 2030 Strategy by bringing together and leveraging the collective capabilities of all CGIAR Research Centers. The organization focuses on addressing food security challenges and meeting the demands of a changing climate, with a strong emphasis on resilience, inclusivity, and sustainability in food systems.",
-      "link": "www.cgiar.org"
+      "link": "www.cgiar.org",
+      "partners": []
     },
     {
       "id": "energyalliance.org",
@@ -5618,7 +5857,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "We are a growing Alliance of global organizations working together to end energy poverty and drive inclusive economic growth through clean energy. Affordable, reliable, clean electricity is essential for a resilient planet and a secure and prosperous future. Yet today, 685 million people live without electricity. Billions live with access that is unaffordable and unreliable. Together, we can change this. Our global Alliance includes public, private and philanthropic partners working together to deliver a fast and fair clean energy transition. Governments, investors, innovators, power companies, philanthropies and local communities all have a part to play. Through common goals, pooled resources, and shared expertise across borders and sectors, we break down silos, remove bottlenecks and drive lasting, systemic change.",
-      "link": "energyalliance.org"
+      "link": "energyalliance.org",
+      "partners": []
     },
     {
       "id": "www.c40.org",
@@ -5626,7 +5866,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "C40 is a global network of mayors of the world\u2019s leading cities that are united in action to confront the climate crisis.",
-      "link": "www.c40.org"
+      "link": "www.c40.org",
+      "partners": []
     },
     {
       "id": "threebox.notion.site",
@@ -5634,7 +5875,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "threebox.notion.site"
+      "link": "threebox.notion.site",
+      "partners": []
     },
     {
       "id": "omidyar.com",
@@ -5642,7 +5884,8 @@
       "category": "Culture",
       "type": "Unknown",
       "description": "We envision a future where our shared humanity steers our digital future. AI opened a new window to collectively examine our relationship with tech and make intentional choices about the digital future we want. In ways large and small, we work with a broad network of visionaries and innovators to bend the arc of the digital revolution toward shared power, prosperity, and possibility. We focus on the key drivers of our shared digital future: culture, governance, business, and tech itself.",
-      "link": "omidyar.com"
+      "link": "omidyar.com",
+      "partners": []
     },
     {
       "id": "creators.spotify.com",
@@ -5650,7 +5893,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "creators.spotify.com"
+      "link": "creators.spotify.com",
+      "partners": []
     },
     {
       "id": "support.spotify.com",
@@ -5658,7 +5902,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "support.spotify.com"
+      "link": "support.spotify.com",
+      "partners": []
     },
     {
       "id": "tomkatfoundation.org",
@@ -5666,7 +5911,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "We support the conditions for healthy human and natural life by championing Good Money, Good Food, Good Energy. We create and partner with innovative organizations that envision a world with climate stability, a healthy and just food system, and broad prosperity. We embrace the inherent interconnectedness of these complex systems and believe that understanding the relationships between our financial practices, the impact of our energy usage, and the methods by which our food is raised and consumed is critical to the success of sustaining a healthy planet that is able to support generations to come.",
-      "link": "tomkatfoundation.org"
+      "link": "tomkatfoundation.org",
+      "partners": []
     },
     {
       "id": "cutlersartisan.com",
@@ -5674,7 +5920,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Hand Crafted with Pride in Santa Barbara CA.",
-      "link": "cutlersartisan.com"
+      "link": "cutlersartisan.com",
+      "partners": []
     },
     {
       "id": "figureatefoods.com",
@@ -5682,7 +5929,8 @@
       "category": "Regenerative Finance (ReFi)",
       "type": "Unknown",
       "description": "Figure Ate is a leader in regenerative agriculture. We believe in the restorative power of food for your health, and the planet\u2019s. At Figure Ate, we're not just about providing great food; we're on a mission! Figure Ate is part of White Buffalo Land Trust, a 501(c)(3) nonprofit, and every purchase you make supports our commitment to expanding regenerative agriculture and restoring the land for generations to come.",
-      "link": "figureatefoods.com"
+      "link": "figureatefoods.com",
+      "partners": []
     },
     {
       "id": "richardsregenerative.com",
@@ -5690,7 +5938,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "The cattle raised on California ranches have provided for our family for five generations. We feel it is our job to share our passion preserving a healthy environment for our cattle to live and grow. In doing so, we are able to continue to serve our customers with a healthier and more sustainable source of beef.",
-      "link": "richardsregenerative.com"
+      "link": "richardsregenerative.com",
+      "partners": []
     },
     {
       "id": "richardsgrassfedbeef.com",
@@ -5698,7 +5947,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "The cattle raised on California ranches have provided for our family for five generations. We feel it is our job to share our passion preserving a healthy environment for our cattle to live and grow. In doing so, we are able to continue to serve our customers with a healthier and more sustainable source of beef.",
-      "link": "richardsgrassfedbeef.com"
+      "link": "richardsgrassfedbeef.com",
+      "partners": []
     },
     {
       "id": "whiteoakpastures.com",
@@ -5706,7 +5956,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "White Oak Pastures is a six generation, 158-year-old family farm in Bluffton, Georgia. We take pride in farming practices that focus on regenerative land management, humane animal husbandry, and revitalizing our rural community. We know radically traditional farming creates products that are better for our land, our livestock and our village. We are fiercely proud of our zero-waste production system that utilizes each part of the animals we pasture-raise and hand-butcher on our farm.",
-      "link": "whiteoakpastures.com"
+      "link": "whiteoakpastures.com",
+      "partners": []
     },
     {
       "id": "montecito.bank",
@@ -5714,7 +5965,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "montecito.bank"
+      "link": "montecito.bank",
+      "partners": []
     },
     {
       "id": "topatopa.beer",
@@ -5722,7 +5974,8 @@
       "category": "Culture",
       "type": "Unknown",
       "description": "We believe in the power of good vibes and great beers. We believe big ideas come from small companies. We think vans are better for camping than commuting. We believe these boots were made for hiking, not just walking. When the waves are epic, we think sharing them with a friend makes them even better. We believe in tasting life to its fullest, one sip at a time. We work to remain true to the diverse people who drink our beer and to the planet we all call home. We believe it is our responsibility to keep taking steps forward in inclusivity, sustainability, and community wellbeing.",
-      "link": "topatopa.beer"
+      "link": "topatopa.beer",
+      "partners": []
     },
     {
       "id": "seed2shirt.com",
@@ -5730,7 +5983,8 @@
       "category": "Regenerative Finance (ReFi)",
       "type": "Unknown",
       "description": "Empowering People Through Sustainable Products. Provide empowering opportunities to Black Indigenous cotton-producing land stewards in the US and Africa by connecting them to values-aligned work and Black-owned vertically integrated production ecosystems while restoring resiliency in over 2.5 million acres of land. We aim to reduce 3M Metric tons of greenhouse gas emissions and improve soil organic matter (SOM) in these lands by 5%. We want to lead the charge in improving the livelihoods of our land stewards by striving to invest $10M worth of equipment, seed $300K in micro-grant funding, and provide 100M hours annually in direct training technical assistance to the farmers. We never want to lose sight of how we can positively impact the communities we touch by committing to invest $10,000 and 20,000+ hours of community service annually to mission-aligned organizations in the communities we touch and where our team and farm families live.",
-      "link": "seed2shirt.com"
+      "link": "seed2shirt.com",
+      "partners": []
     },
     {
       "id": "sandhiwines.com",
@@ -5738,7 +5992,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "sandhiwines.com"
+      "link": "sandhiwines.com",
+      "partners": []
     },
     {
       "id": "flamingoestate.com",
@@ -5746,7 +6001,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "We have started a three year project to help save the endangered Melipona Bee, in partnership with Mestiza de Indias, a 900-acre living laboratory in the middle of the dense Mexican Yucat\u00e1n Peninsula.",
-      "link": "flamingoestate.com"
+      "link": "flamingoestate.com",
+      "partners": []
     },
     {
       "id": "www.apricotlanefarms.com",
@@ -5754,7 +6010,8 @@
       "category": "Regenerative Finance (ReFi)",
       "type": "Unknown",
       "description": "Apricot Lane Farms is a farm integrated within a reawakened ecosystem. Our focus is seeing and utilizing the interconnectedness of nature to build soil health, maximize biodiversity, and regeneratively grow the most flavorful, nutrient-dense food possible.",
-      "link": "www.apricotlanefarms.com"
+      "link": "www.apricotlanefarms.com",
+      "partners": []
     },
     {
       "id": "paicinesranch.com",
@@ -5762,7 +6019,8 @@
       "category": "Regenerative Finance (ReFi)",
       "type": "Unknown",
       "description": "Paicines Ranch is a regenerative agriculture project that aims to regenerate the health of the ecosystem from the soil up while growing delicious, nourishing food for the community. It consists of approximately 7000 acres of rangeland, 550 acres of row crop ground, and 25 acres of vineyard, all certified organic. The ranch focuses on regenerative practices to improve ecosystem health, create resiliency in a changing climate, and host educational events and workshops.",
-      "link": "paicinesranch.com"
+      "link": "paicinesranch.com",
+      "partners": []
     },
     {
       "id": "spottswoode.com",
@@ -5770,7 +6028,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Our family has been growing winegrapes on our historic Spottswoode Estate since 1972, and making our own wines since 1982. As stewards of our land, we pursue an elegant, balanced, and age-worthy style that captures the character of the vintage and the complexity of our legendary estate vineyard.",
-      "link": "spottswoode.com"
+      "link": "spottswoode.com",
+      "partners": []
     },
     {
       "id": "ccof.org",
@@ -5778,7 +6037,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "CCOF is a nonprofit organization that advances organic agriculture for a healthy world through organic certification, education, advocacy, and promotion. We envision a world where organic is the norm.",
-      "link": "ccof.org"
+      "link": "ccof.org",
+      "partners": []
     },
     {
       "id": "www.groundstarvineyard.com",
@@ -5786,7 +6046,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "Groundstar Vineyard\u2122 is a regenerative ranch located in the heart of Sta. Rita Hills, focusing on sustainable wine production, soil health, and community engagement through events and partnerships.",
-      "link": "www.groundstarvineyard.com"
+      "link": "www.groundstarvineyard.com",
+      "partners": []
     },
     {
       "id": "www.seabarranch.com",
@@ -5794,7 +6055,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "We\u2019re a Family Owned Protea Flower Farm on the Coast of California. We propagate, grow, and care for 47 acres of planted Protea plants and flowers on the Gaviota Coast of California. We grow over 20 different varieties of Proteas, Leucadendrons and Eucalyptus. All the work is done by hand \u2014 we never use pesticides or fertilizers. It\u2019s simply seed, soil, sun, water and lots of love. Our goal is to provide the highest quality flowers to our buyers.",
-      "link": "www.seabarranch.com"
+      "link": "www.seabarranch.com",
+      "partners": []
     },
     {
       "id": "www.goodlionhospitality.com",
@@ -5802,7 +6064,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "We are a passionate and unfailingly curious group of hospitality professionals that share in a vision of exciting, comfortable, and dynamic eating, living, and drinking spaces featuring world class hospitality, thoughtful cocktails, chef-driven food concepts, natural wine, and independently brewed beers.",
-      "link": "www.goodlionhospitality.com"
+      "link": "www.goodlionhospitality.com",
+      "partners": []
     },
     {
       "id": "www.holdfastaq.com",
@@ -5810,7 +6073,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "Holdfast Aquaculture is focused on sustainable food systems, supporting a healthy planet and healthy people through aquaculture, hatchery and research resources, and sustainable seafood production.",
-      "link": "www.holdfastaq.com"
+      "link": "www.holdfastaq.com",
+      "partners": []
     },
     {
       "id": "www.grimmsbluff.com",
@@ -5818,7 +6082,8 @@
       "category": "Regenerative Finance (ReFi)",
       "type": "Unknown",
       "description": "At Grimm's Bluff, we are passionate about crafting exquisite Bordeaux varietal wines that embody our unique property located in Happy Canyon of Santa Barbara. From our organic vineyard to your glass, every bottle from Grimm's Bluff offers a taste of Sustainable Luxury.",
-      "link": "www.grimmsbluff.com"
+      "link": "www.grimmsbluff.com",
+      "partners": []
     },
     {
       "id": "www.fmtrust.com",
@@ -5826,7 +6091,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "www.fmtrust.com"
+      "link": "www.fmtrust.com",
+      "partners": []
     },
     {
       "id": "www.freckerfarm.com",
@@ -5834,7 +6100,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Frecker Farms is a certified organic, forty-five acre farm in Carpinteria, California, nestled between the mountains and Pacific Ocean. Organic farming enhances soil health by using natural compost, crop rotation, and minimal chemical inputs, which nurture biodiversity and improve soil structure. This approach reduces erosion, enhances water retention, and promotes long-term fertility. Small-scale farming often complements organic practices by fostering diverse ecosystems, reducing the carbon footprint of large machinery, and prioritizing local food systems. Together, organic and small farming help maintain environmental balance, conserve resources, and create sustainable agricultural systems.",
-      "link": "www.freckerfarm.com"
+      "link": "www.freckerfarm.com",
+      "partners": []
     },
     {
       "id": "www.duoevents.com",
@@ -5842,7 +6109,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "www.duoevents.com"
+      "link": "www.duoevents.com",
+      "partners": []
     },
     {
       "id": "www.emmarosefloral.com",
@@ -5850,7 +6118,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "None",
-      "link": "www.emmarosefloral.com"
+      "link": "www.emmarosefloral.com",
+      "partners": []
     },
     {
       "id": "www.bellsrestaurant.com",
@@ -5858,7 +6127,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Bell\u2019s is a Michelin-starred, family-run bistro located in the heart of Los Alamos, California. Led by chef Daisy Ryan, named one of Food & Wine\u2019s Best New Chefs, Bell\u2019s offers a thoughtful take on French-inspired cooking rooted in the ingredients and spirit of California\u2019s Central Coast. Our team serves up classic bistro fare, paired with an award-winning wine list that highlights some of our favorite local and European producers.",
-      "link": "www.bellsrestaurant.com"
+      "link": "www.bellsrestaurant.com",
+      "partners": []
     },
     {
       "id": "www.donnachadh.com",
@@ -5866,7 +6136,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Donnachadh Vineyard is a family-owned and organically farmed vineyard located in the Sta. Rita Hills AVA of Santa Barbara County, California. The property spans 285 acres with approximately 40 acres planted to vine, focusing on Pinot Noir, Chardonnay, Syrah, and Gamay Noir. The vineyard benefits from a unique maritime climate, with morning fog and consistent ocean breezes that contribute to the slow ripening of grapes, resulting in complex and characterful wines. The winemaking approach is inspired by the wines of Burgundy and the Northern Rhone, with a focus on capturing the unique terroir of the site. The vineyard and winery are committed to organic farming and sustainable practices, aiming to produce wines that express the fruit, sun, soil, and the overall depth and transparency of the region.",
-      "link": "www.donnachadh.com"
+      "link": "www.donnachadh.com",
+      "partners": []
     },
     {
       "id": "www.coastalvineyardcare.com",
@@ -5874,7 +6145,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "Coastal Vineyard Care is a vineyard management and development company that focuses on sustainable farming practices to produce high-quality grapes for wine. They offer services such as vineyard management, viticulture services, and grape sales, emphasizing the purity of flavor and place in their farming methods.",
-      "link": "www.coastalvineyardcare.com"
+      "link": "www.coastalvineyardcare.com",
+      "partners": []
     },
     {
       "id": "www.somethinggoodorganics.com",
@@ -5882,7 +6154,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Proudly growing and harvesting organic fruits and veggies for our Santa Barbara community. Committed to sustainability, our farm thrives year-round thanks to rich soil and gentle topography.",
-      "link": "www.somethinggoodorganics.com"
+      "link": "www.somethinggoodorganics.com",
+      "partners": []
     },
     {
       "id": "www.treehousealmonds.com",
@@ -5890,7 +6163,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Treehouse Almonds is a premium almond supplier known for quality, sustainability, and innovation in almond farming, harvesting, and processing. They focus on responsible water management, bee-friendly practices, and soil regeneration.",
-      "link": "www.treehousealmonds.com"
+      "link": "www.treehousealmonds.com",
+      "partners": []
     },
     {
       "id": "www.solminer.com",
@@ -5898,7 +6172,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "Growing and producing natural wines from regenerative organic farming",
-      "link": "www.solminer.com"
+      "link": "www.solminer.com",
+      "partners": []
     },
     {
       "id": "www.sbbotanicgarden.org",
@@ -5906,7 +6181,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "The Santa Barbara Botanic Garden is a 78-acre haven dedicated to showcasing native California plants, offering miles of hiking and walking trails, and conducting research on fire-safe living and biocontrol. It is a place of inspiration, education, and community engagement, focused on sustainability and the preservation of native plant life.",
-      "link": "www.sbbotanicgarden.org"
+      "link": "www.sbbotanicgarden.org",
+      "partners": []
     },
     {
       "id": "www.tehachapigrainproject.org",
@@ -5914,7 +6190,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.tehachapigrainproject.org"
+      "link": "www.tehachapigrainproject.org",
+      "partners": []
     },
     {
       "id": "www.theclimatewarehouse.org",
@@ -5922,7 +6199,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "The World Bank Engagement Roadmap for Carbon Markets seeks to expand transparent and inclusive carbon markets that benefit developing countries first",
-      "link": "www.theclimatewarehouse.org"
+      "link": "www.theclimatewarehouse.org",
+      "partners": []
     },
     {
       "id": "kumu.io",
@@ -5930,7 +6208,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "One platform. Endless possibilities. Whether you are mapping people, systems, or concepts in general, if you are focused on relationships we've got you covered.",
-      "link": "kumu.io"
+      "link": "kumu.io",
+      "partners": []
     },
     {
       "id": "climateaction.unfccc.int",
@@ -5938,7 +6217,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "climateaction.unfccc.int"
+      "link": "climateaction.unfccc.int",
+      "partners": []
     },
     {
       "id": "www.climatechaincoalition.io",
@@ -5946,7 +6226,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.climatechaincoalition.io"
+      "link": "www.climatechaincoalition.io",
+      "partners": []
     },
     {
       "id": "www.wolfesneck.org",
@@ -5954,7 +6235,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "Supporting farmer viability, thriving ecosystems, and vibrant communities through regenerative farming demonstration and training, innovative research, and collaborations.",
-      "link": "www.wolfesneck.org"
+      "link": "www.wolfesneck.org",
+      "partners": []
     },
     {
       "id": "www.salmonnation.net",
@@ -5962,7 +6244,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "Salmon Nation Trust is a public benefit limited liability company whose purpose is to support equitable, ecological, and economic well-being in a place we call home.",
-      "link": "www.salmonnation.net"
+      "link": "www.salmonnation.net",
+      "partners": []
     },
     {
       "id": "www.pacificintegral.com",
@@ -5970,7 +6253,8 @@
       "category": "Culture",
       "type": "Unknown",
       "description": "Pacific Integral creates transformative containers where people discover new possibilities for being and action in the world. Through intimate community, embodied practice, and awakened awareness, we support the emergence of generative wisdom needed for our complex times.",
-      "link": "www.pacificintegral.com"
+      "link": "www.pacificintegral.com",
+      "partners": []
     },
     {
       "id": "www.zebrasunite.org",
@@ -5978,7 +6262,8 @@
       "category": "Culture",
       "type": "Unknown",
       "description": "Zebras Unite.Org is the nonprofit arm and serves as the mission anchor for Zebras Unite\u2014a founder-led, cooperatively owned global movement catalyzing culture, community, and capital for the businesses that are better for the world.",
-      "link": "www.zebrasunite.org"
+      "link": "www.zebrasunite.org",
+      "partners": []
     },
     {
       "id": "www.prosocial.world",
@@ -5986,7 +6271,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "We use science to help groups become more cooperative, adaptable, and resilient.",
-      "link": "www.prosocial.world"
+      "link": "www.prosocial.world",
+      "partners": []
     },
     {
       "id": "terran.io",
@@ -5994,7 +6280,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "A community of care and practice building systems and tools for a regenerative future. We are technologists, community organizers, entrepreneurs, activists, and artists working for the greatest good of all beings. We amplify cooperation among people regenerating our communities and our planet. We do this by building systems and tools to foster trust and relationship, starting in the Bay Area bioregion.",
-      "link": "terran.io"
+      "link": "terran.io",
+      "partners": []
     },
     {
       "id": "www.bionutrient.org",
@@ -6002,7 +6289,8 @@
       "category": "Regenerative Economy",
       "type": "Unknown",
       "description": "The Bionutrient Food Association (BFA) is a membership organization focused on building a new food culture rooted in nutrient density, soil health, and transparency. They support growers, educate consumers, and develop tools to measure real nutritional value. Their work includes developing a handheld Bionutrient Meter to provide nutritional information about food, crops, and soil, and they organize events like the annual Soil & Nutrition Conference.",
-      "link": "www.bionutrient.org"
+      "link": "www.bionutrient.org",
+      "partners": []
     },
     {
       "id": "loacom.com",
@@ -6010,7 +6298,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "We\u2019re a cause-based agency that works with changemakers to tell stories, build movements, and better the world. We help you organize your most powerful assets, ideas, and partnerships to achieve your goal \u2014 whether that be creating a kick-ass new brand, aligning your core stakeholders around your vision and mission, designing your latest and greatest reef-friendly sunscreen campaign, or preparing for how to respond to the latest climate-fueled disaster. From strategic planning, to corporate philanthropy, to campaign planning, facilitation, brand design, and more: *better world strategies* \u2014 it\u2019s what we do.",
-      "link": "loacom.com"
+      "link": "loacom.com",
+      "partners": []
     },
     {
       "id": "regen.network",
@@ -6018,7 +6307,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "Regen Network, a platform to originate and invest in high-integrity carbon and biodiversity credits from ecological regeneration projects.",
-      "link": "regen.network"
+      "link": "regen.network",
+      "partners": []
     },
     {
       "id": "www.planetaryhealthalliance.org",
@@ -6026,7 +6316,8 @@
       "category": "Climate and Environmental REGENeration",
       "type": "Unknown",
       "description": "The Planetary Health Alliance is catalyzing a global movement to create a livable future for humanity and the rest of life on Earth by regenerating Earth\u2019s natural systems.",
-      "link": "www.planetaryhealthalliance.org"
+      "link": "www.planetaryhealthalliance.org",
+      "partners": []
     },
     {
       "id": "www.kindredcapitalcommunity.com",
@@ -6034,7 +6325,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Kindred is a community that provides personalized support to founders, curates vendor discounts, and maintains a jobs board for its portfolio companies.",
-      "link": "www.kindredcapitalcommunity.com"
+      "link": "www.kindredcapitalcommunity.com",
+      "partners": []
     },
     {
       "id": "techcrunch.com",
@@ -6042,7 +6334,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "OpenAI priced GPT-5 so low, it may spark a price war",
-      "link": "techcrunch.com"
+      "link": "techcrunch.com",
+      "partners": []
     },
     {
       "id": "forms.office.com",
@@ -6050,7 +6343,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "forms.office.com"
+      "link": "forms.office.com",
+      "partners": []
     },
     {
       "id": "devdao.to",
@@ -6058,7 +6352,8 @@
       "category": "Community Funding Protocols",
       "type": "Unknown",
       "description": "Create an environment that fosters, supports and incentivises a diverse community of builders to help create a better, more equitable future.",
-      "link": "devdao.to"
+      "link": "devdao.to",
+      "partners": []
     },
     {
       "id": "dune.com",
@@ -6066,7 +6361,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "dune.com"
+      "link": "dune.com",
+      "partners": []
     },
     {
       "id": "www.cointracker.io",
@@ -6074,7 +6370,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.cointracker.io"
+      "link": "www.cointracker.io",
+      "partners": []
     },
     {
       "id": "www.fireblocks.com",
@@ -6082,7 +6379,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Fireblocks is an enterprise-grade platform delivering a secure infrastructure for moving, storing, and issuing digital assets. Fireblocks enables exchanges, custodians, banks, trading desks, and hedge funds to securely scale digital asset operations through patent-pending SGX & MPC technology.",
-      "link": "www.fireblocks.com"
+      "link": "www.fireblocks.com",
+      "partners": []
     },
     {
       "id": "www.bitgo.com",
@@ -6090,7 +6388,8 @@
       "category": "Other",
       "type": "Unknown",
       "description": "We are the digital asset infrastructure company.",
-      "link": "www.bitgo.com"
+      "link": "www.bitgo.com",
+      "partners": []
     },
     {
       "id": "custody.coinbase.com",
@@ -6098,7 +6397,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "custody.coinbase.com"
+      "link": "custody.coinbase.com",
+      "partners": []
     },
     {
       "id": "token.im",
@@ -6106,7 +6406,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "token.im"
+      "link": "token.im",
+      "partners": []
     },
     {
       "id": "www.bprotocol.org",
@@ -6114,7 +6415,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.bprotocol.org"
+      "link": "www.bprotocol.org",
+      "partners": []
     },
     {
       "id": "zapper.fi",
@@ -6122,7 +6424,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "zapper.fi"
+      "link": "zapper.fi",
+      "partners": []
     },
     {
       "id": "defi.instadapp.io",
@@ -6130,7 +6433,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "defi.instadapp.io"
+      "link": "defi.instadapp.io",
+      "partners": []
     },
     {
       "id": "defisaver.com",
@@ -6138,7 +6442,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "DeFi Saver is a non-custodial DeFi management tool offering advanced features and functionalities for managing your positions and crypto assets in various DeFi protocols",
-      "link": "defisaver.com"
+      "link": "defisaver.com",
+      "partners": []
     },
     {
       "id": "www.sceneinfrastructure.com",
@@ -6146,7 +6451,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "www.sceneinfrastructure.com"
+      "link": "www.sceneinfrastructure.com",
+      "partners": []
     },
     {
       "id": "docs.indexcoop.com",
@@ -6154,7 +6460,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "The Index Coop is a decentralized autonomous organization (DAO) launched by Set Labs on October 6th, 2020. It is made up of a small group of core contributors and a larger community of token holders and supporters. As a DAO, it works on the cutting edge of decentralized finance, leveraging its decentralized network to build simple, accessible, and secure onchain structured DeFi products.",
-      "link": "docs.indexcoop.com"
+      "link": "docs.indexcoop.com",
+      "partners": []
     },
     {
       "id": "indexcoop.com",
@@ -6162,7 +6469,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Index Coop is a decentralized autonomous organization (DAO) that specializes in creating and maintaining onchain structured products. Index Coop aims to democratize access to the crypto market, empowering everyone to participate in the growing digital asset ecosystem with ease.",
-      "link": "indexcoop.com"
+      "link": "indexcoop.com",
+      "partners": []
     },
     {
       "id": "blog.sablier.com",
@@ -6170,7 +6478,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Infrastructure for money streaming and token distribution. DAOs and businesses use Sablier for vesting, payroll, airdrops, and more.",
-      "link": "blog.sablier.com"
+      "link": "blog.sablier.com",
+      "partners": []
     },
     {
       "id": "sablier.com",
@@ -6178,7 +6487,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Infrastructure for onchain token distribution. DAOs and businesses use Sablier for vesting, payroll, airdrops, and more. Live on 20+ EVM chains and soon on Solana.",
-      "link": "sablier.com"
+      "link": "sablier.com",
+      "partners": []
     },
     {
       "id": "exact.ly",
@@ -6186,7 +6496,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Exactly Protocol is a decentralized, non-custodial, open-source protocol providing an autonomous fixed and variable interest rate market.",
-      "link": "exact.ly"
+      "link": "exact.ly",
+      "partners": []
     },
     {
       "id": "gd1.vc",
@@ -6194,7 +6505,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "We back founders and teams who want to win in the world's biggest markets.",
-      "link": "gd1.vc"
+      "link": "gd1.vc",
+      "partners": []
     },
     {
       "id": "maple.finance",
@@ -6202,7 +6514,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Maple is a technology services provider that offers secure, expert-led financial products for individuals and institutions, including overcollateralized loans and tailored financing solutions. The platform ensures transparency, robust risk management, and global client support.",
-      "link": "maple.finance"
+      "link": "maple.finance",
+      "partners": []
     },
     {
       "id": "arcadia.finance",
@@ -6210,7 +6523,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "arcadia.finance"
+      "link": "arcadia.finance",
+      "partners": []
     },
     {
       "id": "fenbushi.vc",
@@ -6218,7 +6532,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Fenbushi Capital is Asia's pioneering Web3-focused asset management firm with an AUM of $1.6 billion, established in 2015. Recognized for its early support of Ethereum, the firm continues to champion transformative projects at the forefront of blockchain innovation, now holding a global portfolio of over 300 companies. Committed to supporting startups and driving industry growth, Fenbushi Capital's legacy as a trailblazer in the blockchain ecosystem remains unrivalled in Asia. Through research and investment, the firm aims to play a vital role in shaping the future of blockchain technology across diverse sectors.",
-      "link": "fenbushi.vc"
+      "link": "fenbushi.vc",
+      "partners": []
     },
     {
       "id": "www.fjordfoundry.com",
@@ -6226,7 +6541,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Fjord Foundry is a community-focused platform that specialises in connecting innovative projects with engaged backers. Built upon the principles of fairness and transparency, we offer a variety of token sale methods, including our most popular and well-renowned method\u2014Liquidity Bootstrapping Pools (LBPs). Fjord's mission is to democratise access to early-stage opportunities for our community of backers while providing projects the means to bootstrap liquidity in a seamless and straightforward manner. For both project teams and individual backers, we provide an all-in-one environment geared towards early-stage ideas. Teams can focus on what truly matters\u2014building out their vision and generating liquidity for decentralised exchange trading. While backers can explore a selection of early-stage opportunities that resonate with their passions and beliefs. Fjord serves at the inflection point where projects and supporters engage, collaborate, and grow together.",
-      "link": "www.fjordfoundry.com"
+      "link": "www.fjordfoundry.com",
+      "partners": []
     },
     {
       "id": "www.thesingularity.network",
@@ -6234,7 +6550,8 @@
       "category": "Venture Capital",
       "type": "Unknown",
       "description": "Singularity is the institutional-grade DeFi access layer that allows you to transact on-chain with commercial confidentiality. It provides a compliant decentralized Dark Orderbook on-chain Darkpool supported by privacy infrastructure, including Zero-Knowledge Proofs (ZKP), Fully-Homomorphic Encryption (FHE), and Multi-Party Computation (MPCs), to create an unparalleled private trading environment.",
-      "link": "www.thesingularity.network"
+      "link": "www.thesingularity.network",
+      "partners": []
     },
     {
       "id": "docs.zama.ai",
@@ -6242,7 +6559,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Zama is an open source cryptography company that builds state-of-the-art Fully Homomorphic Encryption (FHE) solutions for blockchain and AI.",
-      "link": "docs.zama.ai"
+      "link": "docs.zama.ai",
+      "partners": []
     },
     {
       "id": "nexchain.ai",
@@ -6250,7 +6568,8 @@
       "category": "Infrastructure",
       "type": "Unknown",
       "description": "Nexchain is an L1 blockchain protocol that leverages artificial intelligence (AI) to optimize scalability, security, and interoperability. It introduces a combination of decentralized security measures and technological developments, such as a hybrid consensus mechanism and next-generation smart contracts, to ensure exceptional performance and flexibility. The blockchain is designed to be energy-efficient and eco-friendly, with a focus on decentralized governance and fair income distribution.",
-      "link": "nexchain.ai"
+      "link": "nexchain.ai",
+      "partners": []
     },
     {
       "id": "epartner.pfizer.com",
@@ -6258,7 +6577,8 @@
       "category": "Unknown",
       "type": "Unknown",
       "description": "Unknown",
-      "link": "epartner.pfizer.com"
+      "link": "epartner.pfizer.com",
+      "partners": []
     }
   ],
   "links": [

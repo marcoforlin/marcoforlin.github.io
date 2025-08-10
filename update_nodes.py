@@ -15,6 +15,9 @@ with open('all_daos_updated.json', 'r') as f1:
     for d in data1['nodes']:
         print("PROCESSING: "+ d['link'])
 
+        if 'partners' not in d or not d['partners']:
+            data1['nodes'][data1['nodes'].index(d)]['partners'] = []
+
         if d['description'] != "Unknown":
             print("already processed.")
         else:

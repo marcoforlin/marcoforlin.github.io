@@ -58,6 +58,7 @@
     </div>
     <div id="controls">
         <h4>Categories</h4>
+        <input type="text" id="search-box" placeholder="Search for a node..." style="margin-bottom: 10px; width: 150px;">
         <div id="legend"></div>
     </div>
 
@@ -75,10 +76,30 @@
         d3.json("all_daos_updated.json").then(function(graph) {
 
             const categories = [...new Set(graph.nodes.map(d => d.category))];
-            curCategories = categories;
+            // const categories = [...new Set(graph.nodes.map(d => d.category))];
+            tmp = (graph.nodes);
+
+            curCategories = [];
             const color = d3.scaleOrdinal(d3.schemeCategory10).domain(categories);
 
             const legend = d3.select("#legend");
+            const searchInput = d3.select("#search-box").on("input", updateGraph);
+
+            const allCategories = legend.append("div").attr("class", "legend-item");
+            allCategories.append("input")
+                .attr("type", "checkbox")
+                .attr("checked", false)
+                .attr("id", "checkbox-all")
+                .property("checked", false)
+                .on("change", updateGraph);
+
+            allCategories.append("div")
+                .attr("class", "legend-color")
+                .style("background-color", "#ccc");
+
+            allCategories.append("label")
+                .attr("for", "checkbox-all")
+                .text("All");
 
             categories.forEach(category => {
                 const legendItem = legend.append("div").attr("class", "legend-item");
@@ -102,31 +123,36 @@
             const clusterX = d3.scalePoint().domain(categories).range([0, width]);
             const types = [...new Set(graph.nodes.map(d => d.type))];
             const clusterY = d3.scalePoint().domain(types).range([0, height]);
+            const maxDegree = 50;
+            const radiusScale = d3.scaleSqrt()
+                .domain([0, maxDegree])
+                .range([5, 30]); // Min radius 5, Max radius 30
 
             const simulation = d3.forceSimulation(graph.nodes)
-                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(50))
-                .force("charge", d3.forceManyBody().strength(-100))
+                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(100))
+                .force("charge", d3.forceManyBody().strength(-200))
                 .force("center", d3.forceCenter(width / 2, height / 2))
                 .force("x", d3.forceX(d => clusterX(d.category)).strength(0.1))
                 .force("y", d3.forceY(d => clusterY(d.type)).strength(0.1))
-                .force("collision", d3.forceCollide().radius(d => d.radius || 5));
+                .force("collision", d3.forceCollide().radius(d => 50));
 
             let link = container.append("g")
                 .attr("class", "links")
                 .selectAll("line")
                 .data([])
+                .attr("r", d => radiusScale(d.partners.length))
                 .enter().append("line")
                 .attr("class", "link");
 
             const filteredNodes = [];
-
+            
             let node = container.append("g")
                 .attr("class", "nodes")
                 .selectAll("circle")
                 .data(filteredNodes)
                 .enter().append("circle")
                 .attr("class", "node")
-                .attr("r", 5)
+                .attr("r", d => radiusScale(d.partners.length))
                 .attr("fill", d => color(d.category))
                 .call(d3.drag()
                     .on("start", dragstarted)
@@ -139,6 +165,9 @@
                 .data(filteredNodes)
                 .enter().append("text")
                 .attr("class", "node-label")
+                .on("click", d => {
+                    window.open(d.link, '_blank');
+                })
                 .text(d => d.name);
 
             simulation.on("tick", () => {
@@ -159,17 +188,57 @@
 
             function updateGraph() {
                 const checked = d3.select(this).property("checked");
-                const category = d3.select(this).attr("id").replace("checkbox-", "");
-                if (checked) {
-                    curCategories.push(category);
+
+                if (d3.select(this).attr("id") === "checkbox-all") {
+                    if (checked) {
+                        curCategories = categories;
+                    } else {
+                        curCategories = [];
+                    }
+                    d3.selectAll(".legend-item input").property("checked", checked);
                 } else {
-                    curCategories = curCategories.filter(c => c !== category);
+                    const category = d3.select(this).attr("id").replace("checkbox-", "");
+                    if (checked) {
+                        curCategories.push(category);
+                    } else {
+                        curCategories = curCategories.filter(c => c !== category);
+                    }
                 }
                 // const deselectedCategories = categories.filter(c => !checked);
 
                 const selectedCategories = categories.filter(c => curCategories.includes(c));
 
-                const filteredNodes = graph.nodes.filter(d => selectedCategories.includes(d.category));
+
+                const searchTerm = searchInput.property("value").toLowerCase();
+
+                const searchNodes = graph.nodes.filter(d => {
+                        return d.name.toLowerCase().includes(searchTerm);
+                    });
+
+                const filteredNodes = graph.nodes.filter(d => {
+
+                    if(d.link == ""){
+                        return false;
+                    }
+                    const inCategory = selectedCategories.includes(d.category);
+                    try{
+
+                        if (searchTerm == '') {
+                            return inCategory ;
+                        }
+                        else{
+                            const inSearch = searchNodes.some(node => node.name.toLowerCase().includes(d.name.toLowerCase()));
+                            const inPartners = (d.partners.length > 0 && searchNodes.some(node => d.partners.some(p => p.toLowerCase().includes(node.link.replace("https://", "")))))
+                            const inPartners2 = (searchNodes.some(node => node.partners.some(p => p.toLowerCase().includes(d.link.replace("https://", "")))));
+
+                            return inCategory && (inSearch || inPartners || inPartners2);
+                        }
+                    }catch(e){
+                        console.log(`problem parsing partners of ${d.name}: ${e}`);
+                        return false;
+                    }
+                });
+
                 const filteredNodeIds = new Set(filteredNodes.map(d => d.id));
                 const filteredLinks = graph.links.filter(d => filteredNodeIds.has(d.source.id || d.source) && filteredNodeIds.has(d.target.id || d.target));
 
@@ -178,18 +247,25 @@
                 node.exit().remove();
                 node = node.enter().append("circle")
                     .attr("class", "node")
-                    .attr("r", 5)
                     .attr("fill", d => color(d.category))
+                    .attr("r", d => radiusScale(d.partners.length))
                     .call(d3.drag()
                         .on("start", dragstarted)
                         .on("drag", dragged)
                         .on("end", dragended))
+                        // .on('click', function(d) {
+                        //     console.log(d);
+                        //     // alert("You clicked on node " + d.name);
+                        // })
                     .merge(node);
 
                 // Update links
                 link = container.select(".links").selectAll("line").data(filteredLinks, d => `${d.source.id}-${d.target.id}`);
                 link.exit().remove();
-                link = link.enter().append("line").attr("class", "link").merge(link);
+                link = link.enter()
+                    .append("line")
+                  //  .attr("r", d => radiusScale(d.partners.length))
+                    .attr("class", "link").merge(link);
 
                 // Update labels
                 labels = container.select(".labels").selectAll("text").data(filteredNodes, d => d.id);
@@ -198,6 +274,11 @@
                     .attr("class", "node-label")
                     .text(d => d.name)
                     .merge(labels);
+
+                // labels.on('click', function(event, d) {
+                //     console.log(d);
+                //     // alert("You clicked on node " + d.name);
+                // });
 
                 simulation.nodes(filteredNodes);
                 simulation.force("link").links(filteredLinks);
