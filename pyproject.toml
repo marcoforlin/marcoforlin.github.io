@@ -1,0 +1,16 @@
+[project]
+name = "marcoforlin-github-io"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-huggingface",
+    "langgraph",
+    "huggingface_hub",
+    "langchain_community",
+    "langchain_tavily",
+    "tavily-python",
+    "huggingface-hub"
+    ]

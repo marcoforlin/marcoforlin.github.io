@@ -1,942 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ethereum Localism, Regen & Greenpill Network Map</title>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #0f1419 0%, #1a2332 50%, #0f1419 100%);
-      color: #ffffff;
-      overflow: hidden;
-    }
-
-    .container {
-      width: 100vw;
-      height: 100vh;
-      position: relative;
-    }
-
-    .header {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      z-index: 1000;
-      background: rgba(0, 0, 0, 0.8);
-      padding: 20px;
-      border-radius: 12px;
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .header h1 {
-      margin: 0 0 10px 0;
-      font-size: 24px;
-      background: linear-gradient(45deg, #00ff88, #00ccff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .header p {
-      margin: 0;
-      font-size: 14px;
-      color: #cccccc;
-      max-width: 300px;
-    }
-
-    .legend {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      z-index: 1000;
-      background: rgba(0, 0, 0, 0.8);
-      padding: 20px;
-      border-radius: 12px;
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .legend h3 {
-      margin: 0 0 15px 0;
-      font-size: 16px;
-      color: #ffffff;
-    }
-
-    .legend-item {
-      display: flex;
-      align-items: center;
-      margin-bottom: 8px;
-    }
-
-    .legend-color {
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      margin-right: 10px;
-    }
-
-    .legend-text {
-      font-size: 14px;
-      color: #cccccc;
-    }
-
-    .controls {
-      position: absolute;
-      bottom: 20px;
-      left: 20px;
-      z-index: 1000;
-      background: rgba(0, 0, 0, 0.8);
-      padding: 15px;
-      border-radius: 12px;
-      backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .control-button {
-      background: linear-gradient(45deg, #00ff88, #00ccff);
-      border: none;
-      color: #000;
-      padding: 8px 16px;
-      margin: 0 5px;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: all 0.3s ease;
-    }
-
-    .control-button:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(0, 255, 136, 0.3);
-    }
-
-    .tooltip {
-      position: absolute;
-      background: rgba(0, 0, 0, 0.9);
-      color: white;
-      padding: 12px;
-      border-radius: 8px;
-      font-size: 12px;
-      pointer-events: none;
-      z-index: 1001;
-      max-width: 250px;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      backdrop-filter: blur(10px);
-    }
-
-    .tooltip h4 {
-      margin: 0 0 8px 0;
-      color: #00ff88;
-    }
-
-    .tooltip p {
-      margin: 0;
-      line-height: 1.4;
-    }
-
-    svg {
-      width: 100%;
-      height: 100%;
-    }
-
-    .node {
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-
-    .node:hover {
-      stroke-width: 3px;
-    }
-
-    .link {
-      stroke-opacity: 0.6;
-      transition: all 0.3s ease;
-    }
-
-    .link:hover {
-      stroke-opacity: 1;
-      stroke-width: 3px;
-    }
-
-    .node-label {
-      font-size: 10px;
-      fill: #ffffff;
-      text-anchor: middle;
-      pointer-events: none;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    }
-
-    .search-container {
-      position: absolute;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 1000;
-    }
-
-    .search-input {
-      background: rgba(0, 0, 0, 0.8);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      color: white;
-      padding: 10px 15px;
-      border-radius: 25px;
-      width: 300px;
-      font-size: 14px;
-      backdrop-filter: blur(10px);
-    }
-
-    .search-input::placeholder {
-      color: #888;
-    }
-
-    .search-input:focus {
-      outline: none;
-      border-color: #00ff88;
-      box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact DAO Network Graph</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            overflow: hidden;
+        }
+        #graph-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+        .node {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+        .link {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+        .node-label {
+            font-size: 10px;
+            pointer-events: none;
+        }
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .legend-color {
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+        }
+    </style>
 </head>
-
 <body>
-  <div class="container">
-    <div class="header">
-      <h1>Ethereum Localism, Regen & Greenpill Network</h1>
-      <p>Interactive visualization of DAOs, NGOs, and funds in the regenerative crypto ecosystem</p>
+    <div id="graph-container">
+        <svg id="network"></svg>
+    </div>
+    <div id="controls">
+        <h4>Categories</h4>
+        <div id="legend"></div>
     </div>
 
-    <div class="legend">
-      <h3>Categories</h3>
-      <div class="legend-item">
-        <div class="legend-color" style="background: #00ff88;"></div>
-        <div class="legend-text">Greenpill</div>
-      </div>
-      <div class="legend-item">
-        <div class="legend-color" style="background: #00ccff;"></div>
-        <div class="legend-text">Regen</div>
-      </div>
-      <div class="legend-item">
-        <div class="legend-color" style="background: #ff6b6b;"></div>
-        <div class="legend-text">Localism</div>
-      </div>
-    </div>
+    <script>
+                const svg = d3.select("#network");
+        const width = +svg.node().getBoundingClientRect().width;
+        const height = +svg.node().getBoundingClientRect().height;
 
-    <div class="search-container">
-      <input type="text" class="search-input" placeholder="Search organizations..." id="searchInput">
-    </div>
+        const container = svg.append("g");
 
-    <div class="controls">
-      <button class="control-button" onclick="resetZoom()">Reset View</button>
-      <button class="control-button" onclick="toggleLabels()">Toggle Labels</button>
-      <button class="control-button" onclick="togglePhysics()">Toggle Physics</button>
-    </div>
+        svg.call(d3.zoom().on("zoom", (event) => {
+            container.attr("transform", event.transform);
+        }));
 
-    <svg id="network"></svg>
-    <div class="tooltip" id="tooltip" style="display: none;"></div>
-  </div>
+        d3.json("all_daos_updated.json").then(function(graph) {
 
-  <script>
-    // Network data
-    const networkData = {
-      "nodes": [
-        {
-          "id": "greenpill_network",
-          "name": "Greenpill Network",
-          "category": "ReFi",
-          "type": "network",
-          "description": "A network-society that exports regenerative digital infrastructure to the world"
-        },
-        {
-          "id": "regen_network",
-          "name": "Regen Network",
-          "category": "ReFi",
-          "type": "dao",
-          "description": "Decentralized network for tokenized ecocredits, sovereign proof-of-stake blockchain"
-        },
-        {
-          "id": "regen_foundation",
-          "name": "Regen Foundation",
-          "category": "ReFi",
-          "type": "foundation",
-          "description": "Allocates $REGEN governance tokens to diverse stakeholders"
-        },
-        {
-          "id": "refi_dao",
-          "name": "ReFi DAO",
-          "category": "ReFi",
-          "type": "dao",
-          "description": "Involved in Ethereum Localism x Regen Coordination"
-        },
-        {
-          "id": "ethereumlocalism_xyz",
-          "name": "ethereumlocalism.xyz",
-          "category": "localism",
-          "type": "hub",
-          "description": "Open knowledge garden and action-oriented research hub"
-        },
-        {
-          "id": "ethereal_forest_dao",
-          "name": "Ethereal Forest DAO",
-          "category": "localism",
-          "type": "dao",
-          "description": "Connects local community builders with impact devs"
-        },
-        {
-          "id": "pdx_dao",
-          "name": "PDX DAO",
-          "category": "localism",
-          "type": "dao",
-          "description": "Featured in articles about Ethereum Localism"
-        },
-        {
-          "id": "opencivics",
-          "name": "OpenCivics",
-          "category": "localism",
-          "type": "organization",
-          "description": "Mentioned in relation to DAO of DAOs concept"
-        },
-        {
-          "id": "the_open_machine",
-          "name": "The Open Machine",
-          "category": "localism",
-          "type": "collective",
-          "description": "Collated Ethereum Localism: Grounding the Future of Coordination book"
-        },
-        {
-          "id": "impactdaos_xyz",
-          "name": "ImpactDAOs.xyz",
-          "category": "ReFi",
-          "type": "directory",
-          "description": "Directory and book about Impact DAOs"
-        },
-        {
-          "id": "regens_unite",
-          "name": "Regens Unite",
-          "category": "ReFi",
-          "type": "movement",
-          "description": "Community-building initiative bridging regenerative sectors"
-        },
-        {
-          "id": "all_for_climate_dao",
-          "name": "All for Climate DAO",
-          "category": "ReFi",
-          "type": "dao",
-          "description": "Vision to be the Greenpeace of the 21st century"
-        },
-        {
-          "id": "commons_stack",
-          "name": "Commons Stack",
-          "category": "ReFi",
-          "type": "dao",
-          "description": "Helps communities deploy regenerative microeconomies"
-        },
-        {
-          "id": "dream_dao",
-          "name": "Dream DAO",
-          "category": "ReFi",
-          "type": "dao",
-          "description": "Helps Gen-Z leaders use web3 to solve society's problems"
-        },
-        {
-          "id": "gitcoin_dao",
-          "name": "Gitcoin DAO",
-          "category": "ReFi",
-          "type": "dao",
-          "description": "Largest crowdfunding protocol for web3 open source projects"
-        },
-        {
-          "id": "gooddollar",
-          "name": "GoodDollar",
-          "category": "ReFi",
-          "type": "protocol",
-          "description": "Standard for deploying free money as a public good"
-        },
-        {
-          "id": "human_dao",
-          "name": "Human DAO",
-          "category": "ReFi",
-          "type": "dao",
-          "description": "Uses crypto and web3 to improve lives"
-        },
-        {
-          "id": "impact_market",
-          "name": "Impact Market",
-          "category": "ReFi",
-          "type": "protocol",
-          "description": "Poverty alleviation protocol governed by a DAO"
-        },
-        {
-          "id": "klima_dao",
-          "name": "Klima DAO",
-          "category": "ReFi",
-          "type": "dao",
-          "description": "Regenerating the planet through high quality carbon credits"
-        },
-        {
-          "id": "pact_dao",
-          "name": "Pact DAO",
-          "category": "localism",
-          "type": "dao",
-          "description": "NYC-based DAO building hyper-local mutual aid programs"
-        },
-        {
-          "id": "proof_of_humanity",
-          "name": "Proof Of Humanity",
-          "category": "ReFi",
-          "type": "protocol",
-          "description": "Proof of human identity protocol on Ethereum"
-        },
-        {
-          "id": "ukraine_dao",
-          "name": "Ukraine DAO",
-          "category": "ReFi",
-          "type": "dao",
-          "description": "Provided financial support to Ukrainian organizations"
-        },
-        {
-          "id": "fundacion_pachamama",
-          "name": "Fundacion Pachamama",
-          "category": "ReFi",
-          "type": "ngo",
-          "description": "Partner with Regen Network for biodiversity projects"
-        },
-        {
-          "id": "ecotoken",
-          "name": "ecoToken",
-          "category": "ReFi",
-          "type": "protocol",
-          "description": "Partners with Regen Network for ecocredits integration"
-        },
-        {
-          "id": "return_protocol",
-          "name": "Return Protocol",
-          "category": "ReFi",
-          "type": "protocol",
-          "description": "Climate action platform partnered with Regen Network"
-        },
-        {
-          "id": "terrasos",
-          "name": "Terrasos",
-          "category": "ReFi",
-          "type": "organization",
-          "description": "Colombian developer partnered with Regen Network"
-        },
-        {
-          "id": "moss_earth",
-          "name": "Moss.Earth",
-          "category": "ReFi",
-          "type": "organization",
-          "description": "Regen Network partner"
-        },
-        {
-          "id": "open_earth_foundation",
-          "name": "Open Earth Foundation",
-          "category": "ReFi",
-          "type": "foundation",
-          "description": "Regen Network partner"
-        },
-        {
-          "id": "earthbanc",
-          "name": "Earthbanc",
-          "category": "ReFi",
-          "type": "organization",
-          "description": "Regen Network partner"
-        },
-        {
-          "id": "era_brazil",
-          "name": "ERA Brazil",
-          "category": "ReFi",
-          "type": "organization",
-          "description": "Regen Network partner"
-        },
-        {
-          "id": "shamba_protocol",
-          "name": "Shamba Protocol",
-          "category": "ReFi",
-          "type": "protocol",
-          "description": "Regen Network partner"
-        },
-        {
-          "id": "toucan",
-          "name": "Toucan",
-          "category": "ReFi",
-          "type": "protocol",
-          "description": "Bridging partner with Regen Network"
-        },
-        {
-          "id": "cerulean_ventures",
-          "name": "Cerulean Ventures",
-          "category": "ReFi",
-          "type": "fund",
-          "description": "Manager of Regen/Cosmos Ecosystem Fund"
-        },
-        {
-          "id": "techstars_sustainability",
-          "name": "Techstars Sustainability",
-          "category": "ReFi",
-          "type": "fund",
-          "description": "Investor in Regen Network with The Nature Conservancy"
-        },
-        {
-          "id": "yodl",
-          "name": "yodl",
-          "category": "ReFi",
-          "type": "organization",
-          "description": "Regens Unite partner"
-        },
-        {
-          "id": "gm_learning_club",
-          "name": "GM Learning Club",
-          "category": "ReFi",
-          "type": "organization",
-          "description": "Regens Unite partner"
-        },
-        {
-          "id": "fileverse",
-          "name": "Fileverse",
-          "category": "ReFi",
-          "type": "organization",
-          "description": "Regens Unite partner"
-        },
-        {
-          "id": "poapxyz",
-          "name": "POAPxyz",
-          "category": "ReFi",
-          "type": "protocol",
-          "description": "Regens Unite partner"
-        },
-        {
-          "id": "refi_week_lisbon",
-          "name": "ReFi Week Lisbon",
-          "category": "ReFi",
-          "type": "event",
-          "description": "Partnership with Regens Unite"
-        },
-        {
-          "id": "dpact_io",
-          "name": "dpact.io",
-          "category": "ReFi",
-          "type": "organization",
-          "description": "Program partnership with Regens Unite in Istanbul"
-        }
-      ],
-      "links": [
-        {
-          "source": "greenpill_network",
-          "target": "regens_unite",
-          "type": "partnership",
-          "description": "Listed as other regen convener"
-        },
-        {
-          "source": "greenpill_network",
-          "target": "impactdaos_xyz",
-          "type": "partnership",
-          "description": "Listed as other regen convener"
-        },
-        {
-          "source": "greenpill_network",
-          "target": "refi_dao",
-          "type": "partnership",
-          "description": "Listed as other regen convener"
-        },
-        {
-          "source": "regen_network",
-          "target": "regen_foundation",
-          "type": "governance",
-          "description": "Foundation allocates governance tokens"
-        },
-        {
-          "source": "regen_network",
-          "target": "fundacion_pachamama",
-          "type": "partnership",
-          "description": "Biodiversity project collaboration"
-        },
-        {
-          "source": "regen_network",
-          "target": "ecotoken",
-          "type": "partnership",
-          "description": "Ecocredits integration partnership"
-        },
-        {
-          "source": "regen_network",
-          "target": "return_protocol",
-          "type": "partnership",
-          "description": "Climate action platform support"
-        },
-        {
-          "source": "regen_network",
-          "target": "terrasos",
-          "type": "partnership",
-          "description": "Blockchain platform development"
-        },
-        {
-          "source": "regen_network",
-          "target": "moss_earth",
-          "type": "partnership",
-          "description": "Partner organization"
-        },
-        {
-          "source": "regen_network",
-          "target": "open_earth_foundation",
-          "type": "partnership",
-          "description": "Partner organization"
-        },
-        {
-          "source": "regen_network",
-          "target": "earthbanc",
-          "type": "partnership",
-          "description": "Partner organization"
-        },
-        {
-          "source": "regen_network",
-          "target": "era_brazil",
-          "type": "partnership",
-          "description": "Partner organization"
-        },
-        {
-          "source": "regen_network",
-          "target": "shamba_protocol",
-          "type": "partnership",
-          "description": "Partner organization"
-        },
-        {
-          "source": "regen_network",
-          "target": "toucan",
-          "type": "partnership",
-          "description": "Bridging partnership for carbon credits"
-        },
-        {
-          "source": "regen_foundation",
-          "target": "cerulean_ventures",
-          "type": "investment",
-          "description": "Co-founding Limited Partner in ecosystem fund"
-        },
-        {
-          "source": "regen_network",
-          "target": "techstars_sustainability",
-          "type": "investment",
-          "description": "Investor relationship"
-        },
-        {
-          "source": "ethereal_forest_dao",
-          "target": "greenpill_network",
-          "type": "collaboration",
-          "description": "Hosted GreenPill podcast season on Ethereum Localism"
-        },
-        {
-          "source": "refi_dao",
-          "target": "ethereumlocalism_xyz",
-          "type": "collaboration",
-          "description": "Ethereum Localism x Regen Coordination"
-        },
-        {
-          "source": "regens_unite",
-          "target": "yodl",
-          "type": "partnership",
-          "description": "Event partner"
-        },
-        {
-          "source": "regens_unite",
-          "target": "gooddollar",
-          "type": "partnership",
-          "description": "Event partner"
-        },
-        {
-          "source": "regens_unite",
-          "target": "gm_learning_club",
-          "type": "partnership",
-          "description": "Event partner"
-        },
-        {
-          "source": "regens_unite",
-          "target": "fileverse",
-          "type": "partnership",
-          "description": "Event partner"
-        },
-        {
-          "source": "regens_unite",
-          "target": "poapxyz",
-          "type": "partnership",
-          "description": "Event partner"
-        },
-        {
-          "source": "regens_unite",
-          "target": "refi_week_lisbon",
-          "type": "partnership",
-          "description": "Program partnership"
-        },
-        {
-          "source": "regens_unite",
-          "target": "dpact_io",
-          "type": "partnership",
-          "description": "Program partnership in Istanbul"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "all_for_climate_dao",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "commons_stack",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "dream_dao",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "gitcoin_dao",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "gooddollar",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "human_dao",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "impact_market",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "klima_dao",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "pact_dao",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "proof_of_humanity",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "regen_network",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        },
-        {
-          "source": "impactdaos_xyz",
-          "target": "ukraine_dao",
-          "type": "directory",
-          "description": "Featured in Impact DAO directory"
-        }
-      ]
-    };
+            const categories = [...new Set(graph.nodes.map(d => d.category))];
+            curCategories = categories;
+            const color = d3.scaleOrdinal(d3.schemeCategory10).domain(categories);
 
-    // Set up dimensions and colors
-    const width = window.innerWidth;
-    const height = window.innerHeight;
+            const legend = d3.select("#legend");
 
-    const colorScale = {
-      'greenpill': '#00ff88',
-      'regen': '#00ccff',
-      'localism': '#ff6b6b'
-    };
+            categories.forEach(category => {
+                const legendItem = legend.append("div").attr("class", "legend-item");
 
-    // Create SVG
-    const svg = d3.select("#network")
-      .attr("width", width)
-      .attr("height", height);
+                legendItem.append("input")
+                    .attr("type", "checkbox")
+                    .attr("checked", false)
+                    .attr("id", `checkbox-${category}`)
+                    .property("checked", false)
+                    .on("change", updateGraph);
 
-    // Create zoom behavior
-    const zoom = d3.zoom()
-      .scaleExtent([0.1, 4])
-      .on("zoom", (event) => {
-        container.attr("transform", event.transform);
-      });
+                legendItem.append("div")
+                    .attr("class", "legend-color")
+                    .style("background-color", color(category));
 
-    svg.call(zoom);
+                legendItem.append("label")
+                    .attr("for", `checkbox-${category}`)
+                    .text(category);
+            });
 
-    // Create container for zoomable content
-    const container = svg.append("g");
+            const clusterX = d3.scalePoint().domain(categories).range([0, width]);
+            const types = [...new Set(graph.nodes.map(d => d.type))];
+            const clusterY = d3.scalePoint().domain(types).range([0, height]);
 
-    // Create force simulation
-    const simulation = d3.forceSimulation(networkData.nodes)
-      .force("link", d3.forceLink(networkData.links).id(d => d.id).distance(100))
-      .force("charge", d3.forceManyBody().strength(-300))
-      .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius(30));
+            const simulation = d3.forceSimulation(graph.nodes)
+                .force("link", d3.forceLink(graph.links).id(d => d.id).distance(50))
+                .force("charge", d3.forceManyBody().strength(-100))
+                .force("center", d3.forceCenter(width / 2, height / 2))
+                .force("x", d3.forceX(d => clusterX(d.category)).strength(0.1))
+                .force("y", d3.forceY(d => clusterY(d.type)).strength(0.1))
+                .force("collision", d3.forceCollide().radius(d => d.radius || 5));
 
-    // Create links
-    const link = container.append("g")
-      .selectAll("line")
-      .data(networkData.links)
-      .enter().append("line")
-      .attr("class", "link")
-      .attr("stroke", "#666")
-      .attr("stroke-width", d => Math.sqrt(2));
+            let link = container.append("g")
+                .attr("class", "links")
+                .selectAll("line")
+                .data([])
+                .enter().append("line")
+                .attr("class", "link");
 
-    // Create nodes
-    const node = container.append("g")
-      .selectAll("circle")
-      .data(networkData.nodes)
-      .enter().append("circle")
-      .attr("class", "node")
-      .attr("r", d => {
-        const connections = networkData.links.filter(l => l.source.id === d.id || l.target.id === d.id).length;
-        return Math.max(8, Math.min(20, 8 + connections * 2));
-      })
-      .attr("fill", d => colorScale[d.category])
-      .attr("stroke", "#fff")
-      .attr("stroke-width", 2)
-      .call(d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended));
+            const filteredNodes = [];
 
-    // Create labels
-    const labels = container.append("g")
-      .selectAll("text")
-      .data(networkData.nodes)
-      .enter().append("text")
-      .attr("class", "node-label")
-      .text(d => d.name)
-      .attr("dy", -25);
+            let node = container.append("g")
+                .attr("class", "nodes")
+                .selectAll("circle")
+                .data(filteredNodes)
+                .enter().append("circle")
+                .attr("class", "node")
+                .attr("r", 5)
+                .attr("fill", d => color(d.category))
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
 
-    // Tooltip
-    const tooltip = d3.select("#tooltip");
+            let labels = container.append("g")
+                .attr("class", "labels")
+                .selectAll("text")
+                .data(filteredNodes)
+                .enter().append("text")
+                .attr("class", "node-label")
+                .text(d => d.name);
 
-    // Add event listeners
-    node.on("mouseover", function (event, d) {
-      tooltip.style("display", "block")
-        .html(`<h4>${d.name}</h4><p><strong>Type:</strong> ${d.type}</p><p><strong>Category:</strong> ${d.category}</p><p>${d.description}</p>`)
-        .style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY - 10) + "px");
+            simulation.on("tick", () => {
+                link
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
 
-      d3.select(this).attr("stroke-width", 4);
-    })
-      .on("mouseout", function (event, d) {
-        tooltip.style("display", "none");
-        d3.select(this).attr("stroke-width", 2);
-      });
+                node
+                    .attr("cx", d => d.x)
+                    .attr("cy", d => d.y);
 
-    link.on("mouseover", function (event, d) {
-      tooltip.style("display", "block")
-        .html(`<h4>${d.type}</h4><p>${d.description}</p>`)
-        .style("left", (event.pageX + 10) + "px")
-        .style("top", (event.pageY - 10) + "px");
-    })
-      .on("mouseout", function (event, d) {
-        tooltip.style("display", "none");
-      });
+                labels
+                    .attr("x", d => d.x + 8)
+                    .attr("y", d => d.y + 3);
+            });
 
-    // Update positions on simulation tick
-    simulation.on("tick", () => {
-      link
-        .attr("x1", d => d.source.x)
-        .attr("y1", d => d.source.y)
-        .attr("x2", d => d.target.x)
-        .attr("y2", d => d.target.y);
+            function updateGraph() {
+                const checked = d3.select(this).property("checked");
+                const category = d3.select(this).attr("id").replace("checkbox-", "");
+                if (checked) {
+                    curCategories.push(category);
+                } else {
+                    curCategories = curCategories.filter(c => c !== category);
+                }
+                // const deselectedCategories = categories.filter(c => !checked);
 
-      node
-        .attr("cx", d => d.x)
-        .attr("cy", d => d.y);
+                const selectedCategories = categories.filter(c => curCategories.includes(c));
 
-      labels
-        .attr("x", d => d.x)
-        .attr("y", d => d.y);
-    });
+                const filteredNodes = graph.nodes.filter(d => selectedCategories.includes(d.category));
+                const filteredNodeIds = new Set(filteredNodes.map(d => d.id));
+                const filteredLinks = graph.links.filter(d => filteredNodeIds.has(d.source.id || d.source) && filteredNodeIds.has(d.target.id || d.target));
 
-    // Drag functions
-    function dragstarted(event, d) {
-      if (!event.active) simulation.alphaTarget(0.3).restart();
-      d.fx = d.x;
-      d.fy = d.y;
-    }
+                // Update nodes
+                node = container.select(".nodes").selectAll("circle").data(filteredNodes, d => d.id);
+                node.exit().remove();
+                node = node.enter().append("circle")
+                    .attr("class", "node")
+                    .attr("r", 5)
+                    .attr("fill", d => color(d.category))
+                    .call(d3.drag()
+                        .on("start", dragstarted)
+                        .on("drag", dragged)
+                        .on("end", dragended))
+                    .merge(node);
 
-    function dragged(event, d) {
-      d.fx = event.x;
-      d.fy = event.y;
-    }
+                // Update links
+                link = container.select(".links").selectAll("line").data(filteredLinks, d => `${d.source.id}-${d.target.id}`);
+                link.exit().remove();
+                link = link.enter().append("line").attr("class", "link").merge(link);
 
-    function dragended(event, d) {
-      if (!event.active) simulation.alphaTarget(0);
-      d.fx = null;
-      d.fy = null;
-    }
+                // Update labels
+                labels = container.select(".labels").selectAll("text").data(filteredNodes, d => d.id);
+                labels.exit().remove();
+                labels = labels.enter().append("text")
+                    .attr("class", "node-label")
+                    .text(d => d.name)
+                    .merge(labels);
 
-    // Control functions
-    let labelsVisible = true;
-    let physicsEnabled = true;
+                simulation.nodes(filteredNodes);
+                simulation.force("link").links(filteredLinks);
+                simulation.alpha(1).restart();
+            }
 
-    function resetZoom() {
-      svg.transition().duration(750).call(
-        zoom.transform,
-        d3.zoomIdentity
-      );
-    }
+            function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
 
-    function toggleLabels() {
-      labelsVisible = !labelsVisible;
-      labels.style("opacity", labelsVisible ? 1 : 0);
-    }
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
 
-    function togglePhysics() {
-      physicsEnabled = !physicsEnabled;
-      if (physicsEnabled) {
-        simulation.alphaTarget(0.3).restart();
-      } else {
-        simulation.stop();
-      }
-    }
-
-    // Search functionality
-    const searchInput = d3.select("#searchInput");
-    searchInput.on("input", function () {
-      const searchTerm = this.value.toLowerCase();
-
-      node.style("opacity", d => {
-        return d.name.toLowerCase().includes(searchTerm) ? 1 : 0.3;
-      });
-
-      labels.style("opacity", d => {
-        return d.name.toLowerCase().includes(searchTerm) ? (labelsVisible ? 1 : 0) : (labelsVisible ? 0.3 : 0);
-      });
-
-      link.style("opacity", d => {
-        const sourceMatch = d.source.name.toLowerCase().includes(searchTerm);
-        const targetMatch = d.target.name.toLowerCase().includes(searchTerm);
-        return (sourceMatch || targetMatch) ? 0.8 : 0.1;
-      });
-    });
-
-    // Handle window resize
-    window.addEventListener('resize', () => {
-      const newWidth = window.innerWidth;
-      const newHeight = window.innerHeight;
-
-      svg.attr("width", newWidth).attr("height", newHeight);
-      simulation.force("center", d3.forceCenter(newWidth / 2, newHeight / 2));
-      simulation.alpha(0.3).restart();
-    });
-  </script>
+            function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+        });
+    </script>
 </body>
-
 </html>

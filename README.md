@@ -1,83 +1,27 @@
-# Identified Organizations
+## GOAL
+Build a database of all the DAOs in the ReFi space, and their links.
 
-## Ethereum Localism
-*   **ethereumlocalism.xyz**: An open knowledge garden and action-oriented research hub.
-*   **OpenCivics**: Mentioned in relation to a "DAO of DAOs" concept within Ethereum Localism.
-*   **Ethereal Forest (@EthForestDAO)**: Focuses on connecting local community builders with impact devs.
-*   **PDX DAO**: Featured in an article about Ethereum Localism.
+# Data acquisition
+1. The DAO data was acquired form ImpactDaos.xyz and the latest Greenpill book.
 
-## Regen
-*   **Regen Network**: Decentralized network for tokenized ecocredits, sovereign proof-of-stake blockchain.
-*   **Regen Foundation**: Allocates $REGEN governance tokens to diverse stakeholders.
-*   **ReFi DAO**: Involved in Ethereum Localism x Regen Coordination.
+# Data processing
+2. Used NotebookLM to generate a list of all the DAOs and classifications from all sources.
+3. Merged them using merge.py. Some heuristics involved to account for the fact that some DAOs were mentioned in multiple sources.
+4. Used perplexity to find all the links.
+Prompt: "search online all the links for all the name fields in the nodes list. don't output json, just output a csv with name, link" 
+5. Run links.py to merge the web-links into the json file.
+6. Asked Gemini to identify the classifications of each DAO.
+Prompt: "given the list of nodes in the json file, classify them based on the description as one of these categories: Decentralized Science (DeSci), Community Funding Protocols, Regenerative Finance (ReFi),Climate and Environmental REGENeration,Culture,Education,Infrastructure,Impact Measurement,Applied Research,Regenerative Economy. Commons Pools. If a node already has category matching one of the above, don't reclassify it. store the output in a new updated json."
+7. Run main.py to find the partners of each DAO. 
+This uses tavily to crawl the website of each node and find the partners. Note that this is not perfect and some partners might be missed.
+This does a recursive search, looking for partners, and then partners of partners, and for now it was stopped manually after it started getting too far.
+This imples that the graph includes organization pretty far from the original ImpactDAO subset, and some of them are not even ReFi related, notably Chevron and other big corporations.
 
-## Greenpill
-*   **greenpill.network**: A network-society that exports regenerative digital infrastructure to the world.
-*   **wearegreenpill.com**: A communications co-operative using narrative to promote greenpill principles.
-*   **GreenPill Network (LinkedIn)**: Initiative dedicated to bringing crypto to the real world and solving ground-level problems.
+8. Run update_nodes.py : For all the newly added partners, grab the website content and use Qwen to write a description and classify them. Classification is done according to the same categories as in step 6, with the addition of Venture Capital and Other, to avoid gross misclassifications. 
+Note that for the LLM, difference between carbon credits and regenerative economic isn't obvious, so some cleanup will be needed.
 
+## Data visualization
+9. Serve index.html to visualize the graph.
 
-
-
-
-## Regen Network Partners (from search results):
-*   **Fundacion Pachamama**
-*   **ecoToken**
-*   **Return Protocol**
-*   **Terrasos**
-*   **Moss.Earth**
-*   **Open Earth Foundation**
-*   **Earthbanc**
-*   **ERA Brazil**
-*   **Shamba Protocol**
-*   **Terra**
-*   **Toucan**
-*   **Techstars Sustainability in Partnership with The Nature Conservancy** (Investor)
-*   **Cerulean Ventures** (Manager of Regen/Cosmos Ecosystem Fund)
-
-
-
-
-
-## Ethereum Localism (from ethereumlocalism.xyz)
-*   **ethereumlocalism.xyz**: Open knowledge garden and action-oriented research hub.
-*   **Ethereal Forest DAO**: Hosted a GreenPill podcast season on Ethereum Localism.
-*   **GFEL (General Forum on Ethereum Localism)**: A gathering for coordination, community, and care.
-*   **The Open Machine**: Collated "Ethereum Localism: Grounding the Future of Coordination" book.
-
-**Concepts/Tools:** quadratic funding, local stablecoins, decentralized governance and finance, DAOs, local currencies, cosmo-local infrastructure.
-
-
-
-
-
-## Impact DAOs (from impactdaos.xyz/case-studies)
-*   **All for Climate DAO**
-*   **Commons Stack**
-*   **Dream DAO**
-*   **Gitcoin DAO**
-*   **GoodDollar**
-*   **Human DAO**
-*   **Impact Market**
-*   **Klima DAO**
-*   **Pact DAO**
-*   **Proof Of Humanity**
-*   **Regen Network** (already listed)
-*   **Ukraine DAO**
-
-
-
-
-
-## Regens Unite Partners/Collaborations:
-*   **yodl**
-*   **glodollar**
-*   **GM Learning Club**
-*   **Fileverse**
-*   **POAPxyz**
-*   **ReFi Week in Lisbon**
-*   **dpact.io in Istanbul**
-*   **RegenAIssance**
-*   **RegenIntel**
-
-
+## NOTES
+This whole thing was done step by step as I saw the data that were coming in, and required some manual editing to clean up the data and fix some issues. 

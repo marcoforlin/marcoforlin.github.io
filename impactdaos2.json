@@ -1,0 +1,1517 @@
+{
+    "daos": [
+    {
+      "id": "impactdaos-general-concept",
+      "name": "ImpactDAOs (General Concept)",
+      "category": "Overarching concept",
+      "type": "DAO",
+      "description": "Defined as any DAO that generates net positive externalities for its ecosystem, considered the foundational building blocks of regenerative cryptoeconomics."
+    },
+    {
+      "id": "athenadao",
+      "name": "AthenaDAO",
+      "category": "Decentralized Science (DeSci)",
+      "type": "decentralized community",
+      "description": "A decentralized community of researchers, funders, and advocates dedicated to advancing women's health research, education, and funding, supporting translational research from discovery through licensing IP assets."
+    },
+    {
+      "id": "bio-xyz",
+      "name": "Bio.xyz",
+      "category": "Decentralized Science (DeSci)",
+      "type": "biotech DAO accelerator",
+      "description": "A biotech DAO accelerator and DeSci meta-governance layer that provides funding and support to innovators in decentralized science, incubating various biotech DAOs like VitaDAO and PsyDAO."
+    },
+    {
+      "id": "vitadao",
+      "name": "VitaDAO",
+      "category": "Decentralized Science (DeSci)",
+      "type": "community-owned collective",
+      "description": "A community-owned collective that funds and supports longevity science, where token holders choose which research projects to support in the fight against age-related diseases."
+    },
+    {
+      "id": "hairdao",
+      "name": "HairDAO",
+      "category": "Decentralized Science (DeSci)",
+      "type": "open-source R&D network",
+      "description": "An open-source R&D network where patients and researchers collaborate to develop new treatments for hair loss, with the community deciding which research projects receive funding."
+    },
+    {
+      "id": "psydao",
+      "name": "PsyDAO",
+      "category": "Decentralized Science (DeSci)",
+      "type": "DAO",
+      "description": "Aims to build a user-owned and operated psychedelic future, ensuring psychedelic intellectual property is freely traded, collectively owned, and responsibly managed for the benefit of all humankind."
+    },
+    {
+      "id": "valleydao",
+      "name": "ValleyDAO",
+      "category": "Decentralized Science (DeSci)",
+      "type": "DAO",
+      "description": "Addresses critical climate and food challenges by funding and incubating academic research and building a community in synthetic biology and industrial biotechnology for sustainable product production."
+    },
+    {
+      "id": "cryodao",
+      "name": "CryoDAO",
+      "category": "Decentralized Science (DeSci)",
+      "type": "DAO",
+      "description": "Aims to advance cryopreservation research with high potential to improve the field's quality and capabilities, focusing on increasing the quality of organ and human preservation."
+    },
+    {
+      "id": "labdao",
+      "name": "LabDAO",
+      "category": "Decentralized Science (DeSci)",
+      "type": "online life science research collective",
+      "description": "An online life science research collective offering open tools and infrastructure for computational projects, allowing researchers to access BioML models and track results."
+    },
+    {
+      "id": "cerebrum-dao",
+      "name": "Cerebrum DAO",
+      "category": "Decentralized Science (DeSci)",
+      "type": "open global community",
+      "description": "An open global community dedicated to advancing brain health and preventing neurodegeneration, primarily focusing on Alzheimer's and funding high-risk, high-reward \"moonshot\" projects."
+    },
+    {
+      "id": "waterlab",
+      "name": "WaterLAB",
+      "category": "Decentralized Science (DeSci)",
+      "type": "project",
+      "description": "A project redefining water management by classifying and measuring regenerative water attributes, aiming to bring transparency, sustainability, and regenerative practices to the water industry."
+    },
+    {
+      "id": "dclimate",
+      "name": "dClimate",
+      "category": "Decentralized Science (DeSci)",
+      "type": "DAO",
+      "description": "The first DAO for climate data, forecasts, and models, with a mission to create a reliable, blockchain-based climate record accessible through a data marketplace."
+    },
+    {
+      "id": "gooddollar",
+      "name": "GoodDollar",
+      "category": "Community Funding Protocols",
+      "type": "protocol",
+      "description": "A protocol governed by its members to promote decentralized financial education and access for all, generating and distributing crypto Universal Basic Income (UBI) via its G$ token."
+    },
+    {
+      "id": "glo-dollar",
+      "name": "Glo Dollar",
+      "category": "Community Funding Protocols",
+      "type": "company",
+      "description": "A US-regulated and fiat-backed stablecoin company where revenue generated is donated to public goods and charity, embedding philanthropy directly into money."
+    },
+    {
+      "id": "octant",
+      "name": "Octant",
+      "category": "Community Funding Protocols",
+      "type": "DAO",
+      "description": "Allows users to earn ETH rewards by funding public goods and projects they care about, aiming to be the first self-sustaining global public goods financing ecosystem."
+    },
+    {
+      "id": "eth-evacuations",
+      "name": "ETH Evacuations",
+      "category": "Community Funding Protocols",
+      "type": "initiative",
+      "description": "An initiative that funds evacuations from conflict zones using ETH, tipping tokens, and NFT mints, enabling families to cover coordination fees."
+    },
+    {
+      "id": "gitcoindao",
+      "name": "GitcoinDAO",
+      "category": "Community Funding Protocols",
+      "type": "platform",
+      "description": "An Ethereum-powered platform that transforms how open-source projects are created and funded, enabling developers to contribute, earn rewards, and fund beneficial projects through quadratic funding."
+    },
+    {
+      "id": "artizen",
+      "name": "Artizen",
+      "category": "Community Funding Protocols",
+      "type": "platform",
+      "description": "A community-funded platform for art, science, and public goods, seeking to rebuild trust in philanthropy through a transparent and community-driven funding approach."
+    },
+    {
+      "id": "humandao",
+      "name": "HumanDAO",
+      "category": "Community Funding Protocols",
+      "type": "social impact DAO",
+      "description": "A community-funded social impact DAO dedicated to onboarding people from low-income or underserved backgrounds into crypto and Web3."
+    },
+    {
+      "id": "protocol-guild",
+      "name": "Protocol Guild",
+      "category": "Community Funding Protocols",
+      "type": "collective",
+      "description": "A collective of Ethereum core protocol contributors focused on enabling distributed funding for distributed systems and enhancing incentives for stewarding Ethereum's core protocol."
+    },
+    {
+      "id": "clr-fund",
+      "name": "Clr.fund",
+      "category": "Community Funding Protocols",
+      "type": "protocol",
+      "description": "A protocol using quadratic funding to efficiently allocate funds in support of public goods that benefit the Ethereum Network."
+    },
+    {
+      "id": "endaoment",
+      "name": "Endaoment",
+      "category": "Community Funding Protocols",
+      "type": "nonprofit community foundation",
+      "description": "A nonprofit community foundation and public charity built on the Ethereum blockchain, enabling anyone to donate digital assets to any qualified U.S. nonprofit organization."
+    },
+    {
+      "id": "breadchain",
+      "name": "Breadchain",
+      "category": "Community Funding Protocols",
+      "type": "collective",
+      "description": "A collective of decentralized cooperative projects using solidarity primitives to forge relationships and advance community interests over profit maximization and equitable capital distribution."
+    },
+    {
+      "id": "giveth",
+      "name": "Giveth",
+      "category": "Community Funding Protocols",
+      "type": "platform",
+      "description": "A community-driven donation platform leveraging blockchain technology to connect real-world projects with regenerative funding opportunities, building a culture of giving that rewards."
+    },
+    {
+      "id": "public-nouns-dao",
+      "name": "Public Nouns DAO",
+      "category": "Community Funding Protocols",
+      "type": "DAO",
+      "description": "Supports public goods by experimenting with new funding methods, spreading awareness, and directly funding public goods and charitable initiatives, known for its unique governance and tokenomics."
+    },
+    {
+      "id": "ukraine-dao",
+      "name": "Ukraine DAO",
+      "category": "Community Funding Protocols",
+      "type": "community",
+      "description": "A community of Ukrainians that was instrumental in channeling crypto donations to Ukrainian organizations supporting war victims after the Russian invasion, notably by auctioning a Ukraine flag NFT."
+    },
+    {
+      "id": "moss-earth",
+      "name": "Moss.earth",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "company",
+      "description": "A Brazilian climate tech company that tokenizes reforestation and conservation projects in the Amazon Rainforest, promoting biodiversity conservation and ecosystem restoration."
+    },
+    {
+      "id": "nori",
+      "name": "Nori",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "marketplace",
+      "description": "A marketplace connecting buyers and suppliers to carbon removal, guaranteeing CO2 sequestration and supporting regenerative agriculture practices."
+    },
+    {
+      "id": "flow-carbon",
+      "name": "Flow Carbon",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "organization",
+      "description": "Advances the voluntary carbon market by using blockchain to improve liquidity and transparency in carbon markets, directing more capital into conservation, reforestation, and ecosystem restoration projects."
+    },
+    {
+      "id": "koko-dao",
+      "name": "Koko DAO",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "DAO",
+      "description": "Builds a model to verify and compensate for small-scale conservation, aiming to develop new blockchain-based methods to reward rural communities for conserving their land."
+    },
+    {
+      "id": "kokonut-network",
+      "name": "Kokonut Network",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "blockchain cooperative",
+      "description": "A blockchain cooperative encouraging regenerative agriculture through promoting, organizing, funding, and managing coconut farms."
+    },
+    {
+      "id": "silvi",
+      "name": "Silvi",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "movement",
+      "description": "A movement that plants trees and generates sustainable livelihoods for millions, aiming for 1 trillion trees planted by 100 million people, restoring ecosystems and empowering local communities."
+    },
+    {
+      "id": "opencivics",
+      "name": "OpenCivics",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "consortium",
+      "description": "A civic innovation consortium and decentralized collaborative network dedicated to fostering civic engagement and supporting public goods for communities and commons."
+    },
+    {
+      "id": "coral-tribe",
+      "name": "Coral Tribe",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "community",
+      "description": "A community of impact investors using Web3 climate finance to support sustainable businesses through the ReFi Hub platform, with members voting on fund allocations for environmental goals."
+    },
+    {
+      "id": "letsgrow-dao",
+      "name": "LetsGrow DAO",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "DAO",
+      "description": "Drives the Regen and ReFi movements by fostering regenerative practices and unifying diverse efforts within the ecosystem, supporting projects with positive environmental impacts."
+    },
+    {
+      "id": "goldfinch",
+      "name": "Goldfinch",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "protocol",
+      "description": "Unlocks lending to anyone in the world through a decentralized credit protocol for crypto loans without collateral, expanding access to capital in emerging markets."
+    },
+    {
+      "id": "popcorndao",
+      "name": "PopcornDAO",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "DAO",
+      "description": "Creates yield-generating DeFi products for users to earn from their cryptoassets and redistribute a portion of those earnings to impact causes."
+    },
+    {
+      "id": "$regen",
+      "name": "$REGEN",
+      "category": "Regenerative Finance (ReFi)",
+      "type": "coin",
+      "description": "A new culture (meme)coin for Optimists that aims to combine degen vibes with regen(erative) energy to create a positive sum impact in the world, rewarding regenerative-focused activities."
+    },
+    {
+      "id": "regen-network",
+      "name": "Regen Network",
+      "category": "Climate and Environmental REGENeration",
+      "type": "system",
+      "description": "An ecological asset origination system focused on reversing climate change and supporting regenerative initiatives by providing a platform for originating and investing in high-integrity carbon and biodiversity credits."
+    },
+    {
+      "id": "solarpunk-dao",
+      "name": "Solarpunk DAO",
+      "category": "Climate and Environmental REGENeration",
+      "type": "DAO",
+      "description": "Leverages Web3 tools to build a decentralized infrastructure for a zero-emissions world, consistently funding endeavors in clean energy, regenerative agriculture, and ecosystem conservation."
+    },
+    {
+      "id": "mangrovedao",
+      "name": "MangroveDAO",
+      "category": "Climate and Environmental REGENeration",
+      "type": "DAO",
+      "description": "Dedicated to restoring and protecting degraded mangroves through a token-based governance model, promoting biodiversity, combating climate change, and supporting coastal communities."
+    },
+    {
+      "id": "solar-foundation",
+      "name": "Solar Foundation",
+      "category": "Climate and Environmental REGENeration",
+      "type": "foundation",
+      "description": "Funds and accelerates off-grid solar initiatives in underserved communities in emerging markets, leveraging blockchain to scale solar projects and achieve Sustainable Development Goal 7 (SDG7)."
+    },
+    {
+      "id": "maearth",
+      "name": "MaEarth",
+      "category": "Climate and Environmental REGENeration",
+      "type": "movement",
+      "description": "A community-led movement to align economic incentives with planetary health and regeneration, exploring the intersections of regenerative finance, technology, and the Earth."
+    },
+    {
+      "id": "mesoreefdao",
+      "name": "MesoReefDAO",
+      "category": "Climate and Environmental REGENeration",
+      "type": "DAO",
+      "description": "Aims to establish a coral reef restoration fund and a regenerative DeSci offset program, managed by the DAO community, to contribute to the conservation and restoration of the Mesoamerican Reef Ecosystem."
+    },
+    {
+      "id": "web3beach",
+      "name": "Web3Beach",
+      "category": "Climate and Environmental REGENeration",
+      "type": "DAO",
+      "description": "Incentivizes environmental impact and web3 education, empowering communities to tackle environmental issues and foster regenerative practices through social and environmental activities like beach cleanups."
+    },
+    {
+      "id": "regrò-project",
+      "name": "Regró Project",
+      "category": "Climate and Environmental REGENeration",
+      "type": "project",
+      "description": "A regenerative initiative focused on climate, ecology, agriculture, and biodiversity, aiming to enhance land stewardship through various regenerative techniques."
+    },
+    {
+      "id": "treegens",
+      "name": "Treegens",
+      "category": "Climate and Environmental REGENeration",
+      "type": "nonprofit tree-planting project",
+      "description": "A nonprofit tree-planting project that gamifies environmental action, allowing users to earn tokens by planting mangrove trees and contributing to a global community for environmental conservation."
+    },
+    {
+      "id": "earthist-dao",
+      "name": "Earthist DAO",
+      "category": "Climate and Environmental REGENeration",
+      "type": "DAO",
+      "description": "Combines traditional farming practices with modern technology to support industrial hemp farmers, promoting heirloom seed preservation and micro-processing to boost local economies and sustainable agriculture."
+    },
+    {
+      "id": "traditional-dream-factory-tdf",
+      "name": "Traditional Dream Factory (TDF)",
+      "category": "Climate and Environmental REGENeration",
+      "type": "DAO",
+      "description": "Transforms real estate into an opportunity for ecological restoration and community stewardship, using a co-living model where residents engage directly in environmental regeneration, with governance through its TDF token."
+    },
+    {
+      "id": "basin",
+      "name": ".basin",
+      "category": "Climate and Environmental REGENeration",
+      "type": "protocol",
+      "description": "A protocol purpose-built to safeguard ecosystems and natural carbon sinks, aiming to redirect real-world asset (RWA) market capital towards climate, nature, and carbon projects in crypto."
+    },
+    {
+      "id": "climate-coordination-network-ccn",
+      "name": "Climate Coordination Network (CCN)",
+      "category": "Climate and Environmental REGENeration",
+      "type": "network",
+      "description": "Combats climate change through collaborative efforts, uniting governments, NGOs, private sectors, and local communities, leveraging blockchain for transparent data management and decentralized decision-making."
+    },
+    {
+      "id": "doingud",
+      "name": "DoinGud",
+      "category": "Culture",
+      "type": "platform",
+      "description": "A platform aiming to empower creators to tap into sources of income while supporting social impact causes, enabling creators to upload their work and receive payments."
+    },
+    {
+      "id": "drip",
+      "name": "DRiP",
+      "category": "Culture",
+      "type": "DAO",
+      "description": "Enables the inexpensive creation and widespread distribution of digital art to users for free, fostering a community for new creators and art enthusiasts."
+    },
+    {
+      "id": "kiftdao",
+      "name": "KiftDAO",
+      "category": "Culture",
+      "type": "nonprofit DAO",
+      "description": "A nonprofit DAO that creates a global network of community-owned living and working spaces, allowing individuals to purchase NFTs that grant them ownership and voting rights in the properties."
+    },
+    {
+      "id": "take-up-space",
+      "name": "Take Up Space",
+      "category": "Culture",
+      "type": "community",
+      "description": "A community, creator collective, and media company designed for culture-makers, envisioning a future where individuals can create and monetize their most authentic work."
+    },
+    {
+      "id": "spiritdao",
+      "name": "SpiritDAO",
+      "category": "Culture",
+      "type": "non-profit tokenized membership community",
+      "description": "A non-profit tokenized membership community aiming to build an action-oriented community of practitioners and partners working towards a relational universe, with a focus on understanding interconnectedness."
+    },
+    {
+      "id": "cult-dao",
+      "name": "Cult DAO",
+      "category": "Culture",
+      "type": "DAO",
+      "description": "For radicals and revolutionaries opposing centralization, aiming to empower and finance individuals who construct and contribute to a fully decentralized future."
+    },
+    {
+      "id": "the-daoist",
+      "name": "The DAOist",
+      "category": "Culture",
+      "type": "organization",
+      "description": "Supports collaboration in all forms, emphasizing the cultural shift that DAOs enable, through IRL co-living spaces, events, and media."
+    },
+    {
+      "id": "cabindao",
+      "name": "CabinDAO",
+      "category": "Culture",
+      "type": "network",
+      "description": "A network focused on building decentralized cities with shared governance, culture, and community, hosting IRL residences and retreats for digital nomads."
+    },
+    {
+      "id": "wellnessdao",
+      "name": "WellnessDAO",
+      "category": "Culture",
+      "type": "DAO",
+      "description": "Aims to prioritize health and wellness practices throughout web3, offering meditation, yoga sessions, and group accountability tools."
+    },
+    {
+      "id": "ecodao",
+      "name": "Ecodao",
+      "category": "Culture",
+      "type": "web3 gallery",
+      "description": "A web3 gallery that supports the environment through regular NFT drops, with proceeds divided between the artist, ecological causes, and the DAO."
+    },
+    {
+      "id": "verses",
+      "name": "Verses",
+      "category": "Culture",
+      "type": "space",
+      "description": "An evolving space to articulate visions for a flourishing future, collaborating on planting seeds towards an interdependent cyberspace and fostering a prefigurative politics."
+    },
+    {
+      "id": "meta-gamma-delta-mgd",
+      "name": "Meta Gamma Delta (MGD)",
+      "category": "Culture",
+      "type": "DAO",
+      "description": "Provides mentorship and community access, distributing UBI to women and funding women-led projects across various web3 domains."
+    },
+    {
+      "id": "surge-women",
+      "name": "Surge Women",
+      "category": "Culture",
+      "type": "DAO",
+      "description": "Focused on educating and securing women's place in web3, providing access to opportunities like free educational subscriptions, mentorships, and financial tooling."
+    },
+    {
+      "id": "her-dao",
+      "name": "HER DAO",
+      "category": "Culture",
+      "type": "DAO",
+      "description": "Aims to increase innovation and opportunities for economic success for women in Web3, sponsoring hacker houses for early-career and experienced women."
+    },
+    {
+      "id": "she256",
+      "name": "she256",
+      "category": "Culture",
+      "type": "DAO",
+      "description": "A DAO offering gatherings and educational resources for women to participate in the web3 space, including mentorship programs, hackathons, and boot camps."
+    },
+    {
+      "id": "kernel",
+      "name": "Kernel",
+      "category": "Education",
+      "type": "program",
+      "description": "An experiential, 8-week exploration of web3 that delves into the nature of work and its relation to human connection, fostering a regenerative web to enrich shared commons."
+    },
+    {
+      "id": "crypto-culture-society-ccs",
+      "name": "Crypto Culture & Society (CCS)",
+      "category": "Education",
+      "type": "DAO",
+      "description": "Builds the liberal arts of crypto, exploring the impact of crypto on culture and society through educational programs and real-time collaboration opportunities."
+    },
+    {
+      "id": "natives-in-tech",
+      "name": "Natives in Tech",
+      "category": "Education",
+      "type": "DAO",
+      "description": "Cultivates an ecosystem of Native technologists, building free and open-source technology for Native communities, hosting conferences and creating opportunities for students to learn tech."
+    },
+    {
+      "id": "shefi",
+      "name": "SheFi",
+      "category": "Education",
+      "type": "program",
+      "description": "An educational 8-week program known as the MBA of Web3 Learning, empowering women and non-binary individuals globally to master Web3 technologies and reinvent their careers."
+    },
+    {
+      "id": "remitt-dao",
+      "name": "Remitt DAO",
+      "category": "Education",
+      "type": "education DAO",
+      "description": "An education DAO created for individuals excluded from traditional banking systems (e.g., migrants, asylum seekers) to educate them on using crypto as a digital remittance solution."
+    },
+    {
+      "id": "bankless-dao",
+      "name": "Bankless DAO",
+      "category": "Education",
+      "type": "DAO",
+      "description": "Aims to create a transparent, open, and accessible financial system, bypassing traditional banking structures through educational content, community-driven projects, and strategic partnerships."
+    },
+    {
+      "id": "regensunite",
+      "name": "RegensUnite",
+      "category": "Education",
+      "type": "DAO",
+      "description": "Has developed a platform to connect diverse sectors working on regenerative climate solutions, organizing inclusive, participatory events where diversity and equality are prioritized."
+    },
+    {
+      "id": "the-greenpill-network",
+      "name": "The GreenPill Network",
+      "category": "Education",
+      "type": "network society",
+      "description": "A network society that exports regenerative digital infrastructure globally, with location-based chapters that localize impact through projects like reforestation efforts and QF funding rounds."
+    },
+    {
+      "id": "urbanika",
+      "name": "Urbánika",
+      "category": "Education",
+      "type": "DAO",
+      "description": "Aims to transform cities into SolarPunk communities, using a converted bus to offer educational workshops and facilitate neighborhood governance via open-source web3 technology."
+    },
+    {
+      "id": "talentdao",
+      "name": "TalentDAO",
+      "category": "Education",
+      "type": "DAO",
+      "description": "On a mission to enhance the effectiveness of decentralized organizational structures, conducting and publishing research in the Journal of Decentralized Work and developing tools for managing talent."
+    },
+    {
+      "id": "web3bridge",
+      "name": "Web3bridge",
+      "category": "Education",
+      "type": "DAO",
+      "description": "Provides a free bridge to blockchain technology for Nigerian and African youths and students, driving blockchain adoption through quality builder training and support."
+    },
+    {
+      "id": "dreamdao",
+      "name": "DreamDAO",
+      "category": "Education",
+      "type": "DAO",
+      "description": "Equips diverse Gen Z’ers worldwide with essential training, funding, mentorship, and opportunities in the web3 and social impact ecosystems."
+    },
+    {
+      "id": "celo",
+      "name": "Celo",
+      "category": "Infrastructure",
+      "type": "blockchain",
+      "description": "A carbon-negative, mobile-first blockchain designed for financial inclusion, enabling access to decentralized financial (DeFi) tools and services."
+    },
+    {
+      "id": "coordin-ape",
+      "name": "CoordinAPE",
+      "category": "Infrastructure",
+      "type": "tool",
+      "description": "A tool designed to facilitate value and resource allocation decisions within DAOs, aiming to build a cohesive community by recognizing and incentivizing contributors."
+    },
+    {
+      "id": "radicle-drips",
+      "name": "Radicle & Drips",
+      "category": "Infrastructure",
+      "type": "network",
+      "description": "Radicle is a web3 network for software collaboration (peer-to-peer stack), and Drips creates recurring funding streams for creators and redistributes value within the web3 ecosystem."
+    },
+    {
+      "id": "proof-of-humanity-poh",
+      "name": "Proof of Humanity (PoH)",
+      "category": "Infrastructure",
+      "type": "system",
+      "description": "An Ethereum social identity verification system that creates a Sybil-proof list of humans, serving as bedrock infrastructure to implement Universal Basic Income (UBI)."
+    },
+    {
+      "id": "protocol-labs",
+      "name": "Protocol Labs",
+      "category": "Infrastructure",
+      "type": "laboratory",
+      "description": "An open-source research, development, and deployment laboratory that connects organizations across various technological fields, aiming to advance breakthroughs in computing to propel humanity forward."
+    },
+    {
+      "id": "primedao",
+      "name": "PrimeDAO",
+      "category": "Infrastructure",
+      "type": "organization",
+      "description": "Builds coordination tools for a collaborative web3 ecosystem, operating as network organizations that drive shared resource allocation for common goals."
+    },
+    {
+      "id": "orca-protocol",
+      "name": "Orca Protocol",
+      "category": "Infrastructure",
+      "type": "protocol",
+      "description": "Creates tools around DAO governance, focusing on \"pods\" as small, self-governed working groups centered around expertise, enabling composable metagovernance."
+    },
+    {
+      "id": "kleros",
+      "name": "Kleros",
+      "category": "Infrastructure",
+      "type": "service",
+      "description": "A decentralized arbitration service and online dispute resolution protocol that uses smart contracts to make fair decisions, with jurors resolving disputes."
+    },
+    {
+      "id": "worldcoin",
+      "name": "Worldcoin",
+      "category": "Infrastructure",
+      "type": "DAO",
+      "description": "Aims to onboard people globally into a collectively owned currency to achieve equal opportunity, proving \"unique-humanness\" through biometric verification."
+    },
+    {
+      "id": "metagov",
+      "name": "Metagov",
+      "category": "Infrastructure",
+      "type": "research collective",
+      "description": "A research collective designing tools for navigating evolving applications of governance, aiming for an empowered, interconnected, and accountable governance layer for the internet."
+    },
+    {
+      "id": "eas-ethereum-attestation-service",
+      "name": "EAS (Ethereum Attestation Service)",
+      "category": "Infrastructure",
+      "type": "infrastructure",
+      "description": "Public infrastructure enabling the creation and verification of onchain and offchain attestations, bringing clarity and trust to communities by unifying fragmented digital identity."
+    },
+    {
+      "id": "rndao",
+      "name": "RnDAO",
+      "category": "Infrastructure",
+      "type": "digital swarm",
+      "description": "A digital swarm driving the future of work, a research-led venture studio and product ecosystem that partners with and builds modular collaboration-tech tools."
+    },
+    {
+      "id": "lexdao",
+      "name": "LexDAO",
+      "category": "Infrastructure",
+      "type": "club",
+      "description": "A club of legal engineering professionals dedicated to integrating legal frameworks into code, making coded agreements accessible, and building certified blockchain applications."
+    },
+    {
+      "id": "bloom-network",
+      "name": "Bloom Network",
+      "category": "Infrastructure",
+      "type": "cooperative",
+      "description": "A member-owned and governed cooperative connecting volunteers and entrepreneurs to grow projects benefiting local communities, combining elements of social media with local media feeds for deeper collaboration."
+    },
+    {
+      "id": "dpans-decentralized-public-administration-networks",
+      "name": "dPANs (Decentralized Public Administration Networks)",
+      "category": "Infrastructure",
+      "type": "network",
+      "description": "Local blockchain networks designed to incentivize the coordination of local citizens and organizations around specific collective functions, serving as a decentralized alternative to traditional public administration."
+    },
+    {
+      "id": "regen-hubs",
+      "name": "Regen Hubs",
+      "category": "Infrastructure",
+      "type": "community third spaces",
+      "description": "Community third spaces that utilize revenue from co-working memberships to provide physical hubs for localists, innovators, and change-makers, explicitly oriented to regenerating communities via decentralized networks."
+    },
+    {
+      "id": "saunadao",
+      "name": "SaunaDAO",
+      "category": "Infrastructure",
+      "type": "DAO",
+      "description": "A future project mentioned as a \"collectively owned sauna, cold plunge, and hot tub infrastructure\" managed by volunteers and coordination technology, implying a DAO structure for a civic utility."
+    },
+    {
+      "id": "journodao",
+      "name": "JournoDAO",
+      "category": "Infrastructure",
+      "type": "DAO",
+      "description": "Focuses on rebuilding community news to protect democracy, providing information network resiliency through blockchain-emboldened local journalism."
+    },
+    {
+      "id": "optimism-collective",
+      "name": "Optimism Collective",
+      "category": "Infrastructure",
+      "type": "collective",
+      "description": "A collaborative effort involving companies, communities, and individuals to reward public goods and build a sustainable future for Ethereum, implementing a retroactive public goods funding model."
+    },
+    {
+      "id": "tornado-cash",
+      "name": "Tornado Cash",
+      "category": "Infrastructure",
+      "type": "protocol",
+      "description": "A fully decentralized protocol for private transactions on Ethereum, enabling permissionless, shielded transactions without custodial risks using zero-knowledge cryptography."
+    },
+    {
+      "id": "karmagap",
+      "name": "KarmaGap",
+      "category": "Impact Measurement",
+      "type": "protocol",
+      "description": "Known for its Grantee Accountability Protocol (GAP), which enhances transparency and accountability in managing community-issued grants by immutably recording data related to grant issuance and progress."
+    },
+    {
+      "id": "hypercerts",
+      "name": "Hypercerts",
+      "category": "Impact Measurement",
+      "type": "protocol",
+      "description": "An open-source blockchain protocol that improves funding and rewards positive impacts by enabling projects to mint fractionated Hypercerts as proof of contribution, enhancing public trust in funding public goods."
+    },
+    {
+      "id": "open-source-observer-oso",
+      "name": "Open Source Observer (OSO)",
+      "category": "Impact Measurement",
+      "type": "analytics suite",
+      "description": "An analytics suite designed to measure the impact of Open Source Software (OSS) contributions and grant mechanisms on ecosystem health, curating a massive database of projects and grant rounds."
+    },
+    {
+      "id": "thrive-protocol",
+      "name": "Thrive Protocol",
+      "category": "Impact Measurement",
+      "type": "protocol",
+      "description": "Focuses on enhancing value creation within web3 communities, prioritizing long-term values, and developing smart contracts to facilitate identifying, funding, and validating community contributions."
+    },
+    {
+      "id": "boost-xyz",
+      "name": "Boost.xyz",
+      "category": "Impact Measurement",
+      "type": "platform",
+      "description": "A platform that uses onchain tools to reward social and environmental impact, automating the distribution of rewards and incentives based on impact metrics or project milestones."
+    },
+    {
+      "id": "proof-of-impact",
+      "name": "Proof of Impact",
+      "category": "Impact Measurement",
+      "type": "organization",
+      "description": "Dedicated to enhancing the credibility and transparency of social and environmental impact through advanced technology, providing verifiable and immutable records of impact metrics."
+    },
+    {
+      "id": "commons-stack",
+      "name": "Commons Stack",
+      "category": "Impact Measurement",
+      "type": "DAO",
+      "description": "Develops regenerative economics, sustainable management, and unique funding tools for impact communities, specializing in merging culture with token engineering."
+    },
+    {
+      "id": "curve-labs",
+      "name": "Curve Labs",
+      "category": "Applied Research",
+      "type": "organization",
+      "description": "Designs modular organizational frameworks and digital cooperatives, exploring how to tokenize a new class of regenerative natural assets and apply them in real-life applications."
+    },
+    {
+      "id": "token-engineering-commons-tec",
+      "name": "Token Engineering Commons (TEC)",
+      "category": "Applied Research",
+      "type": "DAO",
+      "description": "Explores designing social communities and economic models, focusing on public good infrastructures and token engineering, supporting the development of a regenerative economy."
+    },
+    {
+      "id": "radicalxchange",
+      "name": "RadicalxChange",
+      "category": "Applied Research",
+      "type": "DAO",
+      "description": "Explores the advancement of plurality, equality, community, and decentralization through building community and education about democratic innovation."
+    },
+    {
+      "id": "block-science",
+      "name": "Block Science",
+      "category": "Applied Research",
+      "type": "DAO",
+      "description": "Helps design human-centered complex systems and explores the parameters of Augmented Bonding Curves for Impact Financing."
+    },
+    {
+      "id": "other-internet",
+      "name": "Other Internet",
+      "category": "Applied Research",
+      "type": "organization",
+      "description": "Builds social technology that aligns with and embeds collective values and culture, exploring how to organize and collectively live our lives."
+    },
+    {
+      "id": "sovereign-nature",
+      "name": "Sovereign Nature",
+      "category": "Applied Research",
+      "type": "organization",
+      "description": "Focuses on exploration and development to reconfigure the relationship with humans and nature, leveraging web3 and emerging technologies to design ecosystems."
+    },
+    {
+      "id": "values-index",
+      "name": "Values Index",
+      "category": "Applied Research",
+      "type": "DAO",
+      "description": "Building a crypto index fund that incorporates environmental, social, and governance (ESG) criteria, aiming to enable people to invest in projects aligned with their values."
+    },
+    {
+      "id": "crowdmuse",
+      "name": "Crowdmuse",
+      "category": "Applied Research",
+      "type": "platform",
+      "description": "An open-source collaboration platform for regenerative business models, building web3 primitives to enhance dynamic value creation/distribution and open-source R&D."
+    },
+    {
+      "id": "ethereal-forest-dao",
+      "name": "Ethereal Forest DAO",
+      "category": "Applied Research",
+      "type": "research initiative",
+      "description": "A research initiative that explores the potential of informal social protocols in urban settings and their isomorphism with web3 space."
+    },
+    {
+      "id": "kolektivo",
+      "name": "Kolektivo",
+      "category": "Regenerative Economy",
+      "type": "system",
+      "description": "A networked system enabling Local Regenerative Economies by leveraging global toolkits and talent to implement in specific regions."
+    },
+    {
+      "id": "gardensdao",
+      "name": "GardensDAO",
+      "category": "Commons Pools",
+      "type": "DAO",
+      "description": "A plug-and-play DAO governance framework for funding public goods, built around a Covenant and a Common Pool, ensuring community investment in projects."
+    }
+  ]
+  ,
+  "links":[
+    
+        {
+          "source": "impactdaos-general-concept",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "athenadao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "bio-xyz",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "vitadao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "hairdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "psydao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "valleydao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "cryodao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "labdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "cerebrum-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "waterlab",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "dclimate",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "gooddollar",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "glo-dollar",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "octant",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "eth-evacuations",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "gitcoindao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "artizen",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "humandao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "protocol-guild",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "clr-fund",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "endaoment",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "breadchain",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "giveth",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "public-nouns-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "ukraine-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "moss-earth",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "nori",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "flow-carbon",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "koko-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "kokonut-network",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "silvi",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "opencivics",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "coral-tribe",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "letsgrow-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "goldfinch",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "popcorndao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "$regen",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "regen-network",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "solarpunk-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "mangrovedao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "solar-foundation",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "maearth",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "mesoreefdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "web3beach",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "regrò-project",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "treegens",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "earthist-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "traditional-dream-factory-tdf",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "basin",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "climate-coordination-network-ccn",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "doingud",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "drip",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "kiftdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "take-up-space",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "spiritdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "cult-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "the-daoist",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "cabindao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "wellnessdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "ecodao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "verses",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "meta-gamma-delta-mgd",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "surge-women",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "her-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "she256",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "kernel",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "crypto-culture-society-ccs",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "natives-in-tech",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "shefi",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "remitt-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "bankless-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "regensunite",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "the-greenpill-network",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "urbanika",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "talentdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "web3bridge",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "dreamdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "celo",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "coordin-ape",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "radicle-drips",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "proof-of-humanity-poh",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "protocol-labs",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "primedao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "orca-protocol",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "kleros",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "worldcoin",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "metagov",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "eas-ethereum-attestation-service",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "rndao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "lexdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "bloom-network",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "dpans-decentralized-public-administration-networks",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "regen-hubs",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "saunadao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "journodao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "optimism-collective",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "tornado-cash",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "karmagap",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "hypercerts",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "open-source-observer-oso",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "thrive-protocol",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "boost-xyz",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "proof-of-impact",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "commons-stack",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "curve-labs",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "token-engineering-commons-tec",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "radicalxchange",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "block-science",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "other-internet",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "sovereign-nature",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "values-index",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "crowdmuse",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "ethereal-forest-dao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "kolektivo",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        },
+        {
+          "source": "gardensdao",
+          "target": "greenpill",
+          "type": "directory",
+          "description": "Listed as other regen convener"
+        }
+      ]
+  
+}

@@ -1,0 +1,937 @@
+{
+"daos": [
+  {
+    "id": "dream-dao",
+    "name": "Dream DAO",
+    "category": "Enabler",
+    "type": "Education",
+    "description": "Train Gen Z to use web3 to make the world a better place."
+  },
+  {
+    "id": "orgo-earth",
+    "name": "ORGO Earth",
+    "category": "Enabler",
+    "type": "Tooling",
+    "description": "ORGO is on a mission to regenerate the planet by creating an economy for environmental and social causes. Impact organizatio..."
+  },
+  {
+    "id": "rndao",
+    "name": "RnDAO",
+    "category": "Enabler",
+    "type": "Research",
+    "description": "Empower humane collaboration"
+  },
+  {
+    "id": "coral-tribe",
+    "name": "Coral Tribe",
+    "category": "Enabler",
+    "type": "Funding",
+    "description": "Make impact investing accessible and fun for everyday people. Our platform is a DeFi protocol that curates investable businesses th..."
+  },
+  {
+    "id": "endaoment",
+    "name": "Endaoment",
+    "category": "Enabler",
+    "type": "Funding",
+    "description": "Smart contract philanthropy"
+  },
+  {
+    "id": "lexdao",
+    "name": "LexDAO",
+    "category": "Enabler",
+    "type": "Legal Infra",
+    "description": "International Legal Engineers Guild: codeslaw (code is law) public goods & services"
+  },
+  {
+    "id": "all-for-climate-dao",
+    "name": "All for Climate DAO",
+    "category": "Enabler",
+    "type": "Climate",
+    "description": "Greenpeace of the 21st century"
+  },
+  {
+    "id": "seker-factory-dao",
+    "name": "Seker Factory DAO",
+    "category": "Enabler",
+    "type": "Accelerator",
+    "description": "Seker Factory DAO is an organization focused on decentralized curation and defining culture in the arts. We ..."
+  },
+  {
+    "id": "gitcoin",
+    "name": "Gitcoin",
+    "category": "Enabler",
+    "type": "Funding",
+    "description": "Largest crowdfunding protocol for web3 open source projects and causes"
+  },
+  {
+    "id": "bloom-network",
+    "name": "Bloom Network",
+    "category": "Enabler",
+    "type": "Media",
+    "description": "To help more people find and participate in local, grassroots climate action. (We are a social network for grassroots climate ..."
+  },
+  {
+    "id": "dmeter",
+    "name": "dMeter",
+    "category": "Enabler",
+    "type": "Tooling",
+    "description": "Build decentralized digital MRV tooling"
+  },
+  {
+    "id": "ftw-dao",
+    "name": "FTW DAO",
+    "category": "Enabler",
+    "type": "Funding",
+    "description": "FTW.DAO sets out to become a community-led ecosystem fund focused on diverse founding teams with bold visions for the ..."
+  },
+  {
+    "id": "breadchain",
+    "name": "Breadchain",
+    "category": "Enabler",
+    "type": "Media",
+    "description": "The Breadchain Cooperative is a federation of blockchain projects working to advance a progressive vision for the technology and its ..."
+  },
+  {
+    "id": "impact-dao-media",
+    "name": "Impact DAO Media",
+    "category": "Enabler",
+    "type": "Media",
+    "description": "Elevate stories of Impact DAOS and be the definitive source of truth through research and storytelling"
+  },
+  {
+    "id": "refi-dao",
+    "name": "ReFi DAO",
+    "category": "Enabler",
+    "type": "Media",
+    "description": "A community-owned impact accelerator growing the ReFi Nation."
+  },
+  {
+    "id": "pozzle-planet",
+    "name": "Pozzle Planet",
+    "category": "Enabler",
+    "type": "",
+    "description": "Universal access to impact 2 earn"
+  },
+  {
+    "id": "urbanika",
+    "name": "Urbanika",
+    "category": "Enabler",
+    "type": "Media",
+    "description": "Facilitate transitioning into a regenerative, ethical, and solarpunk way of living by training city shapers in Commoning and ..."
+  },
+  {
+    "id": "giveth",
+    "name": "Giveth",
+    "category": "Enabler",
+    "type": "Funding",
+    "description": "Transforming the way we fund public goods"
+  },
+  {
+    "id": "public-noun",
+    "name": "Public Noun",
+    "category": "Enabler",
+    "type": "Funding",
+    "description": "NFTs for public goods funding"
+  },
+  {
+    "id": "commons-stack",
+    "name": "Commons Stack",
+    "category": "Enabler",
+    "type": "Accelerator",
+    "description": "Helping communities deploy regenerative microeconomies"
+  },
+  {
+    "id": "big-green-dao",
+    "name": "Big Green DAO",
+    "category": "Enabler",
+    "type": "Funding",
+    "description": "Democratize and decentralize grantmaking for food and gardening organizations in the US."
+  },
+  {
+    "id": "lobby3",
+    "name": "Lobby3",
+    "category": "Enabler",
+    "type": "Advocacy",
+    "description": "To support and advocate on behalf of civically and socially impactful applications of web3 technology."
+  },
+  {
+    "id": "futarchy-dao",
+    "name": "Futarchy DAO",
+    "category": "Enabler",
+    "type": "Funding",
+    "description": "Create standalone Patreon for web3 changemakers"
+  },
+  {
+    "id": "endangered-tokens-foundation",
+    "name": "Endangered Tokens Foun...",
+    "category": "Climate",
+    "type": "Natural Asset Tokenization",
+    "description": "Revalue Biodiversity through web3 Refi Incentives using Endangered Trees as Store of Value Biodiversity assets."
+  },
+  {
+    "id": "circonomy",
+    "name": "Circonomy",
+    "category": "Climate",
+    "type": "",
+    "description": "To turn capital goods into public goods by putting the circular economy onchain. This will be done with a combination of a lea..."
+  },
+  {
+    "id": "litter-token",
+    "name": "Litter Token",
+    "category": "Climate",
+    "type": "climate grassroots",
+    "description": "We pay people to pick up litter"
+  },
+  {
+    "id": "kokonut-network",
+    "name": "Kokonut Network",
+    "category": "Climate",
+    "type": "Agriculture",
+    "description": "Kokonut Network brings blockchain governance & open-source accounting to the agriculture industry. Kokonut..."
+  },
+  {
+    "id": "regens-unite",
+    "name": "Regens Unite",
+    "category": "Climate",
+    "type": "Events",
+    "description": "Regens Unite exists to host events that maximize human connection, participation, regeneration, diversity and cross pollination. J..."
+  },
+  {
+    "id": "waterdao",
+    "name": "WaterDAO",
+    "category": "Climate",
+    "type": "Carbon Credits",
+    "description": "An open-source classification system for new sources of regenerative water. The WaterDAO is also a hub for wate..."
+  },
+  {
+    "id": "regro-the-dao",
+    "name": "regrò, the DAO!",
+    "category": "Climate",
+    "type": "Agriculture",
+    "description": "share and design the regrò project developments in our four locations, manage the project's funds, connect with potential ..."
+  },
+  {
+    "id": "earthistdao",
+    "name": "EarthistDAO",
+    "category": "Climate",
+    "type": "Agriculture",
+    "description": "Regenerating the Earth through the use of hemp-based methods that sequester carbon & produce carbon-conscious materials &"
+  },
+  {
+    "id": "terraformers-world",
+    "name": "Terraformers World",
+    "category": "Climate",
+    "type": "Refi Tourism",
+    "description": "To empower indigenous communities to build self-sustaining Regenerative Tourism businesses."
+  },
+  {
+    "id": "agroforestdao",
+    "name": "AgroforestDAO",
+    "category": "Climate",
+    "type": "Agriculture",
+    "description": "Support Food Forest Commons"
+  },
+  {
+    "id": "regen-civics",
+    "name": "ReGen Civics",
+    "category": "Climate",
+    "type": "Accelerator",
+    "description": "Prototype, template, and incubate a diversity of land based Regenerative economic systems (aka DAOs for regenerative ..."
+  },
+  {
+    "id": "solarpunk-dao",
+    "name": "Solarpunk Dao",
+    "category": "Climate",
+    "type": "Funding",
+    "description": "Provide long term primary finance for climate solutions - 1. Clean Energy 2. Regenerative Agriculture..."
+  },
+  {
+    "id": "united-species",
+    "name": "United Species",
+    "category": "Climate",
+    "type": "climate grassroots",
+    "description": ""
+  },
+  {
+    "id": "klima-dao",
+    "name": "Klima DAO",
+    "category": "Climate",
+    "type": "Carbon Credits",
+    "description": "Disrupting the traditional voluntary carbon credit (VCC) markets using web3 technology."
+  },
+  {
+    "id": "koko-dao",
+    "name": "KOKO DAO",
+    "category": "Climate",
+    "type": "climate grassroots",
+    "description": "Saving forests in Colombia"
+  },
+  {
+    "id": "regen-network",
+    "name": "Regen Network",
+    "category": "Climate",
+    "type": "Carbon Credits",
+    "description": "Creation of high quality carbon credits."
+  },
+  {
+    "id": "mangrove-dao",
+    "name": "Mangrove DAO",
+    "category": "Climate",
+    "type": "Natural Asset Tokenization",
+    "description": "Restoration of degraded mangrove habitats in Myanmar and globally. Support of the ReFi ecosystem"
+  },
+  {
+    "id": "the-solar-foundation",
+    "name": "the Solar Foundation",
+    "category": "Climate",
+    "type": "climate community bldg",
+    "description": "Use web3 to fund solar solutions For underserved communities in emerging markets and developing economies"
+  },
+  {
+    "id": "basin-dao",
+    "name": "Basin DAO",
+    "category": "Climate",
+    "type": "Land Restoration",
+    "description": "Scales real estate restoration and conservation to solve the climate, nature and carbon crises."
+  },
+  {
+    "id": "pact-dao",
+    "name": "Pact DAO",
+    "category": "Social Impact",
+    "type": "Hyperlocal",
+    "description": "New York City-based DAO building hyper-local mutual aid and neighborhood support programs"
+  },
+  {
+    "id": "njombe-innovation-academy",
+    "name": "Njombe Innovation Acad...",
+    "category": "Social Impact",
+    "type": "Financial Inclusion",
+    "description": "Unleash the potential of youth to transform local challenges into social enterprises"
+  },
+  {
+    "id": "human-dao",
+    "name": "Human DAO",
+    "category": "Social Impact",
+    "type": "Financial Inclusion",
+    "description": "Improving lives through crypto in emerging markets by providing education and opportunities"
+  },
+  {
+    "id": "impact-market",
+    "name": "Impact Market",
+    "category": "Social Impact",
+    "type": "Financial Inclusion",
+    "description": "Impact Market is a poverty alleviation protocol governed by a DAO distributing unconditional basic income"
+  },
+  {
+    "id": "gooddollar",
+    "name": "GoodDollar",
+    "category": "Social Impact",
+    "type": "Financial Inclusion",
+    "description": "GoodDollar protocol is a standard for deploying free money as a public good."
+  },
+  {
+    "id": "poh",
+    "name": "POH",
+    "category": "Social Impact",
+    "type": "Identity",
+    "description": "Proof of human identity protocol, a registry of unique (non-repeatable humans) built on the Ethereum blockchain"
+  },
+  {
+    "id": "ukraine-dao",
+    "name": "Ukraine DAO",
+    "category": "Social Impact",
+    "type": "Disaster Response",
+    "description": "Amplifying Ukrainian Voices"
+  },
+  {
+    "id": "the-tampa-bay-dao",
+    "name": "The Tampa Bay DAO",
+    "category": "Social Impact",
+    "type": "Hyperlocal",
+    "description": "Connect, promote, and cultivate Tampa's digital and maker culture"
+  },
+  {
+    "id": "pune-dao",
+    "name": "Pune DAO",
+    "category": "Social Impact",
+    "type": "Hyperlocal",
+    "description": "To enable the ecosystem for Pune region and help facilitate local business through community products"
+  },
+  {
+    "id": "40acres-dao",
+    "name": "40acres DAO",
+    "category": "Social Impact",
+    "type": "Social Inclusion",
+    "description": "To create safe space for historically excluded communities to explore Web 3 through collective support from diverse groups that ..."
+  },
+  {
+    "id": "remittdao",
+    "name": "RemittDAO",
+    "category": "Social Impact",
+    "type": "Financial Inclusion",
+    "description": "To outreach & educate unbanked migrant workers from developing nations on the logistics of digital currency remittances, without"
+  },
+  {
+    "id": "plurigrid-foundation",
+    "name": "Plurigrid Foundation",
+    "category": "DeSci",
+    "type": "",
+    "description": "Universal Based Electricity! 420 kWH/person/year"
+  },
+  {
+    "id": "valleydao",
+    "name": "ValleyDAO",
+    "category": "DeSci",
+    "type": "",
+    "description": "Democratising synthetic biology technologies and research for the climate"
+  },
+  {
+    "id": "descier",
+    "name": "deScier",
+    "category": "DeSci",
+    "type": "",
+    "description": "We envisage a different future for science. deScier is an ecosystem for decentralized everything science: research, publications, ..."
+  },
+  {
+    "id": "hairdao",
+    "name": "HairDAO",
+    "category": "DeSci",
+    "type": "",
+    "description": "To solve hair loss"
+  },
+  {
+    "id": "bio-xyz",
+    "name": "bio.xyz",
+    "category": "DeSci",
+    "type": "",
+    "description": "Accelerating the next generation of science with capital, talent and resources to build the biotech DAOs and DeSci projects of the"
+  },
+  {
+    "id": "frontierdao",
+    "name": "FrontierDAO",
+    "category": "DeSci",
+    "type": "",
+    "description": "Incubate and catalyze scientific and engineering innovation"
+  },
+  {
+    "id": "molecule",
+    "name": "Molecule",
+    "category": "DeSci",
+    "type": "",
+    "description": "Molecule is creating collaborative ecosystems, where stakeholders in drug development can work together to expedite the proces..."
+  },
+  {
+    "id": "psydao",
+    "name": "PsyDAO",
+    "category": "DeSci",
+    "type": "",
+    "description": "PsyDAO is forming a decentralised organisation with the goal of funding research at the intersection of psychedelics and ..."
+  },
+  {
+    "id": "vita-dao",
+    "name": "Vita DAO",
+    "category": "DeSci",
+    "type": "",
+    "description": "Collectively funding and advancing longevity research in an open and democratic manner"
+  },
+  {
+    "id": "athenadao-page7",
+    "name": "AthenaDAO",
+    "category": "DeSci",
+    "type": "",
+    "description": "Funding women's health research, education, and access"
+  },
+  {
+    "id": "cannabis-genome-dao",
+    "name": "Cannabis Genome DAO",
+    "category": "DeSci",
+    "type": "",
+    "description": "Accelerate development of cannabis therapeutics by unlocking data from plants to patients with a reputation-weighted voting DA..."
+  },
+  {
+    "id": "athenadao-page8",
+    "name": "Athena DAO",
+    "category": "DeSci",
+    "type": "Research",
+    "description": "Fund women's health research, the biggest untapped market in healthcare"
+  },
+  {
+    "id": "w3st",
+    "name": "W3ST",
+    "category": "Network State",
+    "type": "",
+    "description": "Redefining the concept of nation from a decentralized perspective; creating a new socio-political organization and activating ..."
+  },
+  {
+    "id": "priceless-dao",
+    "name": "Priceless DAO",
+    "category": "Network State",
+    "type": "",
+    "description": "The PricelessDAO experiments with new economic and cultural models that sustain human social fabric and the vitality of the"
+  },
+  {
+    "id": "citydao",
+    "name": "CityDAO",
+    "category": "Network State",
+    "type": "",
+    "description": "Building a Decentralized City of the Future"
+  },
+  {
+    "id": "traditional-dream-factory",
+    "name": "Traditional Dream Factory",
+    "category": "Network State",
+    "type": "",
+    "description": "Prototyping a regenerative way of living"
+  },
+  {
+    "id": "cabin",
+    "name": "Cabin",
+    "category": "Network State",
+    "type": "",
+    "description": "Coliving in nature for creators & remote workers"
+  },
+  {
+    "id": "kift-dao",
+    "name": "Kift DAO",
+    "category": "Network State",
+    "type": "",
+    "description": "Building a geo-distributed city with a community of vanlifers and digital nomads."
+  },
+  {
+    "id": "nation3",
+    "name": "Nation3",
+    "category": "Network State",
+    "type": "",
+    "description": "We are building a zero-tax, Web3-powered, solarpunk society."
+  }
+],
+"links":
+[
+  {
+    "source": "dream-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "orgo-earth",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "rndao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "coral-tribe",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "endaoment",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "lexdao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "all-for-climate-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "seker-factory-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "gitcoin",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "bloom-network",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "dmeter",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "ftw-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "breadchain",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "impact-dao-media",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "refi-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "pozzle-planet",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "urbanika",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "giveth",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "public-noun",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "commons-stack",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "big-green-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "lobby3",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "futarchy-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "endangered-tokens-foundation",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "circonomy",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "litter-token",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "kokonut-network",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "regens-unite",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "waterdao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "regrò-the-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "earthistdao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "terraformers-world",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "agroforestdao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "regen-civics",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "solarpunk-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "united-species",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "klima-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "koko-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "regen-network",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "mangrove-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "the-solar-foundation",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "basin-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "pact-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "njombe-innovation-academy",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "human-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "impact-market",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "gooddollar",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "poh",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "ukraine-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "the-tampa-bay-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "pune-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "40acres-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "remittdao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "plurigrid-foundation",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "valleydao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "descier",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "hairdao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "bio-xyz",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "frontierdao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "molecule",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "psydao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "vita-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "athenadao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "cannabis-genome-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "w3st",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "priceless-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "citydao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "traditional-dream-factory",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "cabin",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "kift-dao",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  },
+  {
+    "source": "nation3",
+    "target": "impactdaos_xyz",
+    "type": "directory",
+    "description": "Listed as other regen convener"
+  }
+]
+}
